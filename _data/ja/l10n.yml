@@ -1,0 +1,35 @@
+lang_name: "日本語"
+
+title: "一匹のセキュリティアルパカの呟き"
+subtitle: "本サイトは現在準備中"
+
+author:
+  name: "Gloria Chow"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "セキュリティエンジニア @ メルカリ"
+  location: "東京、日本"
+  links:
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://gmgchow.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gmgchow"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/gmgchow/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/gmgchow"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gmgchow"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/gmgchow"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/gmgchow"

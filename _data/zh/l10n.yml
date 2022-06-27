@@ -1,0 +1,35 @@
+lang_name: "繁體中文"
+
+title: "一隻Security羊駝的個人網站"
+subtitle: "本網站現在整理中"
+
+author:
+  name: "Gloria Chow"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Security Engineer @ Mercari Inc."
+  location: "東京，日本"
+  links:
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://gmgchow.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gmgchow"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/gmgchow/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/gmgchow"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gmgchow"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/gmgchow"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/gmgchow"

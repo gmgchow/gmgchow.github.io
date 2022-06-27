@@ -13,10 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Random Ramblings of a Security Alpaca
-subtitle: (Site currently under construction)
-description: >- # this means to ignore newlines until "baseurl:"
-  x
+#title: Random Ramblings of a Security Alpaca
+#subtitle: (Site currently under construction)
+#description: >- # this means to ignore newlines until "baseurl:"
+#
+url: "https://gmgchow.github.io"
 github_username: gmgchow
 linkedin_username: gmgchow
 twitter_username: gmgchow
@@ -26,6 +27,7 @@ search: false
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: date
 paginate: 5 # amount of posts to show
@@ -54,11 +56,17 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-polyglot
+
+# jekyll-polyglot
+languages: ["en", "ja", "zh"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: false
 
 author:
   name: "Gloria Chow"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "Security Engineer @ Mercari Inc."
   location: "Tokyo, Japan"
   links:
     #- label: "Website"
@@ -86,6 +94,9 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/gmgchow"
 
+# Do not prepend categories to a post's permalink
+permalink: /blog/:year/:month/:day/:title:output_ext
+
 defaults:
   # _posts
   - scope:
@@ -110,3 +121,6 @@ defaults:
 tag_archive:
   type: liquid
   path: /tags/
+
+after_footer_scripts:
+  - "/assets/js/main.js"

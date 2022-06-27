@@ -1,0 +1,5 @@
+main:
+  - title: "分類"
+    url: /tags/
+  - title: "關於本網站"
+    url: /about/

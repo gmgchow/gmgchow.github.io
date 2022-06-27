@@ -1,0 +1,5 @@
+main:
+  - title: "タグ"
+    url: /tags/
+  - title: "本サイトについて"
+    url: /about/
