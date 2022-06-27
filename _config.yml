@@ -19,6 +19,7 @@
 #
 url: "https://gmgchow.github.io"
 baseurl: ""
+repository: "gmgchow/gmgchow.github.io"
 github_username: gmgchow
 linkedin_username: gmgchow
 twitter_username: gmgchow
