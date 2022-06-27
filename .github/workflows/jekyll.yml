@@ -1,0 +1,33 @@
+name: Jekyll Site CI
+
+on:
+  push:
+    branches-ignore:
+      - gh-pages
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chown jekyll:jekyll /srv/jekyll && JEKYLL_ENV=production jekyll build --future"
+    - name: Push the site to the gh-pages branch
+      if: ${{ github.ref == 'refs/heads/master' }}
+      run: |
+        sudo chown ${USER}:${USER} ${{ github.workspace }}/_site
+        cd ${{ github.workspace }}/_site
+        # Prevent the pages-build-deployment dynamic workflow
+        # from passing the generated site into Jekyll again
+        touch .nojekyll
+        git init -b gh-pages
+        git config user.name ${{ github.actor }}
+        git config user.email ${{ github.actor }}@users.noreply.github.com
+        git remote add origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+        git add .
+        git commit -m "Upload site built from commit ${{ github.sha }}"
+        git push -f -u origin gh-pages
