@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /about
 title: "關於本網站"
 lang: zh
 ---

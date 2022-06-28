@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /about
 title: "本サイトについて"
 lang: ja
 ---
