@@ -1,5 +1,7 @@
 main:
-  - title: "分類"
+  - title: "Tags"
     url: /tags/
-  - title: "關於本網站"
+  - title: "Reading List"
+    url: /reading-list/
+  - title: "About"
     url: /about/

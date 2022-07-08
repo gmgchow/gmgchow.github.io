@@ -1,5 +1,7 @@
 main:
   - title: "Tags"
     url: /tags/
+  - title: "Reading List"
+    url: /reading-list/
   - title: "About"
     url: /about/
