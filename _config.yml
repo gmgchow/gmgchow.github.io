@@ -25,6 +25,8 @@ linkedin_username: gmgchow
 twitter_username: gmgchow
 minimal_mistakes_skin: dirt
 search: false
+timezone: Asia/Tokyo
+google_analytics: G-58T9BNP8XF
 
 # Build settings
 markdown: kramdown
@@ -59,6 +61,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-polyglot
+  - jekyll-twitter-plugin
 
 # jekyll-polyglot
 languages: ["en", "ja", "zh"]
