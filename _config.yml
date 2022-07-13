@@ -34,8 +34,14 @@ remote_theme: mmistakes/minimal-mistakes
 
 # Outputting
 permalink: /blog/:year/:month/:day/:title:output_ext
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+
+# jekyll-paginate-v2
+pagination:
+  enabled: true
+  per_page: 10
+  title: ":title"
+  permalink: "/page:num.html"
+  sort_reverse: true
 
 include:
   - _pages
@@ -62,11 +68,12 @@ plugins:
   - jekyll-include-cache
   - jekyll-polyglot
   - jekyll-twitter-plugin
+  - jekyll-paginate-v2
 
 # jekyll-polyglot
 languages: ["en", "ja", "zh"]
 default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css", "public"]
+exclude_from_localization: ["assets/js", "assets/css", "assets/images"]
 parallel_localization: false
 
 author:
