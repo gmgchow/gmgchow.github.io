@@ -1,8 +1,8 @@
 ---
-permalink: /
-title: ""
+permalink: /blog
+title: "ブログ"
 layout: home
-lang: zh
+lang: ja
 author_profile: true
 pagination:
   enabled: true

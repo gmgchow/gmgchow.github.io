@@ -1,7 +1,9 @@
 main:
-  - title: "Tags"
+  - title: "博客"
+    url: /blog
+  - title: "標簽"
     url: /tags
-  - title: "Reading List"
+  - title: "閲讀書目"
     url: /reading-list
-  - title: "About"
+  - title: "個人質料"
     url: /about

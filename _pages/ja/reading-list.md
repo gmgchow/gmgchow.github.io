@@ -1,10 +1,10 @@
 ---
 permalink: /reading-list
-title: "Reading List"
+title: "読書リスト"
 lang: ja
 author_profile: true
 ---
 
-Reviews of books that I read.
+私の読んだ、または読みたい書籍のリストです。
 
-WIP
+（WIP）

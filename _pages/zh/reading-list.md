@@ -1,10 +1,10 @@
 ---
 permalink: /reading-list
-title: "Reading List"
+title: "閲讀書目"
 lang: zh
 author_profile: true
 ---
 
-Reviews of books that I read.
+我看過或者想看的書。
 
-WIP
+（WIP）

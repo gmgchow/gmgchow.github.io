@@ -1,7 +1,9 @@
 main:
-  - title: "Tags"
+  - title: "ブログ"
+    url: /blog
+  - title: "タグ"
     url: /tags
-  - title: "Reading List"
+  - title: "読書リスト"
     url: /reading-list
-  - title: "About"
+  - title: "プロフィール"
     url: /about

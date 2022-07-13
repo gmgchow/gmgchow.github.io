@@ -38,7 +38,7 @@ permalink: /blog/:year/:month/:day/:title:output_ext
 # jekyll-paginate-v2
 pagination:
   enabled: true
-  per_page: 10
+  per_page: 5
   title: ":title"
   permalink: "/page:num.html"
   sort_reverse: true
@@ -129,7 +129,7 @@ defaults:
 
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /tags
 
 after_footer_scripts:
   - "/assets/js/main.js"
