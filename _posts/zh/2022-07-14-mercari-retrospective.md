@@ -4,6 +4,7 @@ lang: zh
 tags:
   - mercari
   - 事業
+image: /assets/images/2022-07-14/4.jpg
 ---
 
 上個月，剛剛從我工作差不多5年的Mercari畢業了！

@@ -3,6 +3,7 @@ title: "Hello World"
 lang: en
 tags:
   - random
+image: /assets/images/2022-06-22/1.jpg
 ---
 
 Welcome to my new blog!

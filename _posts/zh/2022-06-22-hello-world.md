@@ -3,6 +3,7 @@ title: "Hello World"
 lang: zh
 tags:
   - 隨意
+image: /assets/images/2022-06-22/1.jpg
 ---
 
 歡迎來到我的新博客！
