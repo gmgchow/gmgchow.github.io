@@ -4,6 +4,7 @@ lang: zh
 tags:
   - 隨意
 image: /assets/images/2022-06-22/1.jpg
+summary: 歡迎來到我的新博客！
 ---
 
 歡迎來到我的新博客！

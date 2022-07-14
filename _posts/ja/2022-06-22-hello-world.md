@@ -4,6 +4,7 @@ lang: ja
 tags:
   - ランダム
 image: /assets/images/2022-06-22/1.jpg
+summary: 私のブログへようこそ！
 ---
 
 私のブログへようこそ！

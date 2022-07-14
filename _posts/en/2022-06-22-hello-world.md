@@ -4,6 +4,7 @@ lang: en
 tags:
   - random
 image: /assets/images/2022-06-22/1.jpg
+summary: Welcome to my new blog!
 ---
 
 Welcome to my new blog!
