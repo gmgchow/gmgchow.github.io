@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://gmgchow.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gmgchow.github.io/" rel="alternate" type="text/html" /><updated>2022-07-30T15:31:59+09:00</updated><id>https://gmgchow.github.io/feed.xml</id><title type="html">gmgchow.github.io</title><author><name>Gloria Chow</name></author><entry xml:lang="en"><title type="html">I graduated from Mercari!</title><link href="https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective.html" rel="alternate" type="text/html" title="I graduated from Mercari!" /><published>2022-07-14T00:00:00+09:00</published><updated>2022-07-14T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective.html">&lt;p&gt;Last month, I resigned from Mercari where I worked for almost five years!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Mercari is a marketplace app similar to Craigslist or Ebay.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I joined Mercari on November 1st, 2017. It was my first job in Japan and since I was uncertain about my future, I joined with the intention of staying maybe 1.5 to two years. I certainly did not expect to end up staying for almost FIVE years! On June 14th, after 4 years and 9 months, I stepped into the office one last time.&lt;/p&gt;
+
+&lt;p&gt;It’s been a long journey and I grew and changed so much, I can say that I went into Mercari as one person and came out as a completely different one! I wrote this article as a retrospective to look back on what I did these past few years.&lt;/p&gt;
+
+&lt;h1 id=&quot;timeline&quot;&gt;Timeline&lt;/h1&gt;
+
+&lt;h2 id=&quot;nov-2017---oct-2018-set--automation-era&quot;&gt;Nov 2017 - Oct 2018: SET &amp;amp; Automation Era&lt;/h2&gt;
+
+&lt;p&gt;I initially joined Mercari as a Software in Test (SET) to work on test automation.&lt;/p&gt;
+
+&lt;p&gt;The technology stack that I used:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;iOS: XCUITest, Swift, Earl Grey&lt;/li&gt;
+  &lt;li&gt;Android: Ruby, Appium&lt;/li&gt;
+  &lt;li&gt;API: JMeter, Postman&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Notable achievements:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Integrated iOS automation tests into the development repository and CI build pipeline&lt;/li&gt;
+  &lt;li&gt;Set up iOS nightly builds&lt;/li&gt;
+  &lt;li&gt;Improved the format of reports&lt;/li&gt;
+  &lt;li&gt;Developed a &lt;a href=&quot;https://github.com/gmgchow/fastlane-plugin-retry&quot;&gt;fastlane plugin&lt;/a&gt; that was open-sourced&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;oct-2018---july-2019-testdeck-era&quot;&gt;Oct 2018 - July 2019: Testdeck Era&lt;/h2&gt;
+
+&lt;p&gt;After Mercari began moving towards the microservice architecture, I became involved in developing an in-house solution for automating tests for the backend microservices. The solution that we came up with was &lt;a href=&quot;https://github.com/mercari/testdeck&quot;&gt;Testdeck&lt;/a&gt;, which was later open-sourced as described in this &lt;a href=&quot;https://engineering.mercari.com/en/blog/entry/20200930-testdeck/&quot;&gt;article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Notable achievements:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Learned microservices architecture, Kubernetes, GCP, and Golang in order to get up to speed and eventually become the lead of the Testdeck project&lt;/li&gt;
+  &lt;li&gt;Work closely with microservice development teams to help introduce test automation into their work, troubleshoot, and gather requirements for feature requests and improvements on Testdeck&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;july-2019---sept-2019-web-automation--career-change-era&quot;&gt;July 2019 - Sept 2019: Web Automation &amp;amp; Career Change Era&lt;/h2&gt;
+
+&lt;p&gt;For a few months, I worked briefly on test automation for the Mercari web application while thinking about the next step in my career. It is during this time period that I seriously started studying security, and I officially received an offer to transfer to the Security Team.&lt;/p&gt;
+
+&lt;p&gt;Notable achievements:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Helped maintain web automated tests (Typescript and Mocha)&lt;/li&gt;
+  &lt;li&gt;Developed an in-house tool for detecting broken links on the Mercari web application that ran nightly&lt;/li&gt;
+  &lt;li&gt;Passed CompTIA Security+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;oct-2019---june-2022-security-team-era&quot;&gt;Oct 2019 - June 2022: Security Team Era&lt;/h2&gt;
+
+&lt;p&gt;Although I initially joined Mercari as a SET, my time on the Security Team surprisingly ended up being longer than the time I spent as a SET.&lt;/p&gt;
+
+&lt;p&gt;Since I had joined the Security Team with no knowledge or experience in security apart from having passed CompTIA Security+, at the beginning I honestly struggled to keep up. For the first six months or so, I spent almost all of my time outside of work studying security because I wanted to catch up as soon as possible. You can read more about my career change story &lt;a href=&quot;https://engineering.mercari.com/blog/entry/2020-05-14-121008&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I will forever be grateful that my team never gave up on me and provided me a place where I could grow into a full-fledged Security Engineer because as we all know, it is extremely difficult to break into the security field. Everyone wants to hire experienced Security Engineers, but one cannot gain experience if no one is willing to hire and train juniors. Being a part of a supportive team and working alongside some of the most talented security engineers, I was able to grow and become productive.&lt;/p&gt;
+
+&lt;p&gt;Notable achievements:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Redeveloped and open-sourced Testdeck as a tool for both security and QA testing&lt;/li&gt;
+  &lt;li&gt;Introduced threat modeling into development processes&lt;/li&gt;
+  &lt;li&gt;Co-led the in-house Security Champions security awareness training program for engineers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;changes-i-saw-over-the-years&quot;&gt;Changes I Saw Over the Years&lt;/h1&gt;
+
+&lt;p&gt;While I changed a lot over the past few years, Mercari as a company also greatly changed. I joined before IPO and globalization of the workplace culture, at a time when Mercari was very much still a Japanese startup.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/2.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;About 88% of employees joined after me, making me one of the oldest employees so sometimes people called me 古株 (old stocks)!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;globalization&quot;&gt;Globalization&lt;/h2&gt;
+
+&lt;p&gt;When I first joined Mercari, all announcements on Slack, emails, meetings, documents and meeting slides…&lt;strong&gt;everything&lt;/strong&gt; was in Japanese. I believe that at the time, there were probably only about 20 foreigners so everyone pretty much knew each other.&lt;/p&gt;
+
+&lt;p&gt;Now, Mercari is one of the most diverse Japanese companies. Probably around half of the engineering team is of foreign nationality and many teams exclusively use English. I myself went from initially working fully in Japanese to working almost fully in English. Since all announcements are written in both English and Japanese and some All-Hands meetings are even held fully in English now, the work environment has definitely become a lot more comfortable for employees who cannot speak Japanese. This is a great advantage for Mercari as a company because it is already quite difficult to find talented engineers, requiring fluency in Japanese will reduce the talent pool even further.&lt;/p&gt;
+
+&lt;h2 id=&quot;diversity--inclusion&quot;&gt;Diversity &amp;amp; Inclusion&lt;/h2&gt;
+
+&lt;p&gt;Since everything was in Japanese when I initially joined, I was not surprised to see that there were no foreigners in management roles (Engineering Manager and above). There were also no women in these roles. Over the years, it made me happy to see more and more foreigners and women in management and leadership roles. Although the ratio of minority employees is still very low and most people in management and leadership roles continue to be Japanese men, it is still an improvement and I hope that the company will continue to move towards Diversity &amp;amp; Inclusion.&lt;/p&gt;
+
+&lt;h2 id=&quot;your-choice&quot;&gt;YOUR CHOICE&lt;/h2&gt;
+
+&lt;p&gt;Although occasional WFH was always allowed to some extent (with the approval of your manager), the COVID-19 pandemic led Mercari to declare a full-remote, full-flexibility work policy called &lt;a href=&quot;https://about.mercari.com/en/press/news/articles/20210901_yourchoice/&quot;&gt;YOUR CHOICE&lt;/a&gt;. Many of my colleagues moved out of Tokyo to areas with better affordability and more comfortable lifestyle. During my job search, I found that Mercari’s take on WFH is actually quite rare- many companies in Japan still require employees to go to the office regularly (at least once or twice per week) as a part of hybrid working style. Even as life is slowly returning back to normal, I hope that more and more companies will adopt flexible work policies like Mercari’s YOUR CHOICE.&lt;/p&gt;
+
+&lt;h1 id=&quot;achievements-and-fond-memories&quot;&gt;Achievements and Fond Memories&lt;/h1&gt;
+
+&lt;h2 id=&quot;my-first-time-blogging&quot;&gt;My First Time Blogging&lt;/h2&gt;
+
+&lt;p&gt;Prior to joining Mercari, I had never blogged before and didn’t think that I would enjoy it, but I found it so fun that I ended up writing several articles for &lt;a href=&quot;https://engineering.mercari.com/en/blog/&quot;&gt;Mercari’s Engineering Blog&lt;/a&gt;! It actually inspired me to start this personal blog.&lt;/p&gt;
+
+&lt;p&gt;Articles written by me:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/en/blog/entry/20220426-threat-modeling-at-mercari/&quot;&gt;Threat Modeling at Mercari&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/en/blog/entry/20211210-how-is-security-testing-different-from-typical-software-testing/&quot;&gt;How is Security Testing Different from Typical Software Testing?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/en/blog/entry/20201214-devsecops-what-is-it-and-why-is-it-gaining-momentum-in-the-industry/&quot;&gt;DevSecOps: What Is It and Why Is It Gaining Momentum in the Industry?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/en/blog/entry/20200930-testdeck/&quot;&gt;Introducing Testdeck, an Open Source Tool for Microservices QA &amp;amp; Security Testing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2020-05-14-121008/&quot;&gt;The Road to Becoming a Security Engineer: My Story of Career Change&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-12-21-123830/&quot;&gt;Mercari AQA Pop Talk #4: The Future of QA &amp;amp; Test Automation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-11-01-124027/&quot;&gt;Three Things I Learned at STARWEST, One of the Largest Conferences for Software Testing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-08-23-184237/&quot;&gt;I Got Certified in ISTQB Advanced Level - Test Automation Engineering!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;my-first-time-contributing-to-open-source&quot;&gt;My First Time Contributing to Open-Source&lt;/h2&gt;
+
+&lt;p&gt;Prior to Mercari, I had never been involved in open-source projects before, nor did I ever think I would become involved but I ended up working on two projects that were open-sourced!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/gmgchow/fastlane-plugin-retry&quot;&gt;gmgchow/fastlane-plugin-retry&lt;/a&gt;: A plugin for automatically retrying XCUITest test cases. Unfortunately, I am no longer maintaining this.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mercari/testdeck&quot;&gt;mercari/testdeck&lt;/a&gt;: Testdeck framework for testing gRPC microservices written in Go (see the above sections about Testdeck for more information).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;my-first-time-speaking-at-events&quot;&gt;My First Time Speaking at Events&lt;/h2&gt;
+
+&lt;p&gt;I always hated public speaking and if I hadn’t joined Mercari, I probably would never even think about presenting at a tech event. Mercari is very active in the tech community and often holds meetups (in-person before the pandemic but mostly online now) where employees speak about areas they’re knowledgeable about or share things that they are working on. I ended up speaking at two events and looking back, it was a big step out of my comfort zone and I’m glad that I was given the opportunity. The only small regret I have is that I never had the chance to present in Japanese at an event- I think it would have been a good challenge for me and a good test to my Japanese ability! I hope I’ll have the chance to try this sometime in the future.&lt;/p&gt;
+
+&lt;p&gt;Events that I presented at:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;December 2018: &lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-12-21-123830/&quot;&gt;Mercari AQA Pop Talk #4: The Future of QA &amp;amp; Test Automation&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/secret/wmEiwlBUtlXSH9&quot;&gt;From Agile to DevOps: The Rise of ‘Continuous Testing’&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;April 2022: &lt;a href=&quot;https://mercari.connpass.com/event/244594/&quot;&gt;Mercari’s Approach to Modern Day Threats #2&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://speakerdeck.com/gmgchow/diving-into-threat-modeling-at-mercari&quot;&gt;Diving Into Threat Modeling at Mercari&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;my-first-time-going-on-a-business-trip&quot;&gt;My First Time Going on a Business Trip&lt;/h2&gt;
+
+&lt;p&gt;During the pre-COVID times at Mercari, I was fortunate enough to go on two business trips!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-08-23-184237/&quot;&gt;London, UK (July 2018)&lt;/a&gt;: I traveled to London to take a training course and certification exam for the ISTQB Advanced Level - Test Automation Engineering certification. It was my first business trip, my first time going to Europe, and my first time being stranded and alone in a foreign country after losing my wallet immediately upon arrival (that story can wait for another day lol) so it was a memorable experience for me!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/
+blog/entry/2018-11-01-124027/&quot;&gt;California, USA (October 2018)&lt;/a&gt;: A group of us traveled to California to attend STARWEST automation conference. It was my first time attending a tech conference and I really enjoyed it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;extracurricular-activities&quot;&gt;Extracurricular Activities&lt;/h2&gt;
+
+&lt;h3 id=&quot;club-activities&quot;&gt;Club Activities&lt;/h3&gt;
+
+&lt;p&gt;One thing that I really liked about Mercari is the club activities- there is a club for almost anything that you can think of! Through joining club activities, I made friends and connections across the entire company that normally I would not have had the chance to meet.&lt;/p&gt;
+
+&lt;p&gt;Some of the clubs that I attended:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Cooking, Fukuoka Tea, Hong Kong, Pizza, Byelingual Chat, Costco, Ghibli, McDonalds, Singapore, Taiwan, America, Canada, Fruits, Chinese Chat&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/3.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Different types of strawberries we ordered for a Fruits Club activity in Winter 2018!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;certifications&quot;&gt;Certifications&lt;/h3&gt;
+
+&lt;p&gt;Another thing that I really liked about Mercari is that there is a strong culture of continuous learning- many of my colleagues had certifications. Before joining the company, I hardly had any certifications and had never really been interested in acquiring any. However, being surrounded by highly-motivated people, I myself also became motivated to try harder so I ended up taking one certification after another. While Mercari does offer some support for taking certifications, many were taken on my own money and time.&lt;/p&gt;
+
+&lt;p&gt;Certifications I achieved during my time at Mercari:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ISTQB: Advanced Level - Test Automation Engineering, Advanced Level - Security Tester&lt;/li&gt;
+  &lt;li&gt;CompTIA: Security+&lt;/li&gt;
+  &lt;li&gt;(ISC)2: SSCP, CSSLP, CISSP&lt;/li&gt;
+  &lt;li&gt;Japanese: JLPT N1, BJT J2&lt;/li&gt;
+  &lt;li&gt;Chinese: HSK 5, HSKK Intermediate&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;language-learning&quot;&gt;Language learning&lt;/h3&gt;
+
+&lt;p&gt;One of the best things about working at Mercari is that because it is a diverse environment, I made friends with people from different backgrounds than me and I became inspired to work harder in studying Japanese and Chinese. Since English has slowly become more commonly-used in the workplace, friends also wanted to practice English so we often did language exchange 1on1 meetings as a way to mutually improve our language skills.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-i-left&quot;&gt;Why I Left&lt;/h1&gt;
+
+&lt;p&gt;Let me share the exact words that I said to my team:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s not that I hate it here or anything. This is the best team that I have worked with in my whole career so far. It’s just that I’ve been here for way too long. I think it’ll be good for me to see more of the world outside.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mercari is only my second company (excluding internships), my first one as a Security Engineer. I’m at the point in my career where it is healthy to explore the outside world and see how other companies do things so that I can continue growing and acquiring new skills and experience.&lt;/p&gt;
+
+&lt;p&gt;Therefore, I chose to move onto the next step of my career. A lot of good and bad things happened during my time at Mercari and things didn’t always go smoothly, but overall, I am leaving on a positive note.&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Today was my last day at Mercari! It has been a looong 4 years and 9 months, I have so much to say that I don&amp;#39;t even know where to begin! I&amp;#39;ll write a blog post about it later after I set up my personal blog. For now, my next stop: back to Vancouver for a month! 🇨🇦✈️ &lt;a href=&quot;https://t.co/SmLA7BK0Z2&quot;&gt;pic.twitter.com/SmLA7BK0Z2&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gloria Chow (@gmgchow) &lt;a href=&quot;https://twitter.com/gmgchow/status/1536729941358055424?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;One last look up at Mori Tower. I’m not sure why but it is apparently a tradition for Mercarians to tweet a photo like this on their last day.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;moving-forward&quot;&gt;Moving Forward&lt;/h1&gt;
+
+&lt;p&gt;This month, I will join &lt;a href=&quot;https://www.japancv.co.jp/en/&quot;&gt;Japan Computer Vision&lt;/a&gt;, an AI startup by Softbank Group, as a Senior Security Engineer. Knowing absolutely nothing about AI, not having any security experience outside of Mercari, and being pretty bad with Mandarin Chinese (kind of required for the job), I believe that this will be a massive growth opportunity for me both career-wise and as a person so I am very much looking forward to it.&lt;/p&gt;
+
+&lt;p&gt;Although I’m moving onto the next chapter of life, I will never forget my time at Mercari. It is the place where I met some of the most talented engineers I have ever worked with, the place where I made strong friendships, the place where I grew more than I could have ever imagined. If it weren’t for Mercari, honestly I’m not sure if I would still even be in Japan; that’s how much the company and the connections that I made there have done for me.&lt;/p&gt;
+
+&lt;p&gt;Thank you again for an unforgettable (almost) five years! Perhaps we will cross paths again in the future. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/4.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;A handmade MerPaca I received from a teammate as a farewell gift!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/5.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;See you, Mercari!&lt;/em&gt;&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="mercari" /><category term="career" /><summary type="html">Last month, I resigned from Mercari where I worked for almost five years!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-07-14/4.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-07-14/4.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Hello World</title><link href="https://gmgchow.github.io/blog/2022/06/22/hello-world.html" rel="alternate" type="text/html" title="Hello World" /><published>2022-06-22T00:00:00+09:00</published><updated>2022-06-22T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/06/22/hello-world</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/06/22/hello-world.html">&lt;p&gt;Welcome to my new blog!&lt;/p&gt;
+
+&lt;p&gt;I’ve been wanting to make a personal website and blog since forever but somehow I never found the time for it. Currently, I’m on vacation back in Vancouver so I finally found some time to get started!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-06-22/1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;The view from the Vancouver Public Library rooftop (Downtown Vancouver, Canada)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I will mostly be blogging about topics that interest me such as the tech industry, cybersecurity, psychology, career and self-improvement, language learning, books I read, Japan life, etc.&lt;/p&gt;
+
+&lt;p&gt;Some upcoming posts:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A retrospective about my time at Mercari, my previous company that I recently resigned from&lt;/li&gt;
+  &lt;li&gt;My first time choosing between multiple job offers and negotiating salary&lt;/li&gt;
+  &lt;li&gt;Reviews of books that I read recently and want to recommend&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This site is looking kind of ugly at the moment because I used a premade theme, so I plan to make some improvements:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Customize the theme&lt;/li&gt;
+  &lt;li&gt;Add Japanese and Chinese translations (WARNING: As a way for me to practice these two languages, I will try to translate articles by myself so be warned that they may be bad…)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I included links to my Twitter and LinkedIn accounts in the sidebar so please feel free to reach out to me anytime if you have comments about my posts, things that you want to see, ideas, suggestions, etc.&lt;/p&gt;
+
+&lt;p&gt;Thank you very much for reading and hope to see you in the next post!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-06-22/2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;I’m enjoying the delicious dimsum in Vancouver! It’s been so long since I had authentic Chinese food T_T&lt;/em&gt;&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="random" /><summary type="html">Welcome to my new blog!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-06-22/1.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-06-22/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

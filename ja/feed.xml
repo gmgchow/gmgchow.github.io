@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://gmgchow.github.io/ja/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gmgchow.github.io/ja/" rel="alternate" type="text/html" /><updated>2022-07-30T15:32:05+09:00</updated><id>https://gmgchow.github.io/feed.xml</id><title type="html">gmgchow.github.io</title><author><name>Gloria Chow</name></author><entry xml:lang="ja"><title type="html">メルカリを卒業しました！</title><link href="https://gmgchow.github.io/ja/blog/2022/07/14/mercari-retrospective.html" rel="alternate" type="text/html" title="メルカリを卒業しました！" /><published>2022-07-14T00:00:00+09:00</published><updated>2022-07-14T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective.html">&lt;p&gt;先月、5年近く勤めてきた株式会社メルカリを卒業しました！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;メルカリはCraigslistやEbayのようなフリマアプリです。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;私は2017年11月1日にメルカリに入社しました。日本での初めての会社で、将来の事が分からなくて、とりあえず一年半や二年間ぐらいいようと思ってジョインしましたが、結局5年近くいるなんて想像もしなかったです！入社してから4年9ヵ月間が経って、ようやく6月14日に最終出社日を迎えました。&lt;/p&gt;
+
+&lt;p&gt;入社した当時の私と今の私を比べると、もはや別人だと言えるぐらい成長してきた気がします。この数年間の振り返りとしてこの記事を書きました。&lt;/p&gt;
+
+&lt;h1 id=&quot;タイムライン&quot;&gt;タイムライン&lt;/h1&gt;
+
+&lt;h2 id=&quot;2017年11月2018年10月setと自動化テスト時代&quot;&gt;2017年11月～2018年10月：SETと自動化テスト時代&lt;/h2&gt;
+
+&lt;p&gt;最初は、自動化テストを担当する「Software in Test (SET)」として入社しました。&lt;/p&gt;
+
+&lt;p&gt;当時に使った技術スタック：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;iOS: XCUITest, Swift, Earl Grey&lt;/li&gt;
+  &lt;li&gt;Android: Ruby, Appium&lt;/li&gt;
+  &lt;li&gt;API: JMeter, Postman&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;主な達成：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;iOSの自動化テストを開発リポジトリとCIパイプラインに導入しました&lt;/li&gt;
+  &lt;li&gt;iOS自動化テストのnightly buildを設定しました&lt;/li&gt;
+  &lt;li&gt;テスト結果のリポートを改善しました&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/gmgchow/fastlane-plugin-retry&quot;&gt;fastlane plugin&lt;/a&gt; を開発して、オープンソースしました&lt;/li&gt;
+  &lt;li&gt;「ISTQB Advanced - Test Automation Engineer」が受かりました&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2018年10月2019年7月testdeck時代&quot;&gt;2018年10月～2019年7月：Testdeck時代&lt;/h2&gt;
+
+&lt;p&gt;メルカリはマイクロサービス・アーキテクチャへの移行が始まった頃、マイクロサービスのテストができる社内ツールを作る必要になって、私はそのプロジェクトに入りました。結果として、&lt;a href=&quot;https://github.com/mercari/testdeck&quot;&gt;Testdeck&lt;/a&gt; というツールを開発して、&lt;a href=&quot;https://engineering.mercari.com/blog/entry/20200930-testdeck/&quot;&gt;こちらの記事&lt;/a&gt; で説明したようにオープンソースしました。&lt;/p&gt;
+
+&lt;p&gt;主な達成：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;プロジェクトに貢献するためにマイクロサービス・アーキテクチャ、Kubernetes、GCP、Go などを学んで、最終にTestdeckのリードになりました&lt;/li&gt;
+  &lt;li&gt;マイクロサービスの開発チームと親しく働いて、自動化テストの導入、トラブルシュート、Testdeckのフィーチャーリクエストや改善などで、開発チームをサポートしました&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2019年7月2019年9月ウェブ自動化テストとキャリアチェンジ時代&quot;&gt;2019年7月～2019年9月：ウェブ自動化テストとキャリアチェンジ時代&lt;/h2&gt;
+
+&lt;p&gt;この数か月間、メルカリのウェブアプリの自動化テストをサポートしながら、キャリアについて次のステップを考えました。セキュリティを真剣に勉強し始めたことも、セキュリティチームに異動する内定をもらったことも、この時期でした。&lt;/p&gt;
+
+&lt;p&gt;主な達成：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ウェブの自動化テストのメインテナンスをサポートしました（TypescriptとMocha）&lt;/li&gt;
+  &lt;li&gt;ウェブアプリのリンク切れを毎晩に検出する社内ツールを開発しました&lt;/li&gt;
+  &lt;li&gt;「CompTIA Security+」が受かりました&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2019年10月2022年6月セキュリティチーム時代&quot;&gt;2019年10月～2022年6月：セキュリティチーム時代&lt;/h2&gt;
+
+&lt;p&gt;最初はSETとして入社しましたが、結局セキュリティチームに配属した時間の方が長くなりました。&lt;/p&gt;
+
+&lt;p&gt;CompTIA Security+の資格以外にセキュリティの知識や経験が全くなくてセキュリティチームに異動したので、正直に言えば、最初はとても辛かったです。早くキャッチアップして貢献したかったので、最初の半年間ぐらいに、仕事以外の時間はほとんど全て勉強で使いました。以前にキャリアチェンジに関して &lt;a href=&quot;https://engineering.mercari.com/blog/entry/2020-05-14-121008&quot;&gt;こちらの記事&lt;/a&gt; を書きました。&lt;/p&gt;
+
+&lt;p&gt;セキュリティチームの皆さんが諦めずに、セキュリティエンジニアの卵で未熟な私を育ててくれたことに永遠に感謝します。皆さんはもうご存じだと思うのですが、セキュリティ業界は非常に入りにくいのです。たくさんの経験がないと雇ってもらえません。しかし、雇ってもらえなければ経験を積むことができるわけがないので、悪循環です。いつも暖かく応援してくれたチームの中で、今まで見たことのない優秀さを持っている先輩たちのもとで働けたおかげで、成長ができて貢献できるようになりました。&lt;/p&gt;
+
+&lt;p&gt;主な達成：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;TestdeckをセキュリティテストとQAのテスト両方で使えるツールに改善して、オープンソースしました&lt;/li&gt;
+  &lt;li&gt;開発プロセスに脅威モデリングを導入しました&lt;/li&gt;
+  &lt;li&gt;エンジニア向けの社内セキュリティ研修プログラム「Security Champions」をco-leadしました&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;長年にわたって見た会社の変化&quot;&gt;長年にわたって見た会社の変化&lt;/h1&gt;
+
+&lt;p&gt;私は人間としてもエンジニアとしても成長した一方で、メルカリは会社としても色々な変化がありました。入社した時はIPOと会社のグローバル化の前だったので、あの時のメルカリはまだ日本のベンチャー企業らしい会社だったと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/2.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;やく88%の社員が私の入社した後にジョインしたので、私はたまに古株と呼ばれました（笑）。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;グローバル化&quot;&gt;グローバル化&lt;/h2&gt;
+
+&lt;p&gt;入社した時に、Slackのアナウンスメント、メール、会議、ドキュメントなど、&lt;strong&gt;全て&lt;/strong&gt; は日本語のみでした。当時に、外国人が多分20人ぐらいしかいなくて、みんな知合っていました。&lt;/p&gt;
+
+&lt;p&gt;メルカリはこの数年間でグローバル化を強化して、今はエンジニア部の半分ぐらいは外国籍の人で、英語しか使わないチームも実は結構多いのです。私も、日本語しか使わない働き環境からほぼ仕事で日本語を使わないようになりました。今は、全てのアナウンスメントは英語と日本語両方があって、英語メインで開催される全体定例などもあります。日本語のできない人にとって、間違いなくとても働きやすい環境になりました。日本国内で優秀な人材を見つけることはもう随分難しいのですが、日本語力も要求すればさらに見つけにくくなるので、会社にとってとても良い方向だと思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;ダイバーシティインクルージョン&quot;&gt;ダイバーシティ＆インクルージョン&lt;/h2&gt;
+
+&lt;p&gt;日本語力がどうしても必要だったので、入社した時に外国籍のマネージャー（エンジニアリング・マネージャーとそれ以上の役割）がいないことに全然驚きませんでした。女性のマネージャーもいなかったです。しかし、この数年間で、マネージャーとリーダーシップ層に少しずつ外国籍の人と女性が増えてきて、とても嬉しいことに思っています。もちろんまだマイノリティーの人が少なくて日本人の男性が圧倒的に多いのですが、少しずつ改善が見えて、これからもD&amp;amp;Iが強化することに期待しています。&lt;/p&gt;
+
+&lt;h2 id=&quot;your-choice&quot;&gt;YOUR CHOICE&lt;/h2&gt;
+
+&lt;p&gt;ずっとある程度（マネージャーの許可が必要）在宅勤務ができましたが、コロナのきっかけでメルカリは&lt;a href=&quot;https://about.mercari.com/press/news/articles/20210901_yourchoice/&quot;&gt;「YOUR CHOICE」&lt;/a&gt;というフルーリモートかつフルーフレックスタイムのポリシーを設立しました。あれから、東京を出て、もっと物価が安くて住みやすい場所に引っ越した同僚が実は少なくはありません。しかし、調べてみたら、メルカリのように在宅勤務を推薦している日本企業は極端に少ないことが明らかになりました。ハイブリッド勤務として定期的に（週1～2回ぐらい）出社を求めている会社が驚くほど多いのです。コロナ前の生活に戻りつつであっても、メルカリの「YOUR CHOICE」のような柔軟性のある働き方が増えてほしいですね。&lt;/p&gt;
+
+&lt;h1 id=&quot;達成と愛しい思い出&quot;&gt;達成と愛しい思い出&lt;/h1&gt;
+
+&lt;h2 id=&quot;初めてブログ記事を書いたこと&quot;&gt;初めてブログ記事を書いたこと&lt;/h2&gt;
+
+&lt;p&gt;入社の前に、ブログを書いたことがなくて、書きたいとも一切思わなかったです。しかし、実際に &lt;a href=&quot;https://engineering.mercari.com/blog/&quot;&gt;メルカリのエンジニアリングブログ&lt;/a&gt; の記事を書いてみたら、楽しすぎて次々書いてしまって、この個人ブログを始めるきっかけにもなりました。&lt;/p&gt;
+
+&lt;p&gt;私の書いた記事：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/20220426-threat-modeling-at-mercari/&quot;&gt;メルカリの脅威モデリングプロセス&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/20211210-how-is-security-testing-different-from-typical-software-testing/&quot;&gt;セキュリティ・テストは一般的なソフトウェア・テストとどう違うのか？&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/20201214-bea4717e9a/&quot;&gt;DevSecOpsとは何か — 導入する組織が増加している理由&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/20200930-testdeck/&quot;&gt;マイクロサービスのQA・セキュリティ自動化テスト社内ツール「Testdeck」をOSS化しました！&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2020-05-14-121008/&quot;&gt;セキュリティエンジニアへの道：私のキャリアチェンジ物語&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-12-21-123830/&quot;&gt;Mercari AQA Pop Talk #4: The Future of QA &amp;amp; Test Automation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-11-01-124027/&quot;&gt;ソフトウェアテストの大規模カンファレンス「STARWEST」で学んだ3つのこと&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-08-23-184237/&quot;&gt;世界基準の認定資格「ISTQB テスト自動化エンジニア認定資格」をゲットしました！&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;初めてオープンソースへの貢献&quot;&gt;初めてオープンソースへの貢献&lt;/h2&gt;
+
+&lt;p&gt;同様に、入社前にオープンソースに貢献したことがなくて、してみたいとも思わなかったです。結局、メルカリの作業のきっかけで開発した2つのプロジェクトをオープンソースしました！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/gmgchow/fastlane-plugin-retry&quot;&gt;gmgchow/fastlane-plugin-retry&lt;/a&gt;: XCUITestの自動化テストケースを自動的にリトライするためのプラグインです。現在はもうメインテナンスを行われていません。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mercari/testdeck&quot;&gt;mercari/testdeck&lt;/a&gt;: Goで書かれたgRPCマイクロサービスの自動化テストフレームワークです。（もっと詳しい情報は上記のTestdeckセクションにて）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;初めてスピーカーとしてイベントに参加したこと&quot;&gt;初めてスピーカーとしてイベントに参加したこと&lt;/h2&gt;
+
+&lt;p&gt;ずっとプレゼンテーションをすることが苦手で、メルカリで働かなったらtechイベントにスピーカーとして参加するなんて考えもしなかったはずです。メルカリはtechコミュニティーで結構アクティブで、よく勉強会などのイベントを開催します（コロナの前はオフィスで開催したのですが、今はほとんどオンラインです）。社員がイベントに登場して、自分の得意な分野や最近担当しているプロジェクトについて共有したりします。私は2つのイベントに登場して、非常に良い経験で挑戦ができて良かったと思っています。イベントに関して唯一の未練は、日本語で発表する機械がなかったことです。とても良いチャレンジになるし、自分の日本語力を試すチャンスにもなるし、またいつか機械があればなと思っています。&lt;/p&gt;
+
+&lt;p&gt;私の登場したイベント：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2018年12月: &lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-12-21-123830/&quot;&gt;Mercari AQA Pop Talk #4: The Future of QA &amp;amp; Test Automation&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/secret/wmEiwlBUtlXSH9&quot;&gt;From Agile to DevOps: The Rise of ‘Continuous Testing’&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2022年4月: &lt;a href=&quot;https://mercari.connpass.com/event/244594/&quot;&gt;Mercari’s Approach to Modern Day Threats #2&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://speakerdeck.com/gmgchow/diving-into-threat-modeling-at-mercari&quot;&gt;Diving Into Threat Modeling at Mercari&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;初めての出張&quot;&gt;初めての出張&lt;/h2&gt;
+
+&lt;p&gt;コロナの前に、運が良くて海外出張二回も行けました！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-08-23-184237/&quot;&gt;ロンドン、イギリス（2018年7月）&lt;/a&gt;: ISTQB Advanced Level - Test Automation Engineering のトレーニングコースと試験を受けるためにイギリスに行かせてもらいました。初めての出張で、初めてヨーロッパに行って、初めて到着後にすぐにお財布をなくしてしまった酷い目にも会ったのですが（その話は別の日にしましょう笑）、とても忘れられない経験でした！&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-11-01-124027/&quot;&gt;カリフォルニア、アメリカ（2018年10月）&lt;/a&gt;: STARWESTという自動化テストのtechカンファレンスに行きました。初めてtechカンファレンスに参加したので、色々なことが学べて良い経験でした。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;仕事以外のこと&quot;&gt;仕事以外のこと&lt;/h2&gt;
+
+&lt;h3 id=&quot;部活&quot;&gt;部活&lt;/h3&gt;
+
+&lt;p&gt;メルカリのいい所の一つは、部活を楽しめることです！どんな部活もある気がします。部活を積極的に参加することで普段仕事で話せない人との交流ができました。&lt;/p&gt;
+
+&lt;p&gt;参加した部活の例：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;料理部、福岡お茶部、香港部、ピザ部、バイリンガルチャット部、コストコ部、ジブリ部、マクドナルド部、シンガポール部、台湾部、アメリカ部、カナダ部、フルーツ部、中国語チャット部&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/3.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;2018年の冬、フルーツ部で色々な種類のいちごを食べました！&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;資格の取得&quot;&gt;資格の取得&lt;/h3&gt;
+
+&lt;p&gt;もう一つのいい所は、continuous learningを大切にする文化です。入社の前に、ずっと資格なんかに興味がなくて、ほとんど持っていませんでした。しかし、メルカリに資格を持っていて向上心の高い人が非常に多くて、彼らのもとで働くだけで自分もモチベーションが湧きました。結局、次々で資格を取るようになりました。会社が資格の取得に少し支援を出してくれましたが、自分のお金と時間で取った資格も多いです。&lt;/p&gt;
+
+&lt;p&gt;メルカリにいる間に取った資格：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ISTQB: Advanced Level - Test Automation Engineering, Advanced Level - Security Tester&lt;/li&gt;
+  &lt;li&gt;CompTIA: Security+&lt;/li&gt;
+  &lt;li&gt;(ISC)2: SSCP, CSSLP, CISSP&lt;/li&gt;
+  &lt;li&gt;日本語: JLPT N1, BJT J2&lt;/li&gt;
+  &lt;li&gt;中国語: HSK 5, HSKK Intermediate&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;語学の勉強&quot;&gt;語学の勉強&lt;/h3&gt;
+
+&lt;p&gt;メルカリの働き環境は多様性があるので、様々なバックグラウンドの人と仲良くなることができました。日本語と中国語の勉強に対してモチベーションもとても上がりました。英語化が進んでいる中で、英語を練習したいと言う友達もいて、お互いの語学力を上達させるために定期的な言語交換の1on1会議もしていました。&lt;/p&gt;
+
+&lt;h1 id=&quot;退職の理由&quot;&gt;退職の理由&lt;/h1&gt;
+
+&lt;p&gt;下記はチームに伝えた言葉です。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s not that I hate it here or anything. This is the best team that I have worked with in my whole career so far. It’s just that I’ve been here for way too long. I think it’ll be good for me to see more of the world outside.（ここが嫌いになったわけじゃないです。このチームは今まで働いたチームの中で、一番良かったと思っています。ただ、ここにいるのがあまりにも長すぎて、将来とキャリアを考えると、外の世界をもっと知るべきだと思いました。）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;メルカリは私の2社目で（インターンシップの会社を除いて）、セキュリティエンジニアとしての1社目です。まだまだキャリアの始点に立っている状態です。成長したり、スキルアップしたりするために、もっと外の世界を見て、新しい刺激を受けて、他の会社で経験を積んだ方がいいのではないかと思い始めました。&lt;/p&gt;
+
+&lt;p&gt;その理由で、キャリアの次のステップに進むことに決めました。メルカリで確かに良いことと辛いことも色々ありましたが、全体的には良い経験に思っていて、愛しい思い出を持って退職しました。&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Today was my last day at Mercari! It has been a looong 4 years and 9 months, I have so much to say that I don&amp;#39;t even know where to begin! I&amp;#39;ll write a blog post about it later after I set up my personal blog. For now, my next stop: back to Vancouver for a month! 🇨🇦✈️ &lt;a href=&quot;https://t.co/SmLA7BK0Z2&quot;&gt;pic.twitter.com/SmLA7BK0Z2&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gloria Chow (@gmgchow) &lt;a href=&quot;https://twitter.com/gmgchow/status/1536729941358055424?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;森タワーを最後に眺めました。なぜか分からないのですが、退職する際にこのような森タワー写真を撮ることはメルカリ社員の伝統らしいです。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;次のステップ&quot;&gt;次のステップ&lt;/h1&gt;
+
+&lt;p&gt;今月、&lt;a href=&quot;https://www.japancv.co.jp/&quot;&gt;日本コンピュータビジョン&lt;/a&gt; という、ソフトバンクグループ所属のAIスタートアップに、シニア・セキュリティエンジニアとして入社します。AI業界の経験がなくて、メルカリ以外のセキュリティの経験もなくて、しかも中国語も苦手（仕事では必要）ですが、だからこそキャリアにも人生にも良い経験になると思って、楽しみにしています。&lt;/p&gt;
+
+&lt;p&gt;人生の次の段階に進みますが、メルカリで過ごした時間を決して忘れません。今まで見たことのない優秀さを持っている仲間たち、これからもずっと大切にしたい繋がり、非常に成長させてくれた働き環境。正直、メルカリに入らなかったら、まだ日本にいるかどうかは微妙です。メルカリで過ごした時間とそこで作った繋がりは、私にとってはそれほど大切な物なのです。&lt;/p&gt;
+
+&lt;p&gt;素敵な5年（近く）をありがとうございました、お世話になりました！またいつか、どこかで皆さんにお会いできればなと思っています～＾＾&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/4.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;同僚にもらった手作りのメルパカです！&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/5.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;またね、メルカリ！&lt;/em&gt;&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="メルカリ" /><category term="キャリア" /><summary type="html">先月、5年近く勤めてきた株式会社メルカリを卒業しました！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-07-14/4.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-07-14/4.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">Hello World</title><link href="https://gmgchow.github.io/ja/blog/2022/06/22/hello-world.html" rel="alternate" type="text/html" title="Hello World" /><published>2022-06-22T00:00:00+09:00</published><updated>2022-06-22T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/06/22/hello-world</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/06/22/hello-world.html">&lt;p&gt;私のブログへようこそ！&lt;/p&gt;
+
+&lt;p&gt;ずっと前から個人サイトとブログを作ろうと思ったのですが、中々時間が作れなくて、今まで手を付けれなかったです。今はバンクーバーの帰省中なので、やっと少しでも余裕があって早速作っちゃいました！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-06-22/1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;バンクーバー公立図書館の屋上からの眺めです（ダウンタウン・バンクーバー、カナダ）&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;主に興味のある話題（テック業界、サイバーセキュリティ、心理学、キャリア・自己改善、語学、読んだ本の感想、日本での生活、など）について書こうと思います。&lt;/p&gt;
+
+&lt;p&gt;近々に投稿する予定の記事：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;最近退職したメルカリで過ごした間のレトロスペクティブ&lt;/li&gt;
+  &lt;li&gt;人生初めて複数の会社から内定をもらって、給与を交渉した経験&lt;/li&gt;
+  &lt;li&gt;最近読んで、良かったなと思っておすすめしたい本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;このブログはレディーメードのデザインを使用しているので少しダサいかもしれないので、次は以下の改善をしたいと思います：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;デザインをカスタマイズして、UIを綺麗にする&lt;/li&gt;
+  &lt;li&gt;日本語と中国語の翻訳を書く（注意：この二つの言語を練習するために自分で記事を書いてみようと思っているので、質が悪い翻訳になったら申し訳ありません…）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;プロフィールにツイッターとLinkedInのハンドルを残したので、投稿についてコメントや感想、書いてほしい話題、アイデア、提案などがあれば、是非気軽にご連絡ください。&lt;/p&gt;
+
+&lt;p&gt;ご精読をありがとうございました。では、また次の投稿で！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-06-22/2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;バンクーバーの美味しい点心を楽しんでいます！本格的な中華料理を食べるのは本当に久しぶりです（泣）&lt;/em&gt;&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="ランダム" /><summary type="html">私のブログへようこそ！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-06-22/1.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-06-22/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
