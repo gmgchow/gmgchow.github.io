@@ -106,6 +106,13 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/gmgchow"
 
+collections_dir: "collections"
+collections:
+  reading-list:
+    output: true
+    sort_by: order
+    permalink: /:collection/:name
+
 defaults:
   # _posts
   - scope:
