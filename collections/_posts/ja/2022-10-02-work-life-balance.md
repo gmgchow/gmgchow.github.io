@@ -3,7 +3,7 @@ title: "ワークライフバランスが良い会社の6つの共通点"
 lang: ja
 tags:
   - キャリア
-image: /assets/images/2022-10-101/1.jpg
+image: /assets/images/2022-10-02/1.jpg
 summary: 会社のワークライフバランスが良いのか悪いのか、どの様に判断するのでしょう？
 ---
 

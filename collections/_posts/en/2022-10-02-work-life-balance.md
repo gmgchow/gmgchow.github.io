@@ -3,7 +3,7 @@ title: "Six Signs A Company Has Good Work-Life Balance"
 lang: en
 tags:
   - career
-image: /assets/images/2022-10-22/1.jpg
+image: /assets/images/2022-10-02/1.jpg
 summary: How to tell if a company has good work-life balance
 ---
 
