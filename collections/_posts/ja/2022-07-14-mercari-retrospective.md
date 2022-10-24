@@ -4,6 +4,7 @@ lang: ja
 tags:
   - メルカリ
   - キャリア
+  - 転職
 image: /assets/images/2022-07-14/4.jpg
 summary: 先月、5年近く勤めてきた株式会社メルカリを卒業しました！
 ---

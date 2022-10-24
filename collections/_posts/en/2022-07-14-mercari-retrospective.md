@@ -4,6 +4,7 @@ lang: en
 tags:
   - mercari
   - career
+  - job change
 image: /assets/images/2022-07-14/4.jpg
 summary: Last month, I resigned from Mercari where I worked for almost five years!
 ---
