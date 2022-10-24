@@ -4,7 +4,7 @@ lang: en
 tags:
   - career
   - job change
-image: /assets/images/2022-08-02/1.jpg
+image: /assets/images/2022-10-24/1.jpg
 summary: Things that you should consider while you are on probation at a new company
 ---
 

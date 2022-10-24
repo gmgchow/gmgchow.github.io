@@ -4,7 +4,7 @@ lang: ja
 tags:
   - キャリア
   - 転職
-image: /assets/images/2022-08-02/1.jpg
+image: /assets/images/2022-10-24/1.jpg
 summary: 新しい職場で試用期間中に考えるべきこと
 ---
 
