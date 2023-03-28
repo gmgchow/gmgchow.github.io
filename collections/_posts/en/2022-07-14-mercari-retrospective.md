@@ -9,7 +9,10 @@ image: /assets/images/2022-07-14/4.jpg
 summary: Last month, I resigned from Mercari where I worked for almost five years!
 ---
 
-Last month, I resigned from Mercari where I worked for almost five years!
+(EN/JA/ZH) Last month, I resigned from Mercari where I worked for almost five years!
+
+- [日本語で読む](https://gmgchow.github.io/ja/blog/2022/07/14/mercari-retrospective.html)
+- [看中文版](https://gmgchow.github.io/zh/blog/2022/07/14/mercari-retrospective.html)
 
 ![](/assets/images/2022-07-14/1.jpg)
 *Mercari is a marketplace app similar to Craigslist or Ebay.*

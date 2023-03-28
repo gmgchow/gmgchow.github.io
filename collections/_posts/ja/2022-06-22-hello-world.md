@@ -7,7 +7,10 @@ image: /assets/images/2022-06-22/1.jpg
 summary: 私のブログへようこそ！
 ---
 
-私のブログへようこそ！
+(EN/JP/ZH) 私のブログへようこそ！
+
+- [Read in English](https://gmgchow.github.io/blog/2022/06/22/hello-world.html)
+- [看中文版](https://gmgchow.github.io/zh/blog/2022/06/22/hello-world.html)
 
 ずっと前から個人サイトとブログを作ろうと思ったのですが、中々時間が作れなくて、今まで手を付けれなかったです。今はバンクーバーの帰省中なので、やっと少しでも余裕があって早速作っちゃいました！
 

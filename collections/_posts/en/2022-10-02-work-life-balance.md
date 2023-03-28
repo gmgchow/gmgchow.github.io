@@ -7,7 +7,9 @@ image: /assets/images/2022-10-02/1.jpg
 summary: How to tell if a company has good work-life balance
 ---
 
-Recently, work-life balance has been something that I've been thinking about a lot because things at work have been busy and sometimes it feels like my personal goals have taken a backseat. I wrote this article to share my thoughts on why work-life balance is important and how to recognize a company that has good work-life balance.
+(EN/JA) Recently, work-life balance has been something that I've been thinking about a lot because things at work have been busy and sometimes it feels like my personal goals have taken a backseat. I wrote this article to share my thoughts on why work-life balance is important and how to recognize a company that has good work-life balance.
+
+- [日本語で読む](https://gmgchow.github.io/ja/blog/2022/10/02/work-life-balance.html)
 
 ![](/assets/images/2022-10-02/1.jpg)
 

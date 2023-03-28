@@ -9,7 +9,10 @@ image: /assets/images/2022-07-14/4.jpg
 summary: 先月、5年近く勤めてきた株式会社メルカリを卒業しました！
 ---
 
-先月、5年近く勤めてきた株式会社メルカリを卒業しました！
+(EN/JA/ZH) 先月、5年近く勤めてきた株式会社メルカリを卒業しました！
+
+- [Read in English](https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective.html)
+- [看中文版](https://gmgchow.github.io/zh/blog/2022/07/14/mercari-retrospective.html)
 
 ![](/assets/images/2022-07-14/1.jpg)
 *メルカリはCraigslistやEbayのようなフリマアプリです。*
