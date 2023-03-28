@@ -8,10 +8,7 @@ image: /assets/images/2022-07-14/4.jpg
 summary: 上個月，剛剛從我工作差不多5年的Mercari畢業了！
 ---
 
-(EN/JA/ZH) 上個月，剛剛從我工作差不多5年的Mercari畢業了！
-
-- [Read in English](https://gmgchow.github.io/blog/2022/06/22/hello-world.html)
-- [日本語で読む](https://gmgchow.github.io/ja/blog/2022/06/22/hello-world.html)
+上個月，剛剛從我工作差不多5年的Mercari畢業了！
 
 ![](/assets/images/2022-07-14/1.jpg)
 *Mercari是一個像Craigslist或者Ebay的網購app.*

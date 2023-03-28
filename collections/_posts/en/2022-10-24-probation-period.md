@@ -8,9 +8,7 @@ image: /assets/images/2022-10-24/1.jpg
 summary: Things that you should consider while you are on probation at a new company
 ---
 
-(EN/JA) This month, I officially finished my three-month probation period at Japan Computer Vision. This is my third company- therefore my third time going through probation- but it was the first time that I actually stopped to think about what probation period really means, for both me and the company.
-
-- [日本語で読む](https://gmgchow.github.io/ja/blog/2022/10/24/probation-period.html)
+This month, I officially finished my three-month probation period at Japan Computer Vision. This is my third company- therefore my third time going through probation- but it was the first time that I actually stopped to think about what probation period really means, for both me and the company.
 
 ![](/assets/images/2022-10-24/1.jpg)
 

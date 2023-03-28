@@ -7,10 +7,7 @@ image: /assets/images/2022-06-22/1.jpg
 summary: Welcome to my new blog!
 ---
 
-(EN/JA/ZH) Welcome to my new blog!
-
-- [日本語で読む](https://gmgchow.github.io/ja/blog/2022/06/22/hello-world.html)
-- [看中文版](https://gmgchow.github.io/zh/blog/2022/06/22/hello-world.html)
+Welcome to my new blog!
 
 I've been wanting to make a personal website and blog since forever but somehow I never found the time for it. Currently, I'm on vacation back in Vancouver so I finally found some time to get started!
 
