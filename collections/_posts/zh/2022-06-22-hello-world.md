@@ -7,7 +7,10 @@ image: /assets/images/2022-06-22/1.jpg
 summary: 歡迎來到我的新博客！
 ---
 
-歡迎來到我的新博客！
+(EN/JP/ZH) 歡迎來到我的新博客！
+
+- [Read in English](https://gmgchow.github.io/blog/2022/06/22/hello-world.html)
+- [日本語で読む](https://gmgchow.github.io/ja/blog/2022/06/22/hello-world.html)
 
 其實我一直都想做一個個人網站和博客，但是找不到時間做。現在我在溫哥華放假所以終於有點多餘時間做了！
 
