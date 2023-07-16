@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://gmgchow.github.io/ja/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gmgchow.github.io/ja/" rel="alternate" type="text/html" /><updated>2023-07-16T22:59:39+09:00</updated><id>https://gmgchow.github.io/feed.xml</id><title type="html">gmgchow.github.io</title><author><name>Gloria Chow</name></author><entry xml:lang="ja"><title type="html">日本コンピュータビジョン、お世話になりました！</title><link href="https://gmgchow.github.io/ja/blog/2023/07/16/jcv.html" rel="alternate" type="text/html" title="日本コンピュータビジョン、お世話になりました！" /><published>2023-07-16T00:00:00+09:00</published><updated>2023-07-16T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2023/07/16/jcv</id><content type="html" xml:base="https://gmgchow.github.io/blog/2023/07/16/jcv.html">&lt;p&gt;(EN/JA/ZH) 先週はソフトバンクグループ傘下のAIスタートアップ、日本コンピュータビジョン株式会社での最終出社日でした。2022年7月に入社し、ちょうど1年間お世話になりました。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/blog/2023/07/16/jcv.html&quot;&gt;Read in English&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/zh/blog/2023/07/16/jcv.html&quot;&gt;看中文版&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;日本コンピュータビジョンはソフトバンクの子会社です。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;日本コンピュータビジョンでの日常&quot;&gt;日本コンピュータビジョンでの日常&lt;/h1&gt;
+
+&lt;h2 id=&quot;勤務内容&quot;&gt;勤務内容&lt;/h2&gt;
+
+&lt;p&gt;会社の最初で唯一のセキュリティエンジニアとして、プロダクトチームに入り、アプリケーションセキュリティを担当させていただきました。主なタスクはリリース向けのセキュリティプロセスの改善、開発フローにSAST・DASTの導入、ウェブ・モバイルアプリ・API・IoTプロダクトのペネトレーションテストなどでした。&lt;/p&gt;
+
+&lt;h2 id=&quot;ソフトバンク本社&quot;&gt;ソフトバンク本社&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;ソフトバンク本社である「東京ポートシティ竹芝」。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;エンジニアリング部は基本的にフルリモートなので、私もほとんど出社しませんでした。日本コンピュータビジョンのオフィスはソフトバンク本社である「東京ポートシティ竹芝」にあります。とても新しくて、綺麗なオフィスビルです。外壁は緑が多くて、ビル内は何とハイテックでお掃除のロボットもあります。海の絶景、レストラン、コンビニなども整っている素敵なビルです！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/3.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;セキュリティロボットが監視するためにビル内のあちらこちらを回ります。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/4.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;休憩中のお掃除ロボット。邪魔にならないように、基本的に営業時間外にしか動きません。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;個人的に、ソフトバンクの社員食堂（なぜか「カフェシバ」という名前で呼ばれています）が結構好きで、出社する際はよく行きました。カレー、うどんなどの和食は人気のようですが、私はいつもカフェのホットサンドにしました！美味しいスイーツも色々な種類があるので、お気に入りのカフェでした。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/5.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;社員食堂でよく食べたカフェランチ！&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;食堂はランチとディナーラッシュの時間帯以外は意外と静かなので、たまに海の風景を眺めながら作業をしました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/6.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;社員食堂からの眺めは何と、東京湾の絶景です！&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;食堂の食べ物は無料ではありませんが、大体安くてワンコインで済めるような値段です。&lt;/p&gt;
+
+&lt;h1 id=&quot;思い出&quot;&gt;思い出&lt;/h1&gt;
+
+&lt;h2 id=&quot;初めてのトライリンガルな働き環境&quot;&gt;初めてのトライリンガルな働き環境&lt;/h2&gt;
+
+&lt;p&gt;日本コンピュータビジョンの一番面白い所は、完全にトライリンガルな働き環境でした！英語・中国語（マンダリン）・日本語も日常で使いました。&lt;/p&gt;
+
+&lt;p&gt;将来に中国や台湾で働くことはないと思うので、今回は恐らく最初で最後に中国語で仕事をする機会かもしれません。最初（正直、今だに…）はすごく言葉の壁を感じて大変でしたが、中国語での会議に参加したり、完全に中国語で書いたSlackチャンネルを読んだりすることで、少しずつ上達ができた気がします。今年の3月に、中国語能力試験の一番上の「HSK6級」も受かることができました！こんなダイバーシティのある働き環境を経験できて本当に感謝しています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/7.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;HSK6級はギリギリで合格できましたが、同僚の皆さんがいなければ絶対に受からなかったと思います。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;もちろん、社員全員が完全にトライリンガルな訳ではありません。1つの言語しかできない人もいれば、1.5ヵ国語ができる人もいて、3ヵ国語が完全にペラペラな人もいます。私は英語しかペラペラではなく、中国語も日本語もまだ勉強中なので、完全トライリンガルな同僚には心から尊敬しています。&lt;/p&gt;
+
+&lt;h2 id=&quot;顔認証のおもちゃをいじる&quot;&gt;顔認証のおもちゃをいじる&lt;/h2&gt;
+
+&lt;p&gt;さて、読者の皆さん、日本国内でこの端末を見たことはありませんか？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/8.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;JCV製品のSenseThunder検温器はコロナ禍の間に、ショッピングセンター、映画館やレストランなどでよく見かけたAI製品です。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;日本コンピュータビジョンで働いて楽しいと思った一つのことは、この端末だけではなく、会社の顔認証製品を日本国内のあちらこちらで見かけ、社会へ貢献していると実感できたことです。ショッピングセンターなどでこの端末を見るたびに、「ほら、うちの会社の製品なの！私はセキュリティの担当をしたの！」と、いつも自慢げに言いたくなりました！&lt;/p&gt;
+
+&lt;h2 id=&quot;weworkの設備を楽しむ&quot;&gt;WeWorkの設備を楽しむ&lt;/h2&gt;
+
+&lt;p&gt;個人的に、日本コンピュータビジョンの福利厚生の中で、一番良かったのは世界中のWeWorkのロケーションも使えることです！ずっと在宅勤務だと飽きてしまうし、たまに仕事が終わった後に予定が入っていて、新宿や渋谷などの都心に近い所で働いた方が便利な場合もありました。そういう時に、WeWorkの色々なロケーションを利用しました。&lt;/p&gt;
+
+&lt;p&gt;実は在職の間に、東京と横浜にあるWeWorkの何軒も利用して、大阪ロケーションの一軒にも行ったのですよ！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/9.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;行ったことのあるWeWorkの例（一部しか掲載していません）。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;都内のどこでも働けて、無料でコーヒーやお茶を飲みながら、静かで綺麗で、さらに居心地の良いワークスペースを借りれるなんて、本当に最高でした。。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/10.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;無料なコーヒーやお茶だけではなく、ビール、セルフレジのお菓子コーナー、休憩室、綺麗で清潔なトイレ、化粧鏡まである着替え室もあります！&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;退職の理由&quot;&gt;退職の理由&lt;/h1&gt;
+
+&lt;p&gt;チームに告げた退職の理由は以下の2つです：&lt;/p&gt;
+
+&lt;p&gt;1) キャリアの成長：会社の唯一のセキュリティエンジニアとして、この一年間でセキュリティプロセスを作ったり、色々なプロダクトの脆弱性診断をしたりして、たくさんの経験を積むことができました。そして、キャリアの次のステップを考え始めて、残念ながら会社に居続けてもキャリアの目標が達成できないことが分かりました。その時、良いキャリアアップのチャンスに巡り合ったので、転職することにしました。&lt;/p&gt;
+
+&lt;p&gt;2) 会社のカルチャーが自分に合わない：ご存知かもしれませんが、前職の株式会社メルカリは割と独特なカルチャーがあります。エンジニアたちは単純にプロダクトの開発だけではなく、他のこともできます。例えば、テックカンファレンスで講演したり、勉強会を開催したり、テックブログやOSSで情報共有したりすることで、日本と海外のテックコミュニティに積極的に貢献しているメルカリ社員がとても多いです。研究、トレーニングコースや資格などのスキルアップのために、勤務時間の一部を割いているチームもいます。私はそんなカルチャーが大好きで、プロダクトの開発やリリース向けの仕事しかできないような働き環境に中々慣れられなくて、もっと自分に合う会社を探し始めました。&lt;/p&gt;
+
+&lt;h1 id=&quot;次のステップ&quot;&gt;次のステップ&lt;/h1&gt;
+
+&lt;p&gt;夏の残りはカナダに帰って、友達と家族と過ごす予定です！帰省中に、セキュリティや資格の勉強と、次の仕事の準備をしようと思います。&lt;/p&gt;
+
+&lt;p&gt;今の所は、次の仕事について公開しませんが、今までの仕事とは&lt;em&gt;若干&lt;/em&gt;違うので、ちゃんとこなせるようにしばらく勉強しようと思います！次のブログで公開しますので、是非楽しみにしてください。&lt;/p&gt;
+
+&lt;p&gt;日本コンピュータビジョンに短い間にお世話になりましたが、もう一年以上経ったように感じます。若いスタートアップの現場で、たくさんのセキュリティ知識を身に付けられて、自分のことと将来のキャリアも考えさせられて、色々学べて良い経験でした。今までありがとうございました！&lt;/p&gt;
+
+&lt;p&gt;これからも日本コンピュータビジョンの皆さんを応援していて、町中に会社のAI製品を見ることを楽しみにしています！&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="ソフトバンク" /><category term="jcv" /><category term="キャリア" /><category term="転職" /><summary type="html">(EN/JA/ZH) 先週はソフトバンクグループ傘下のAIスタートアップ、日本コンピュータビジョン株式会社での最終出社日でした。2022年7月に入社し、ちょうど1年間お世話になりました。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2023-07-16/1.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2023-07-16/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">PNPTに受かりました！</title><link href="https://gmgchow.github.io/ja/blog/2022/12/05/PNPT.html" rel="alternate" type="text/html" title="PNPTに受かりました！" /><published>2022-12-05T00:00:00+09:00</published><updated>2022-12-05T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/12/05/PNPT</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/12/05/PNPT.html">&lt;p&gt;(EN/JA) 先週、PNPT (Practical Network Penetration Tester) に受かりました！この資格はまだセキュリティ分野であまり人気ではありませんが、今まで取った資格の中で、一番良かったと思っています！是非この資格の紹介も含めて、今回の経験と感想を共有したくてこの記事を書きました。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/blog/2022/12/05/PNPT.html&quot;&gt;Read in English&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/1.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;新しい資格GET！&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;pnptとは&quot;&gt;PNPTとは？&lt;/h1&gt;
+
+&lt;p&gt;PNPT (Practical Network Penetration Tester) は &lt;a href=&quot;https://tcm-sec.com/&quot;&gt;TCM Security&lt;/a&gt; 社（アメリカのスタートアップ）の提供・運営している資格です。起業した方、Heath Adamsさん、は Youtube で &lt;a href=&quot;https://www.youtube.com/@TCMSecurityAcademy&quot;&gt;「The Cyber Mentor」&lt;/a&gt; というチャネルでホワイトハッキング、ペネトレーションテスト、OSINTなど、様々なサイバーセキュリティの動画を作られていて、現在の登録者数が42万人も超えています！彼の動画は非常に質が良くて分かりやすいので、私も勉強としてよく見ています。まだ登録していない方がいらっしゃったら、是非見てみてください！（ちなみに、私はこの記事でスポンサー料金をもらっていません。ただのファンです笑）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/2.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;The Cyber Mentorさんの Youtube チャンネル&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;PNPTは、よくオフェンシブセキュリティ分野の最強の資格「OSCP」に比べられます。何故かと言うと、内容がかなり似ているからです。どちらもウェブアプリケーション、LinuxとWindowsのサーバー、active directory (AD)周りのペネトレーションテストのスキルを認定する試験なのです。しかし、大きい違いもいくつあるので、今度もっと詳しく比較する記事を書きたいと思います。&lt;/p&gt;
+
+&lt;p&gt;とりあえず、PNPTをOSCPより難易度が低いオフェンシブセキュリティの資格に考えれば良いです。初心者向けなので、OSCP希望ですがまだハードルが高い、自信がないと言う方がいらっしゃったら、PNPTを足がかりにすれば良いのではないかと思います。&lt;/p&gt;
+
+&lt;h1 id=&quot;pnptに挑戦した理由&quot;&gt;PNPTに挑戦した理由&lt;/h1&gt;
+
+&lt;p&gt;私はPNPTに挑戦した理由は、上記の通りに、いつかOSCPに受かりたいからです。&lt;/p&gt;
+
+&lt;p&gt;この風に思うのは私だけかもしれませんが、&lt;a href=&quot;https://www.offensive-security.com/pwk-oscp/&quot;&gt;OSCPの公式トレーニングコース&lt;/a&gt; (PEN-200 or PWK) を受けてみたら、すごく… &lt;strong&gt;ガッカリ&lt;/strong&gt; しました。USD $1499ほどかかってしまったのに、チュートリアルの動画、とんでもないぐらい大きいPDFの教科書、ハッキングラボ3か月のアクセスと一回の受験を含める例の公式トレーニングコースは、まさか全然役に立たなかったです。正直、あのトレーニングコースに不満が多すぎて別途の記事を書きたいぐらいです笑。とりあえず、OSCPの公式トレーニングコースは役に立たなかったので、他のいい学習のリソースを探すことにしました。&lt;/p&gt;
+
+&lt;p&gt;2021年の下旬、&lt;a href=&quot;https://www.offensive-security.com/offsec/oscp-exam-structure/&quot;&gt;OSCPの試験は大きい変化&lt;/a&gt; があり、かなりactive directory中心になりました。トレーニングコースの教材はもともとあまり質が良くないことも問題だし、active directoryの練習ができる環境自体は中々ないので、更にハードルが高く感じました。ネットで色々を調べた結果、 &lt;a href=&quot;https://academy.tcm-sec.com/&quot;&gt;TCM Security Academy&lt;/a&gt;の &lt;a href=&quot;https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course&quot;&gt;Practical Ethical Hacking&lt;/a&gt; トレーニングコースにたどり着きました。&lt;/p&gt;
+
+&lt;p&gt;一つの資格を勉強するために違う資格の教材を買うのはおかしいかもしれませんが、PNPTのトレーニングコースの方が良さそうと思ったので、まさにOSCPの勉強のために購入しました。それでも結局OSCPに落ちて、再挑戦する前にやはりもっと腕を磨いてADの知識を深く把握しなければならないと自覚して、まずはPNPTに受かることを決心しました。&lt;/p&gt;
+
+&lt;h1 id=&quot;pnptの試験&quot;&gt;PNPTの試験&lt;/h1&gt;
+
+&lt;p&gt;OSCPについてよく聞く批判は、非現実的なことです。現実では、ペネトレーションテストに24時間しかないと言う残酷なシナリオはまずあり得ないはずです。OSCPの厳しい時間制限のせいでちゃんと睡眠時間や休憩時間を取れない場合が多いし、カメラ越しでずっと試験監督に観察されるし更にストレスが大きくなり、技術スキルよりメンタルの強さを求める試験になっている気がします。&lt;/p&gt;
+
+&lt;p&gt;一方で、PNPTは &lt;strong&gt;試験に5日間&lt;/strong&gt; で、リポートを書くには &lt;strong&gt;2日間&lt;/strong&gt; と言うフローになります。なんと緩やかなペースではないですか！試験監督の観察もないし、睡眠時間や休憩時間を犠牲せずに自分のペースで進められます。ただし、試験を受けるには5日間連休が必要なので、学生や正社員であれば試験のタイミングが難しくなるかもしれません。&lt;/p&gt;
+
+&lt;p&gt;PNPTの試験は5つの部分に分けられるので、OSCPより少し長いです。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1日目～5日目&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;OSINT：&lt;/strong&gt; まずは架空の会社（本当に存在している会社ではなく、試験中のロールプレイのために作られたダミー会社）からペネトレーションテストの依頼が届きます。そのメールに、スコープ、試験のルール、VPNなどの必要な情報が全て含まれます。架空クライアントの会社を調べて、ペネトレーションテストで役に立ちそうな情報を集めます。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;外部ネットワークのペネトレーションテスト：&lt;/strong&gt; 集めた情報を使って、外部のシステムで脆弱性を発見し、侵入します。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;内部ネットワークのペネトレーションテスト：&lt;/strong&gt; 侵入した外部システムを使って、内部システムにpivotをします。目的は Domain Controller (DC) の Domain Admin のアカウントなので、ネットワークに置かれたサーバーを調査したりして、最後にDomain Admin のユーザーでDCにログインができたらペネトレーションテストの部分は完了です。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ペネトレーションテストの部分を完了したら、次はフォローアップのタスク2つがあります。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6日目～7日目&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;リポートを書く:&lt;/strong&gt; OSCPと同様に、ペネトレーションテストのリポートを提出する必要があります。TCM Security は &lt;a href=&quot;https://github.com/hmaverickadams/TCM-Security-Sample-Pentest-Report&quot;&gt;こちらのテンプレート&lt;/a&gt; を提供しましたが、他のテンプレートでも良いし、必要な情報が含まれているなら自由に書いても構いないそうです。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;約一週間後&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;架空クライアントとの打合せ:&lt;/strong&gt; ペネトレーションテストのクライアントとの打合せをシミュレーションするために、試験監督の方と15分ぐらいのビデオ通話をします。本物のペネトレーションテスト後の打ち合わせと同じように、テストの結果やセキュリティ課題への対策などを共有するための打合せです。Google Meetで行われるので、画面を共有してリポートを見せながら喋る、もしく簡単なパワーポイントを作っても大丈夫です。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;打合せが無事に終わったら、当日中にメールで資格のバッジとPDFが届きますよ！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/3.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;試験のフロー&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;上記のフローを読んだら、「あれ、本物のペネトレーションテスト見たい！」と思いませんでしたか？これは、PNPTをペネトレーションテストの初心者におすすめしたい理由の一つなのです。最初から最後まで、この試験は本物のペネトレーションテストのシミュレーションなので、リポートの書き方やプレゼンのスキルまで、プロのペネトレーションテスターに不可欠な要素を学べます。&lt;/p&gt;
+
+&lt;p&gt;今の時点で、このようにペネトレーションテストの最初から最後まで教わる資格はPNPTだけだと思うので、非常に良い経験になると思います。&lt;/p&gt;
+
+&lt;p&gt;ご興味のある方、是非&lt;a href=&quot;https://certifications.tcm-sec.com/wp-content/uploads/2022/01/TCMS-PNPT-Training-Overview.pdf&quot;&gt;試験のシラバス&lt;/a&gt; もご覧ください。&lt;/p&gt;
+
+&lt;h1 id=&quot;私の合格への道&quot;&gt;私の合格への道&lt;/h1&gt;
+
+&lt;p&gt;私は2022年の3月にOSCPを落ちてからPNPTを目指すことにしたので、スタートの時点から合格までは8か月ぐらいかかりました。&lt;/p&gt;
+
+&lt;h2 id=&quot;勉強の方法&quot;&gt;勉強の方法&lt;/h2&gt;
+
+&lt;h3 id=&quot;公式トレーニングコース&quot;&gt;公式トレーニングコース&lt;/h3&gt;
+
+&lt;p&gt;PNPT試験の内容は &lt;a href=&quot;https://academy.tcm-sec.com/&quot;&gt;TCM Academy&lt;/a&gt; の提供している5つのコースにカバーされます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/4.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;各コースはたったUSD $30だけなので、めちゃくちゃ安いですよ！&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course&quot;&gt;Practical Ethical Hacking&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://academy.tcm-sec.com/p/windows-privilege-escalation-for-beginners&quot;&gt;Windows Privilege Escalation for Beginners&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://academy.tcm-sec.com/p/linux-privilege-escalation&quot;&gt;Linux Privilege Escalation for Beginners&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://academy.tcm-sec.com/p/osint-fundamentals&quot;&gt;Open Source Intelligence (OSINT) Fundamentals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://academy.tcm-sec.com/p/external-pentest-playbook&quot;&gt;External Pentest Playbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;全てのコースを完了した上で、100/10の評価ができるぐらい良かったと思っています！教材は分かりやすかったし、一番いいところは、Heathさんが頻繁にmemeや冗談を混ぜて面白くしようとしてくれたことです（memeは必須だと思います！）。&lt;/p&gt;
+
+&lt;h3 id=&quot;oscpの準備&quot;&gt;OSCPの準備&lt;/h3&gt;
+
+&lt;h4 id=&quot;hack-the-box--offsec-proving-grounds&quot;&gt;Hack the Box &amp;amp; Offsec Proving Grounds&lt;/h4&gt;
+
+&lt;p&gt;OSCPを勉強してた時、皆さんと同じように &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159&quot;&gt;TJNullさんのOSCP-like boxesのリスト&lt;/a&gt; を参考しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.hackthebox.com/&quot;&gt;Hack the Box&lt;/a&gt; と &lt;a href=&quot;https://www.offensive-security.com/labs/&quot;&gt;Offsec Proving Grounds&lt;/a&gt; のVIPプランを買って、以下をしました：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;時間がある時、リストからランダムにboxを選んで自分で挑戦してみました&lt;/li&gt;
+  &lt;li&gt;時間がない時、リストからランダムにboxを選んでwalkthroughを読んで、よくある攻撃パターンやコマンドをメモしました&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tryhackme-wreath&quot;&gt;TryHackMe “Wreath”&lt;/h4&gt;
+
+&lt;p&gt;Hack the Box、Try Hack Me、Offsec Proving Groundsなどは大体individual boxしかないので、ADハッキングの練習ができるような環境は中々見つからないですね。&lt;/p&gt;
+
+&lt;p&gt;調べてみたら、TryHackMeの &lt;a href=&quot;https://tryhackme.com/room/wreath&quot;&gt;Wreath&lt;/a&gt; ルームを発見しました。このルームは簡単なADネットワークがあって、目的はDCを乗っ取ることです。以前ツイッターで詳しく感想を書いたので、是非ご覧ください。要するに、少し高いですが、「Wreath」ルームを終えられたら、pivotingとdouble pivotingのプロになれます。普段中々磨けないスキルの2つなので、非常に良い勉強になってやり甲斐があると思います。&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I finished &lt;a href=&quot;https://twitter.com/RealTryHackMe?ref_src=twsrc%5Etfw&quot;&gt;@RealTryHackMe&lt;/a&gt; &amp;#39;s Throwback network! My thoughts in the thread 👇🧵 &lt;a href=&quot;https://t.co/00XAbChB9R&quot;&gt;pic.twitter.com/00XAbChB9R&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gloria Chow (@gmgchow) &lt;a href=&quot;https://twitter.com/gmgchow/status/1514063845723348992?ref_src=twsrc%5Etfw&quot;&gt;April 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;前に「Wreath」について感想をツイッタースレに書きました&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;過去の失敗&quot;&gt;過去の失敗&lt;/h2&gt;
+
+&lt;p&gt;Health Adamsさんが以前、どこかで宣言したような気がしますが、一部の受験生は一回目で受かります（Reddit掲示板で3割の予測を見たことがありますが、本当なのか分かりません）。ほとんどの人は二回目で合格するそうです。&lt;/p&gt;
+
+&lt;p&gt;私は、&lt;strong&gt;三回目&lt;/strong&gt; で合格したのです。正直、ずっと合格できないのではないかと思い込みました。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1回目：5月1～5日（5日間を使っても落ちました）&lt;/li&gt;
+  &lt;li&gt;2回目：5月14～19（5日間を使ってもまた落ちました…）&lt;/li&gt;
+  &lt;li&gt;3回目：11月19～21日（たった2日間で合格できた！！！）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2回目と3回目の間に結構時間を置いてしまったせいか、3回目の試験は少し変わったのですが、3回目は &lt;strong&gt;明らかにスムーズ&lt;/strong&gt; に進められました。&lt;/p&gt;
+
+&lt;p&gt;理由は2つがあると思います。PNPTの試験に落ちる時、もし落ちてもリポートを提出して、そのリポートに何をトライしたのか、何をしてみたかったのかなど、具体的なアイデアや作戦を書けば、retakeで使えるヒントをもらえます。2回の失敗で得た経験、その小さいヒント2つと勉強の補足のおかげで、3回目はスムーズになったと思います。最初はもちろん悔しかったですが、今は2回の失敗を全然後悔していません。逆に、非常に良い勉強になったので、失敗とは言えないかなと思っています！&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;（備考：2022年11月23日以来、ヒントの仕組みはなくなりましたが、そんなに大した変更ではないと思います。正直、もらったヒントより、失敗の経験の方が良い勉強になった気がするので、ヒントがなくても皆さんがきっとretakeで合格できますよ！）&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;評価&quot;&gt;評価&lt;/h1&gt;
+
+&lt;p&gt;私のPNPTへの評価は以下となります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/5.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;私のPNPTへの評価&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;値段1010&quot;&gt;値段：10/10&lt;/h2&gt;
+
+&lt;p&gt;間違いなく満点です。PNPTはとても安くて、多分ペネトレーションテストの試験の中で一番安いと思います。以下はライバルのOSCPとの値段の比較です。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OSCP&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;受験料 + トレーニングコース：USD $1499&lt;/li&gt;
+  &lt;li&gt;試験のretake（トレーニングコースを受けないで直接に受験することは不可能ような気がします）：USD $249&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;PNPT&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;受験料（無料なretake一回付き） + トレーニングコース（5つ全巻）：USD $399&lt;/li&gt;
+  &lt;li&gt;試験のみ（トレーニングコースなしで受験する、無料なretake一回付き）：USD $299&lt;/li&gt;
+  &lt;li&gt;retakeの受験料（2回目は無料なので、3回目以降の受験料です）：USD $100&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;OSCPは何千ドルもかかりますが、PNPTは400米ドル以下で受けられるなんて、信じられないぐらい安いですよ！&lt;/p&gt;
+
+&lt;h2 id=&quot;バリュー1010&quot;&gt;バリュー：10/10&lt;/h2&gt;
+
+&lt;p&gt;こちらも満点です。PNPTのトレーニングコースと試験のパッケージはOSCPの値段の四分の一なのに、質が &lt;strong&gt;何倍も&lt;/strong&gt; 良いです。Heathさんの動画は質が良くて分かりやすい一方で、OSCPのはかなりモノトーンで面白くなかったので、実は途中に見ることを諦めてしまいました。PDFの教科書も特に役に立たなかったし、PNPTの方がずっとコスパが良いと思います（私は本当にスポンサーではありません笑）&lt;/p&gt;
+
+&lt;h2 id=&quot;難易度6510&quot;&gt;難易度：6.5/10&lt;/h2&gt;
+
+&lt;p&gt;もしOSCPは難易度10/10だとしたら、PNPTは6か7ぐらいで、比較的に難易度が低いと思います。&lt;/p&gt;
+
+&lt;p&gt;PNPTもラビットホールが多いですが、基本的にどうすれば良いのかを理解できます。試験自体はOSCPより少し長いですが、ゆっくりで進める余裕があるので、全体的にOSCPより難易度が低いと感じました。&lt;/p&gt;
+
+&lt;h2 id=&quot;リアリズム710&quot;&gt;リアリズム：7/10&lt;/h2&gt;
+
+&lt;p&gt;試験に出てきたboxは確かにOSCPのよりリアル感がありましたが、まだリアルのサーバーから遠いです。例えば、サーバーにあるファイルやアプリケーションはその場とフィクションお客さんの会社で使われる物には全然見えなくて、不自然でした。とは言っても、あくまで試験のために整えられた環境なので、この点は仕方ないかもしれませんね。&lt;/p&gt;
+
+&lt;h2 id=&quot;ネームバリュー410&quot;&gt;ネームバリュー：4/10&lt;/h2&gt;
+
+&lt;p&gt;残念ながら、PNPTはまだセキュリティ分野であまり人気ではなく、OSCPやeCPPTみたいな名の通った試験に負けることは事実です。読者のあなたも、もしかしてこの記事を読む前にPNPTを聞いたこともなかったかもしれません。しかし、PNPTはこの数年間、徐々に注目されています。今まで取った資格の中で本当に一番いいと思っているので、今後も段々人気になることを期待しています。&lt;/p&gt;
+
+&lt;h2 id=&quot;実用性810&quot;&gt;実用性：8/10&lt;/h2&gt;
+
+&lt;p&gt;OSCP、Hack the Boxなどの目的はできるだけrootユーザーを乗っ取ることなのですが、PNPTは全く違って、flagや点数などのゲーム感が一切ありません。ADネットワークに侵入しますが、全てのサーバーをrootするわけではありません。DCを乗っ取るためにどのサーバーのrootが必要なのかを考えた上でrootするのです。目的を考えながらテクニックを環境に合わせるような柔軟なマインドセットは、本物のペネトレーションテスターには不可欠なスキルなので、PNPTで学んだことは実用性がかなり高いと思います。&lt;/p&gt;
+
+&lt;p&gt;それに、OSCPやHack the Boxのサーバーはよく古くて、現代ではほとんど見ない脆弱性が多いですが、PNPTに出てくるセキュリティの課題は全てよく見る課題です。&lt;/p&gt;
+
+&lt;p&gt;ただし、満点ではなく8点しか挙げなかった理由は、PNPTの試験の難易度が結構低くて、本物のペネトレーションテストに出てくるサーバーよりずっと侵入しやすい気がします。なので、この資格で本当にキャリアとしてRed Teamerやペネトレーションテスターになれるかどうかは疑問です。改めて初心者向けの資格だと実感しました。&lt;/p&gt;
+
+&lt;h2 id=&quot;楽しさ1010&quot;&gt;楽しさ：10/10&lt;/h2&gt;
+
+&lt;p&gt;私は &lt;a href=&quot;https://www.linkedin.com/in/gmgchow/details/certifications/&quot;&gt;10種以上の資格&lt;/a&gt; を持っていますが、PNPTの試験は間違いなく一番楽しかったです！各サーバーを調査した時、面白いジョークやmemeが出てきたし、ゆっくりなペースで試験を進められたし、今までの試験の中で一番楽でした。全体的に、この試験を受けて良かったと思い、単純に趣味としてもう一回受けてみようかなと考えましたが、やはりダメでしょうね笑。&lt;/p&gt;
+
+&lt;h1 id=&quot;ヒント&quot;&gt;ヒント&lt;/h1&gt;
+
+&lt;p&gt;PNPTを受けたい人に、以下のヒント3点を共有したいです。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;試験を &lt;strong&gt;進めながら&lt;/strong&gt; スクリーンショットを取ったりリポートを書いたりした方がいいです。OSCPと同じように、試験が終わったら試験の環境に戻ることができません。リポートを書く時に山ほどあるスクリーンショットの中から適切なのを探すことは大変だし、重要な詳細を書き忘れてしまう可能性もあるし、リポートを後回しにすることはおすすめしません。&lt;/li&gt;
+  &lt;li&gt;やってみたことや進捗を &lt;strong&gt;全て&lt;/strong&gt; 詳しくメモした方がいいです。試験に落ちた場合、リポートに添付したら、retakeで使えるヒントをもらえるので、詳しく書けば書くほどいいです。（&lt;em&gt;備考：2022年11月23日の時点で、ヒントの仕組みがなくなりました。しかし、詳しいメモを取る習慣は損にはならないし、retakeやリポートを書く時でも役に立つのでおすすめします。&lt;/em&gt;）&lt;/li&gt;
+  &lt;li&gt;リラックスして、&lt;strong&gt;絶対に諦めないでください&lt;/strong&gt;。よく考えると、5日間はこの試験に十分な時間で、リフレッシュする余裕があるはずです。私はたまに疲れすぎて目の前にソリューションがあっても見えなかったので、ちゃんと休憩を取ったりした方がいいと思います。落ち着いて、考えた作戦や気になることをメモして、諦めないでコツコツこなせば、絶対に合格できるのです！&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;最後に&quot;&gt;最後に&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PNPTはまだ人気ではない資格ですが、OSCPよりずっと &lt;strong&gt;良い入門の資格&lt;/strong&gt; だと思います。この8か月に、たくさんを学べて非常に良い経験になりました。ペネトレーションテストやRed Teamなどのoffensive security分野に興味ある方に、本当におすすめします。&lt;/p&gt;
+
+&lt;p&gt;PNPTをもっと詳しく知りたい方、&lt;a href=&quot;https://certifications.tcm-sec.com/pnpt/&quot;&gt;ホームページ&lt;/a&gt; をご覧ください。&lt;/p&gt;
+
+&lt;p&gt;また今度、OSCPに落ちた経験と、PNPTとOSCPを詳しく比較する記事を書きたいと思います。是非楽しみにしてください！&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="サイバーセキュリティ" /><category term="キャリア" /><category term="資格" /><category term="勉強" /><summary type="html">(EN/JA) 先週、PNPT (Practical Network Penetration Tester) に受かりました！この資格はまだセキュリティ分野であまり人気ではありませんが、今まで取った資格の中で、一番良かったと思っています！是非この資格の紹介も含めて、今回の経験と感想を共有したくてこの記事を書きました。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-12-05/1.png" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-12-05/1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">試用期間の本当の意味は？</title><link href="https://gmgchow.github.io/ja/blog/2022/10/24/probation-period.html" rel="alternate" type="text/html" title="試用期間の本当の意味は？" /><published>2022-10-24T00:00:00+09:00</published><updated>2022-10-24T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/10/24/probation-period</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/10/24/probation-period.html">&lt;p&gt;(EN/JA) 今月、日本コンピュータービジョンでの3ヵ月の試用期間が無事に終わりました。インターンシップを除いて三社目なので、試用期間の経験も三回目でした。しかし、今回は初めて雇い主である会社と雇われた社員である私、両方にとって「試用期間」の意味を真剣に考えました。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/blog/2022/10/24/probation-period.html&quot;&gt;Read in English&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-24/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;海外では「年を取れば取るほど職場に対してこだわりが強くなる」と言われます。過去にどんな職場で上手く行ったのか、どんな職場が嫌だったのか、転職の経験を積むことで理解してくるはずなので、その言葉は本当だと思います。最近の試用期間の経験と意見を共有したくてこの記事を書きまして、皆さんの次の転職の時にお役に立てればと思います。&lt;/p&gt;
+
+&lt;h1 id=&quot;試用期間というのは何ですか&quot;&gt;試用期間というのは何ですか？&lt;/h1&gt;
+
+&lt;p&gt;新入社員が入る時、「試し」の期間がある会社は少なくありません。この「試用期間」に、会社は新入社員を評価して、正社員に相応しいかどうかを判断します。試用期間の長さは会社それぞれ異なり、基本的に1～6ヵ月のが多いですが、3ヵ月ぐらいは一番よくあるでしょう。&lt;/p&gt;
+
+&lt;p&gt;多くの人にとって、試用期間は会社に評価される期間なのですが、実は&lt;strong&gt;あなたが会社を評価する機械&lt;/strong&gt;にもなります。会社は試用期間中に解雇できることと同じように、あなたも自分に相応しくない環境だと判断したら退職することができます。&lt;/p&gt;
+
+&lt;p&gt;つまり、キャッチアップや仕事の内容を覚えるほか、試用期間が終わったら会社に勤め続きたいのかを考えることも新入社員の責任です。&lt;/p&gt;
+
+&lt;h1 id=&quot;試用期間中に注意すべきな7つのこと&quot;&gt;試用期間中に注意すべきな7つのこと&lt;/h1&gt;
+
+&lt;h2 id=&quot;企業文化チームカルチャー&quot;&gt;企業文化・チームカルチャー&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-24/2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;面接の段階で会社の雰囲気やチームのカルチャーについてもちろん色々なことを聞けますが、正直、入社する前に100%に把握することはとても難しいと思います。会議で話し合ったり、タスクでコラボレーションしたり、飲み会などで仲良くなったり、様々な場面で同僚と接することで会社のカルチャーをだんだん理解するしかありません。ワークライフバランス（&lt;a href=&quot;https://gmgchow.github.io/ja/blog/2022/10/02/work-life-balance.html&quot;&gt;前に書いた記事&lt;/a&gt;通りにとても大事です！）、価値観が合うかどうか、チームと会社の将来像などの大切なポイントは時間が経つと明確になるはずです。このような要素は、会社に長くかつ不満が少なく勤めることと繋がる大事な要素なので、注意した方が良いと思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;上司との相性&quot;&gt;上司との相性&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-24/3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;世の中に良い上司と悪い上司が間違いなくいますが、上司は良いのか悪いのかは自分との相性次第だとは言えるでしょう。例えば、経歴が短い新人にとって、たくさんの指示を出したり頻繁に報連相を求めてくる上司はそんなに悪くないかもしれませんが、経歴の長く独立にタスクをこなしたいベテランにとって嫌な上司になります。&lt;/p&gt;
+
+&lt;p&gt;私は社会人になってからたくさんの上司がいて（&lt;a href=&quot;https://gmgchow.github.io/ja/blog/2022/07/14/mercari-retrospective.html&quot;&gt;メルカリに在職した間&lt;/a&gt;に5人もいました！）、友人やメンターみたいに頼りになった上司もいれば、仕事やキャリアの相談さえ乗ってくれなかった無能な上司もいました。相性の良い上司がいた時に私は全力で輝けましたが、相性悪い上司がいた時にモチベーションが下がってしまって仕事で本気を出せなかったです。ですので、上司（と上司の上司）との相性は本当に大事だと思います。&lt;/p&gt;
+
+&lt;p&gt;試用期間中に上司と直接に関わる機会が多いはずなので、上司との相性がだんだん分かります。しかし、上司の上の人（上司の上司、ダイレクター、経営層など）との相性も大事なので、彼らの会社への将来像や社員の扱い方などを見極めることもおすすめです。&lt;/p&gt;
+
+&lt;h2 id=&quot;コミュニケーションスタイル&quot;&gt;コミュニケーション・スタイル&lt;/h2&gt;
+
+&lt;p&gt;マネジメント・スタイルと同じように、コミュニケーション・スタイルも人により異なります。独立にタスクをこなすメインで必要な時だけにコラボレーションする人もいれば、ペアー・プログラミングなどで日常的なタスクも一緒にこなしたい人もいます。Slackやメールでasynchronous communication（非同期コミュニケーション）を好む人もいれば、オフラインかオンライン会議でsynchronous communication（同期コミュニケーション）じゃなければ不安を抱える人もいます。&lt;/p&gt;
+
+&lt;p&gt;チームとのコミュニケーション・スタイルの相性はとても大事です。例えば、非同期コミュニケーションで仕事したい人にとって、同期コミュニケーションの好きで会議が多いチームにいたら、疲れてしまいます。このような小さな相性の悪い所が重なって、ストレスと恨みがだんだん溜まってしまうので早めに見極めた方が良いと思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;プロセス&quot;&gt;プロセス&lt;/h2&gt;
+
+&lt;p&gt;テック業界のエンジニアにとって、開発のプロセスは会社への満足度と直接に繋がります。例えば、ウォーターフォール型開発する会社にいると、一気に大量の仕事が降られることがあるのでストレスを感じてしまうかもしれません。deadline-driven development（締切駆動開発）する会社にいると、エンジニアよりビジネス側の方が締め切りを決める権利があるので、エンジニアが厳しい締め切りに間に合うために残業をたくさんするというパターンもあります。&lt;/p&gt;
+
+&lt;p&gt;会社のプロセスとの相性が悪ければ、正直、改善することは難しいので自分自身を変えるのか、自分にもっと相応しい会社に行くのか、2つの選択肢しかないと思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;日常的なタスクと期待&quot;&gt;日常的なタスクと期待&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-24/4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;これも面接の段階で聞くことができますが、他人から聞いた説明と実際に自分でやってみることは全然違う場合があると思います。&lt;/p&gt;
+
+&lt;p&gt;試用期間中に毎日どんなタスクをするのかが明確になります。上司や総理部の日常的な期待やルール（勤怠管理、労働時間、定期的に参加しなければいけない会議など）も把握できます。&lt;/p&gt;
+
+&lt;p&gt;面接の段階で日常的なタスクを聞いても、抽象的な説明で終わることが多いので、実際に入社したら「思ったよりなんか違うな…」という場合もあるでしょう。試用期間中にこのような違和感を感じたら、自分の持ってた期待を変えて現実を受け入れられるのか、それとも退職するのか、考えた方が良いのではないでしょうか。&lt;/p&gt;
+
+&lt;h2 id=&quot;成長の機械&quot;&gt;成長の機械&lt;/h2&gt;
+
+&lt;p&gt;面接の段階で、評価制度や昇進昇格制度の情報を公開しない会社は多いので、これも入社する前に完全に分かることは難しいです。入社の後も、実際に1回2回ぐらい評価を経験しないと分からない場合が多いです。&lt;/p&gt;
+
+&lt;p&gt;試用期間中に自分に聞くべき大事な質問は、「この会社で何が&lt;strong&gt;得られる物&lt;/strong&gt;があるのか？」です。将来と繋がるスキルアップなどの機械がありますか？昇格する機械がありますか？もしまだ試用期間中なのに、もう「昇進昇格ができなさそうだな…」とか「将来私はどうなるか不安だな…」などの悩みがあれば、恐らくその会社はあなたの望んでいる成長の機会ではないかもしれません。&lt;/p&gt;
+
+&lt;h2 id=&quot;直感&quot;&gt;直感&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-24/5.jpg&quot; alt=&quot;&quot; /&gt;　&lt;/p&gt;
+
+&lt;p&gt;最後に、多くの人が無視してしまうサインは「直感」なのです。私の経験では、結局不満を多く抱えた会社に入った時、最初の2週間以内に違和感を感じました。新しい職場とどこか相性悪かったり、何か思ったより違ったりすれば、すぐに直感で分かるはずです。もし入社した直後に違和感を感じ始めたら、上記のポイントを見直し、違和感の原因を考え、本当に自分に相応しい会社なのかを見極めた方が良いと思います。&lt;/p&gt;
+
+&lt;h1 id=&quot;最後に&quot;&gt;最後に&lt;/h1&gt;
+
+&lt;p&gt;試用期間はあなたと会社がお互いを評価する試しの期間です。会社が期待に答えれない新入社員を解雇できると同じように、あなたも期待を答えてくれない会社を退職する権利があります。上記の7つのポイントは全て改善することは非常に難しいので、時間が経つと受け入れられるようになれるのか、やはり無理で転職するのか、見極めた方が良いのではと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-24/6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;英語では「It takes two to tango」（タンゴを踊るには二人が必要）という言葉があります。社員と会社の関係がスムーズに長く続くには両方の納得も必要です。もし違和感を感じたら、上司などに自分の意見をはっきり言って話し合ってもらうか、転職活動を再開するか、どちらに決める勇気を出してください。&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="キャリア" /><category term="転職" /><summary type="html">(EN/JA) 今月、日本コンピュータービジョンでの3ヵ月の試用期間が無事に終わりました。インターンシップを除いて三社目なので、試用期間の経験も三回目でした。しかし、今回は初めて雇い主である会社と雇われた社員である私、両方にとって「試用期間」の意味を真剣に考えました。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-10-24/1.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-10-24/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">ワークライフバランスが良い会社の6つの共通点</title><link href="https://gmgchow.github.io/ja/blog/2022/10/02/work-life-balance.html" rel="alternate" type="text/html" title="ワークライフバランスが良い会社の6つの共通点" /><published>2022-10-02T00:00:00+09:00</published><updated>2022-10-02T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/10/02/work-life-balance</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/10/02/work-life-balance.html">&lt;p&gt;(EN/JA) 最近、仕事で多忙な毎日を過ごし、自分の目標などが二の次になってしまいそうな気がして、ワークライフバランスについてよく考えるようになりました。個人の意見とワークライフバランスが良い会社の特徴を述べたいと思い、この記事を書きました。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/blog/2022/10/02/work-life-balance.html&quot;&gt;Read in English&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-02/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;ワークライフバランスは何なぜ重要なの&quot;&gt;ワークライフバランスは何？なぜ重要なの？&lt;/h1&gt;
+
+&lt;p&gt;「ワーク・ライフ・バランス」というのは、文字通りに「ワーク」（仕事）と「ライフ」（プライベートの時間）の「バランス」（調和）を維持するという意味を指します。&lt;/p&gt;
+
+&lt;p&gt;ワークライフバランスは意外と論争を招く話題の一つです。「真面目な社員は勤務時間外でも仕事のことを考えたり、こなしたりする」という考え方がよくあるので、オンコール手当や残業代がなくてもプライベートの時間にビジネスメールやSlackを見たり、残業や緊急タスクをしたりすることを求める会社は少なくないと思います。&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Here&amp;#39;s a topic that tends to get mixed opinions. Should employees be checking work email/Slack on weekends and days off? Why or why not?&lt;/p&gt;&amp;mdash; Gloria Chow (@gmgchow) &lt;a href=&quot;https://twitter.com/gmgchow/status/1571373518675410947?ref_src=twsrc%5Etfw&quot;&gt;September 18, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;↑ 先月、ツイッターで問った投票です。投票した人数が少ないですが、社員がプライベートの時間でも連絡が取れるべきかどうかに関して考え方は様々あることが分かりました&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;ワークライフバランスの大切さは人それぞれに違うと思います。仕事が大好きで喜んで全ての時間を仕事に捧げる「ワーカホリック」の人がいれば、オンオフのメリハリをちゃんと付けたい人もいます。どれが正しいのか、どれが正しくないのか、正解がないと思います。結局、価値観によるので、自分の価値観に合う会社とチームを見つければ良いのではないでしょうか。&lt;/p&gt;
+
+&lt;p&gt;個人的な意見ですが、転職先を考える時にワークライフバランスが一番大切じゃなくてもトップに近い優先順位です。人間は働くために生きていることではなく、生きるために働くものだと思っていますから。現代の人（特にIT業界の人）はほとんど終身雇用をしないので、仕事は人生の中のたった一章に過ぎないように思えば良いと思います。今の会社での一章の終わりにたどり着いたら、転職で今まで学んだこと、人脈、思い出などを持って「人生」という物語の次の一章に進むのです。&lt;/p&gt;
+
+&lt;p&gt;つまり、あなたの物語の主人公は、会社ではなく、&lt;strong&gt;あなた&lt;/strong&gt;です。会社の人が変わったり、会社の方針なども時間が経つに連れて変わるし、いつかあなたのした仕事は必ず無意味になるでしょう。しかし、あなたの人生は続きます。なので、仕事は自分のアイデンティティの一部だとしても、全てではないので、仕事以外の人生もとても大事だと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-02/2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;ワークライフバランスが良い会社の６つの共通点&quot;&gt;ワークライフバランスが良い会社の６つの共通点&lt;/h1&gt;
+
+&lt;p&gt;正直、会社に入ってみないとワークライフバランスが良いのか悪いのかを判断することは非常に難しいです。知合いに聞いたり、社員のSNSなどを見たり、ネットで口コミを調べたりすることもおすすめしますが、私の経験から言うと、ワークライフバランスの良い会社は大体以下６つの特徴があります。&lt;/p&gt;
+
+&lt;h2 id=&quot;１趣味&quot;&gt;１）趣味&lt;/h2&gt;
+
+&lt;p&gt;プライベートの時間でよく働くと、趣味を持つことは難しいので、社員は仕事以外の趣味があるかどうかは結構重要なポイントだと思います。&lt;/p&gt;
+
+&lt;p&gt;面談、面接や採用イベントに行く際、軽く週末の過ごし方などを聞いてみると良いかもしれません。LinkedIn、ツイッターなどのSNSで社員を検索して趣味を把握できる場合もあります。&lt;/p&gt;
+
+&lt;p&gt;無趣味（それとも「趣味は仕事」）の社員が多きれば、プライベートの時間が少なく、常にバーンアウトしている理由で中々趣味を楽しめない可能性があるので明らかな「red flag」（危険信号）です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-02/3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;２資格と自律的な学習&quot;&gt;２）資格と自律的な学習&lt;/h2&gt;
+
+&lt;p&gt;社員が資格の勉強などの自律的な学習をするかどうかは2つ目のポイントです。資格の勉強は結構時間がかかるので、資格を取る社員が多ければ良いサインだと思います。&lt;a href=&quot;https://gmgchow.github.io/ja/blog/2022/07/14/mercari-retrospective.html&quot;&gt;私もメルカリに在職した間に&lt;/a&gt;、良いワークライフバランスのおかげ様で夕方や週末に勉強に集中して、色々な資格を取ることができました。&lt;/p&gt;
+
+&lt;p&gt;いつもプライベートの時間でも働くざるを得ない場合、資格を勉強したり、カンファレンス、セミナー、勉強会などに参加したりする余裕があるはずがないので、これができる人の会社は間違いなくワークライフバランスが良い方です。&lt;/p&gt;
+
+&lt;h2 id=&quot;３コミュニティーへの貢献&quot;&gt;３）コミュニティーへの貢献&lt;/h2&gt;
+
+&lt;p&gt;社員がテック・コミュニティーへ貢献するかどうかは3つ目のポイントです。2つ目のポイントと同じく、イベントで講演したり、ブログ記事を書いたり、オープンソース・プロジェクトに貢献したりすることは非常にプライベートの時間がかかります。それでも積極的ににコミュニティーへ貢献ができれば、普段平日や週末に働いていない証拠になるでしょう。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-02/4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;４個人プロジェクトや副業&quot;&gt;４）個人プロジェクトや副業&lt;/h2&gt;
+
+&lt;p&gt;社員が個人プロジェクト、起業や副業をしているかどうかは4つ目のポイントです。これも全て非常に時間を費やす活動なので、常に長時間または休日出勤している人には難しいです。個人プロジェクトや他の会社で同時に働ければ、オンとオフの時間にメリハリがある証拠だと言えるでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;５オフタイムの連絡&quot;&gt;５）オフタイムの連絡&lt;/h2&gt;
+
+&lt;p&gt;社員のオフタイムにビジネスメールやSlackへの対応は結構重要なポイントです。これを確認することは最も難しいですが、面接の段階で勤務時間外に人事のメールを返信してみると良いかもしれません。もちろんこの方法で完全にワークライフバランスが分かるわけではありませんが、ただ、人事部がいつもオフタイムにも速やかに返信をしてくれれば、恐らくその会社はオフタイムにもビジネスメールやSlackを見ないといけない文化があるかもしれません。&lt;/p&gt;
+
+&lt;h2 id=&quot;６年齢や家族構成&quot;&gt;６）年齢や家族構成&lt;/h2&gt;
+
+&lt;p&gt;最後は一番論争を招きやすいポイントかもしれませんが、私の経験から言うと、ほとんどの社員が若い・独身・子供がいない会社はワークライフバランスが悪い傾向があります。なぜかというと、どちらかというと家族のケアは時間を使うので、家族を持っている人はワークライフバランスが取れない会社を選ばない傾向があります。若い・独身・子供がいない社員が家族の都合という理由で働けない心配が少ないからこそ、そういう社員ばかり雇って時間外労働を求める会社もあります。一見、若い人の多い会社は雰囲気が明るくて楽しそうに見えるかもしれませんが、このポイントは偏見っぽくても注意した方が良いと思います。&lt;/p&gt;
+
+&lt;p&gt;逆に、家族を持っている人にとっては、看護休暇・育児休暇・出産休暇の制度が良くて、プライベートと仕事を両立させてもらえる会社は魅力的なのです。家族を持っている社員が多い場合、その会社は社員のプライベートも大事にしているからこそ、バランスが取れるように良い休暇制度などを提供しているかもしれません。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-02/5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;最後に&quot;&gt;最後に&lt;/h1&gt;
+
+&lt;p&gt;人間は寿命末期によくある後悔は、「もっと大切な人といたかったな」とか「若い頃にもっと夢を追えれば良かったな」とからしいです。「もっと長時間働きたかったな」とか「もっと週末を犠牲にしてあのプロジェクトを早くリリースさせれば良かったな」とかを言う人は一切いません。&lt;/p&gt;
+
+&lt;p&gt;仕事は人生の一部しかならないので、将来に後悔をしないように今の時間を有意味に使うべきです。時間は限られていて、ワークライフバランスが悪い会社にいると取り戻せない貴重な時間がなくなってしまうので、ワークライフバランスはどうしても重要だと思います。&lt;/p&gt;
+
+&lt;p&gt;もちろん上記に載せた６つのポイントで確実に白か黒か判断できるわけではなく、詳しく色々な情報を調べる必要もありますが、ワークライフバランスが良い会社の見分け方について少しでもお役に立てれば嬉しいです。ご精読ありがとうございました！&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="キャリア" /><summary type="html">(EN/JA) 最近、仕事で多忙な毎日を過ごし、自分の目標などが二の次になってしまいそうな気がして、ワークライフバランスについてよく考えるようになりました。個人の意見とワークライフバランスが良い会社の特徴を述べたいと思い、この記事を書きました。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-10-02/1.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-10-02/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">メルカリを卒業しました！</title><link href="https://gmgchow.github.io/ja/blog/2022/07/14/mercari-retrospective.html" rel="alternate" type="text/html" title="メルカリを卒業しました！" /><published>2022-07-14T00:00:00+09:00</published><updated>2022-07-14T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective.html">&lt;p&gt;(EN/JA/ZH) 先月、5年近く勤めてきた株式会社メルカリを卒業しました！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective.html&quot;&gt;Read in English&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/zh/blog/2022/07/14/mercari-retrospective.html&quot;&gt;看中文版&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;メルカリはCraigslistやEbayのようなフリマアプリです。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;私は2017年11月1日にメルカリに入社しました。日本での初めての会社で、将来の事が分からなくて、とりあえず一年半や二年間ぐらいいようと思ってジョインしましたが、結局5年近くいるなんて想像もしなかったです！入社してから4年9ヵ月間が経って、ようやく6月14日に最終出社日を迎えました。&lt;/p&gt;
+
+&lt;p&gt;入社した当時の私と今の私を比べると、もはや別人だと言えるぐらい成長してきた気がします。この数年間の振り返りとしてこの記事を書きました。&lt;/p&gt;
+
+&lt;h1 id=&quot;タイムライン&quot;&gt;タイムライン&lt;/h1&gt;
+
+&lt;h2 id=&quot;2017年11月2018年10月setと自動化テスト時代&quot;&gt;2017年11月～2018年10月：SETと自動化テスト時代&lt;/h2&gt;
+
+&lt;p&gt;最初は、自動化テストを担当する「Software in Test (SET)」として入社しました。&lt;/p&gt;
+
+&lt;p&gt;当時に使った技術スタック：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;iOS: XCUITest, Swift, Earl Grey&lt;/li&gt;
+  &lt;li&gt;Android: Ruby, Appium&lt;/li&gt;
+  &lt;li&gt;API: JMeter, Postman&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;主な達成：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;iOSの自動化テストを開発リポジトリとCIパイプラインに導入しました&lt;/li&gt;
+  &lt;li&gt;iOS自動化テストのnightly buildを設定しました&lt;/li&gt;
+  &lt;li&gt;テスト結果のリポートを改善しました&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/gmgchow/fastlane-plugin-retry&quot;&gt;fastlane plugin&lt;/a&gt; を開発して、オープンソースしました&lt;/li&gt;
+  &lt;li&gt;「ISTQB Advanced - Test Automation Engineer」が受かりました&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2018年10月2019年7月testdeck時代&quot;&gt;2018年10月～2019年7月：Testdeck時代&lt;/h2&gt;
+
+&lt;p&gt;メルカリはマイクロサービス・アーキテクチャへの移行が始まった頃、マイクロサービスのテストができる社内ツールを作る必要になって、私はそのプロジェクトに入りました。結果として、&lt;a href=&quot;https://github.com/mercari/testdeck&quot;&gt;Testdeck&lt;/a&gt; というツールを開発して、&lt;a href=&quot;https://engineering.mercari.com/blog/entry/20200930-testdeck/&quot;&gt;こちらの記事&lt;/a&gt; で説明したようにオープンソースしました。&lt;/p&gt;
+
+&lt;p&gt;主な達成：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;プロジェクトに貢献するためにマイクロサービス・アーキテクチャ、Kubernetes、GCP、Go などを学んで、最終にTestdeckのリードになりました&lt;/li&gt;
+  &lt;li&gt;マイクロサービスの開発チームと親しく働いて、自動化テストの導入、トラブルシュート、Testdeckのフィーチャーリクエストや改善などで、開発チームをサポートしました&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2019年7月2019年9月ウェブ自動化テストとキャリアチェンジ時代&quot;&gt;2019年7月～2019年9月：ウェブ自動化テストとキャリアチェンジ時代&lt;/h2&gt;
+
+&lt;p&gt;この数か月間、メルカリのウェブアプリの自動化テストをサポートしながら、キャリアについて次のステップを考えました。セキュリティを真剣に勉強し始めたことも、セキュリティチームに異動する内定をもらったことも、この時期でした。&lt;/p&gt;
+
+&lt;p&gt;主な達成：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ウェブの自動化テストのメインテナンスをサポートしました（TypescriptとMocha）&lt;/li&gt;
+  &lt;li&gt;ウェブアプリのリンク切れを毎晩に検出する社内ツールを開発しました&lt;/li&gt;
+  &lt;li&gt;「CompTIA Security+」が受かりました&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2019年10月2022年6月セキュリティチーム時代&quot;&gt;2019年10月～2022年6月：セキュリティチーム時代&lt;/h2&gt;
+
+&lt;p&gt;最初はSETとして入社しましたが、結局セキュリティチームに配属した時間の方が長くなりました。&lt;/p&gt;
+
+&lt;p&gt;CompTIA Security+の資格以外にセキュリティの知識や経験が全くなくてセキュリティチームに異動したので、正直に言えば、最初はとても辛かったです。早くキャッチアップして貢献したかったので、最初の半年間ぐらいに、仕事以外の時間はほとんど全て勉強で使いました。以前にキャリアチェンジに関して &lt;a href=&quot;https://engineering.mercari.com/blog/entry/2020-05-14-121008&quot;&gt;こちらの記事&lt;/a&gt; を書きました。&lt;/p&gt;
+
+&lt;p&gt;セキュリティチームの皆さんが諦めずに、セキュリティエンジニアの卵で未熟な私を育ててくれたことに永遠に感謝します。皆さんはもうご存じだと思うのですが、セキュリティ業界は非常に入りにくいのです。たくさんの経験がないと雇ってもらえません。しかし、雇ってもらえなければ経験を積むことができるわけがないので、悪循環です。いつも暖かく応援してくれたチームの中で、今まで見たことのない優秀さを持っている先輩たちのもとで働けたおかげで、成長ができて貢献できるようになりました。&lt;/p&gt;
+
+&lt;p&gt;主な達成：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;TestdeckをセキュリティテストとQAのテスト両方で使えるツールに改善して、オープンソースしました&lt;/li&gt;
+  &lt;li&gt;開発プロセスに脅威モデリングを導入しました&lt;/li&gt;
+  &lt;li&gt;エンジニア向けの社内セキュリティ研修プログラム「Security Champions」をco-leadしました&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;長年にわたって見た会社の変化&quot;&gt;長年にわたって見た会社の変化&lt;/h1&gt;
+
+&lt;p&gt;私は人間としてもエンジニアとしても成長した一方で、メルカリは会社としても色々な変化がありました。入社した時はIPOと会社のグローバル化の前だったので、あの時のメルカリはまだ日本のベンチャー企業らしい会社だったと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/2.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;やく88%の社員が私の入社した後にジョインしたので、私はたまに古株と呼ばれました（笑）。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;グローバル化&quot;&gt;グローバル化&lt;/h2&gt;
+
+&lt;p&gt;入社した時に、Slackのアナウンスメント、メール、会議、ドキュメントなど、&lt;strong&gt;全て&lt;/strong&gt; は日本語のみでした。当時に、外国人が多分20人ぐらいしかいなくて、みんな知合っていました。&lt;/p&gt;
+
+&lt;p&gt;メルカリはこの数年間でグローバル化を強化して、今はエンジニア部の半分ぐらいは外国籍の人で、英語しか使わないチームも実は結構多いのです。私も、日本語しか使わない働き環境からほぼ仕事で日本語を使わないようになりました。今は、全てのアナウンスメントは英語と日本語両方があって、英語メインで開催される全体定例などもあります。日本語のできない人にとって、間違いなくとても働きやすい環境になりました。日本国内で優秀な人材を見つけることはもう随分難しいのですが、日本語力も要求すればさらに見つけにくくなるので、会社にとってとても良い方向だと思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;ダイバーシティインクルージョン&quot;&gt;ダイバーシティ＆インクルージョン&lt;/h2&gt;
+
+&lt;p&gt;日本語力がどうしても必要だったので、入社した時に外国籍のマネージャー（エンジニアリング・マネージャーとそれ以上の役割）がいないことに全然驚きませんでした。女性のマネージャーもいなかったです。しかし、この数年間で、マネージャーとリーダーシップ層に少しずつ外国籍の人と女性が増えてきて、とても嬉しいことに思っています。もちろんまだマイノリティーの人が少なくて日本人の男性が圧倒的に多いのですが、少しずつ改善が見えて、これからもD&amp;amp;Iが強化することに期待しています。&lt;/p&gt;
+
+&lt;h2 id=&quot;your-choice&quot;&gt;YOUR CHOICE&lt;/h2&gt;
+
+&lt;p&gt;ずっとある程度（マネージャーの許可が必要）在宅勤務ができましたが、コロナのきっかけでメルカリは&lt;a href=&quot;https://about.mercari.com/press/news/articles/20210901_yourchoice/&quot;&gt;「YOUR CHOICE」&lt;/a&gt;というフルーリモートかつフルーフレックスタイムのポリシーを設立しました。あれから、東京を出て、もっと物価が安くて住みやすい場所に引っ越した同僚が実は少なくはありません。しかし、調べてみたら、メルカリのように在宅勤務を推薦している日本企業は極端に少ないことが明らかになりました。ハイブリッド勤務として定期的に（週1～2回ぐらい）出社を求めている会社が驚くほど多いのです。コロナ前の生活に戻りつつであっても、メルカリの「YOUR CHOICE」のような柔軟性のある働き方が増えてほしいですね。&lt;/p&gt;
+
+&lt;h1 id=&quot;達成と愛しい思い出&quot;&gt;達成と愛しい思い出&lt;/h1&gt;
+
+&lt;h2 id=&quot;初めてブログ記事を書いたこと&quot;&gt;初めてブログ記事を書いたこと&lt;/h2&gt;
+
+&lt;p&gt;入社の前に、ブログを書いたことがなくて、書きたいとも一切思わなかったです。しかし、実際に &lt;a href=&quot;https://engineering.mercari.com/blog/&quot;&gt;メルカリのエンジニアリングブログ&lt;/a&gt; の記事を書いてみたら、楽しすぎて次々書いてしまって、この個人ブログを始めるきっかけにもなりました。&lt;/p&gt;
+
+&lt;p&gt;私の書いた記事：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/20220426-threat-modeling-at-mercari/&quot;&gt;メルカリの脅威モデリングプロセス&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/20211210-how-is-security-testing-different-from-typical-software-testing/&quot;&gt;セキュリティ・テストは一般的なソフトウェア・テストとどう違うのか？&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/20201214-bea4717e9a/&quot;&gt;DevSecOpsとは何か — 導入する組織が増加している理由&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/20200930-testdeck/&quot;&gt;マイクロサービスのQA・セキュリティ自動化テスト社内ツール「Testdeck」をOSS化しました！&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2020-05-14-121008/&quot;&gt;セキュリティエンジニアへの道：私のキャリアチェンジ物語&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-12-21-123830/&quot;&gt;Mercari AQA Pop Talk #4: The Future of QA &amp;amp; Test Automation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-11-01-124027/&quot;&gt;ソフトウェアテストの大規模カンファレンス「STARWEST」で学んだ3つのこと&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-08-23-184237/&quot;&gt;世界基準の認定資格「ISTQB テスト自動化エンジニア認定資格」をゲットしました！&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;初めてオープンソースへの貢献&quot;&gt;初めてオープンソースへの貢献&lt;/h2&gt;
+
+&lt;p&gt;同様に、入社前にオープンソースに貢献したことがなくて、してみたいとも思わなかったです。結局、メルカリの作業のきっかけで開発した2つのプロジェクトをオープンソースしました！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/gmgchow/fastlane-plugin-retry&quot;&gt;gmgchow/fastlane-plugin-retry&lt;/a&gt;: XCUITestの自動化テストケースを自動的にリトライするためのプラグインです。現在はもうメインテナンスを行われていません。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mercari/testdeck&quot;&gt;mercari/testdeck&lt;/a&gt;: Goで書かれたgRPCマイクロサービスの自動化テストフレームワークです。（もっと詳しい情報は上記のTestdeckセクションにて）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;初めてスピーカーとしてイベントに参加したこと&quot;&gt;初めてスピーカーとしてイベントに参加したこと&lt;/h2&gt;
+
+&lt;p&gt;ずっとプレゼンテーションをすることが苦手で、メルカリで働かなったらtechイベントにスピーカーとして参加するなんて考えもしなかったはずです。メルカリはtechコミュニティーで結構アクティブで、よく勉強会などのイベントを開催します（コロナの前はオフィスで開催したのですが、今はほとんどオンラインです）。社員がイベントに登場して、自分の得意な分野や最近担当しているプロジェクトについて共有したりします。私は2つのイベントに登場して、非常に良い経験で挑戦ができて良かったと思っています。イベントに関して唯一の未練は、日本語で発表する機械がなかったことです。とても良いチャレンジになるし、自分の日本語力を試すチャンスにもなるし、またいつか機械があればなと思っています。&lt;/p&gt;
+
+&lt;p&gt;私の登場したイベント：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2018年12月: &lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-12-21-123830/&quot;&gt;Mercari AQA Pop Talk #4: The Future of QA &amp;amp; Test Automation&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/secret/wmEiwlBUtlXSH9&quot;&gt;From Agile to DevOps: The Rise of ‘Continuous Testing’&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2022年4月: &lt;a href=&quot;https://mercari.connpass.com/event/244594/&quot;&gt;Mercari’s Approach to Modern Day Threats #2&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://speakerdeck.com/gmgchow/diving-into-threat-modeling-at-mercari&quot;&gt;Diving Into Threat Modeling at Mercari&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;初めての出張&quot;&gt;初めての出張&lt;/h2&gt;
+
+&lt;p&gt;コロナの前に、運が良くて海外出張二回も行けました！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-08-23-184237/&quot;&gt;ロンドン、イギリス（2018年7月）&lt;/a&gt;: ISTQB Advanced Level - Test Automation Engineering のトレーニングコースと試験を受けるためにイギリスに行かせてもらいました。初めての出張で、初めてヨーロッパに行って、初めて到着後にすぐにお財布をなくしてしまった酷い目にも会ったのですが（その話は別の日にしましょう笑）、とても忘れられない経験でした！&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-11-01-124027/&quot;&gt;カリフォルニア、アメリカ（2018年10月）&lt;/a&gt;: STARWESTという自動化テストのtechカンファレンスに行きました。初めてtechカンファレンスに参加したので、色々なことが学べて良い経験でした。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;仕事以外のこと&quot;&gt;仕事以外のこと&lt;/h2&gt;
+
+&lt;h3 id=&quot;部活&quot;&gt;部活&lt;/h3&gt;
+
+&lt;p&gt;メルカリのいい所の一つは、部活を楽しめることです！どんな部活もある気がします。部活を積極的に参加することで普段仕事で話せない人との交流ができました。&lt;/p&gt;
+
+&lt;p&gt;参加した部活の例：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;料理部、福岡お茶部、香港部、ピザ部、バイリンガルチャット部、コストコ部、ジブリ部、マクドナルド部、シンガポール部、台湾部、アメリカ部、カナダ部、フルーツ部、中国語チャット部&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/3.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;2018年の冬、フルーツ部で色々な種類のいちごを食べました！&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;資格の取得&quot;&gt;資格の取得&lt;/h3&gt;
+
+&lt;p&gt;もう一つのいい所は、continuous learningを大切にする文化です。入社の前に、ずっと資格なんかに興味がなくて、ほとんど持っていませんでした。しかし、メルカリに資格を持っていて向上心の高い人が非常に多くて、彼らのもとで働くだけで自分もモチベーションが湧きました。結局、次々で資格を取るようになりました。会社が資格の取得に少し支援を出してくれましたが、自分のお金と時間で取った資格も多いです。&lt;/p&gt;
+
+&lt;p&gt;メルカリにいる間に取った資格：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ISTQB: Advanced Level - Test Automation Engineering, Advanced Level - Security Tester&lt;/li&gt;
+  &lt;li&gt;CompTIA: Security+&lt;/li&gt;
+  &lt;li&gt;(ISC)2: SSCP, CSSLP, CISSP&lt;/li&gt;
+  &lt;li&gt;日本語: JLPT N1, BJT J2&lt;/li&gt;
+  &lt;li&gt;中国語: HSK 5, HSKK Intermediate&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;語学の勉強&quot;&gt;語学の勉強&lt;/h3&gt;
+
+&lt;p&gt;メルカリの働き環境は多様性があるので、様々なバックグラウンドの人と仲良くなることができました。日本語と中国語の勉強に対してモチベーションもとても上がりました。英語化が進んでいる中で、英語を練習したいと言う友達もいて、お互いの語学力を上達させるために定期的な言語交換の1on1会議もしていました。&lt;/p&gt;
+
+&lt;h1 id=&quot;退職の理由&quot;&gt;退職の理由&lt;/h1&gt;
+
+&lt;p&gt;下記はチームに伝えた言葉です。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s not that I hate it here or anything. This is the best team that I have worked with in my whole career so far. It’s just that I’ve been here for way too long. I think it’ll be good for me to see more of the world outside.（ここが嫌いになったわけじゃないです。このチームは今まで働いたチームの中で、一番良かったと思っています。ただ、ここにいるのがあまりにも長すぎて、将来とキャリアを考えると、外の世界をもっと知るべきだと思いました。）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;メルカリは私の2社目で（インターンシップの会社を除いて）、セキュリティエンジニアとしての1社目です。まだまだキャリアの始点に立っている状態です。成長したり、スキルアップしたりするために、もっと外の世界を見て、新しい刺激を受けて、他の会社で経験を積んだ方がいいのではないかと思い始めました。&lt;/p&gt;
+
+&lt;p&gt;その理由で、キャリアの次のステップに進むことに決めました。メルカリで確かに良いことと辛いことも色々ありましたが、全体的には良い経験に思っていて、愛しい思い出を持って退職しました。&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Today was my last day at Mercari! It has been a looong 4 years and 9 months, I have so much to say that I don&amp;#39;t even know where to begin! I&amp;#39;ll write a blog post about it later after I set up my personal blog. For now, my next stop: back to Vancouver for a month! 🇨🇦✈️ &lt;a href=&quot;https://t.co/SmLA7BK0Z2&quot;&gt;pic.twitter.com/SmLA7BK0Z2&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gloria Chow (@gmgchow) &lt;a href=&quot;https://twitter.com/gmgchow/status/1536729941358055424?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;森タワーを最後に眺めました。なぜか分からないのですが、退職する際にこのような森タワー写真を撮ることはメルカリ社員の伝統らしいです。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;次のステップ&quot;&gt;次のステップ&lt;/h1&gt;
+
+&lt;p&gt;今月、&lt;a href=&quot;https://www.japancv.co.jp/&quot;&gt;日本コンピュータビジョン&lt;/a&gt; という、ソフトバンクグループ所属のAIスタートアップに、シニア・セキュリティエンジニアとして入社します。AI業界の経験がなくて、メルカリ以外のセキュリティの経験もなくて、しかも中国語も苦手（仕事では必要）ですが、だからこそキャリアにも人生にも良い経験になると思って、楽しみにしています。&lt;/p&gt;
+
+&lt;p&gt;人生の次の段階に進みますが、メルカリで過ごした時間を決して忘れません。今まで見たことのない優秀さを持っている仲間たち、これからもずっと大切にしたい繋がり、非常に成長させてくれた働き環境。正直、メルカリに入らなかったら、まだ日本にいるかどうかは微妙です。メルカリで過ごした時間とそこで作った繋がりは、私にとってはそれほど大切な物なのです。&lt;/p&gt;
+
+&lt;p&gt;素敵な5年（近く）をありがとうございました、お世話になりました！またいつか、どこかで皆さんにお会いできればなと思っています～＾＾&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/4.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;同僚にもらった手作りのメルパカです！&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/5.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;またね、メルカリ！&lt;/em&gt;&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="メルカリ" /><category term="キャリア" /><category term="転職" /><summary type="html">(EN/JA/ZH) 先月、5年近く勤めてきた株式会社メルカリを卒業しました！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-07-14/4.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-07-14/4.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">Hello World</title><link href="https://gmgchow.github.io/ja/blog/2022/06/22/hello-world.html" rel="alternate" type="text/html" title="Hello World" /><published>2022-06-22T00:00:00+09:00</published><updated>2022-06-22T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/06/22/hello-world</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/06/22/hello-world.html">&lt;p&gt;(EN/JP/ZH) 私のブログへようこそ！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/blog/2022/06/22/hello-world.html&quot;&gt;Read in English&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/zh/blog/2022/06/22/hello-world.html&quot;&gt;看中文版&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ずっと前から個人サイトとブログを作ろうと思ったのですが、中々時間が作れなくて、今まで手を付けれなかったです。今はバンクーバーの帰省中なので、やっと少しでも余裕があって早速作っちゃいました！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-06-22/1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;バンクーバー公立図書館の屋上からの眺めです（ダウンタウン・バンクーバー、カナダ）&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;主に興味のある話題（テック業界、サイバーセキュリティ、心理学、キャリア・自己改善、語学、読んだ本の感想、日本での生活、など）について書こうと思います。&lt;/p&gt;
+
+&lt;p&gt;近々に投稿する予定の記事：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;最近退職したメルカリで過ごした間のレトロスペクティブ&lt;/li&gt;
+  &lt;li&gt;人生初めて複数の会社から内定をもらって、給与を交渉した経験&lt;/li&gt;
+  &lt;li&gt;最近読んで、良かったなと思っておすすめしたい本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;このブログはレディーメードのデザインを使用しているので少しダサいかもしれないので、次は以下の改善をしたいと思います：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;デザインをカスタマイズして、UIを綺麗にする&lt;/li&gt;
+  &lt;li&gt;日本語と中国語の翻訳を書く（注意：この二つの言語を練習するために自分で記事を書いてみようと思っているので、質が悪い翻訳になったら申し訳ありません…）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;プロフィールにツイッターとLinkedInのハンドルを残したので、投稿についてコメントや感想、書いてほしい話題、アイデア、提案などがあれば、是非気軽にご連絡ください。&lt;/p&gt;
+
+&lt;p&gt;ご精読をありがとうございました。では、また次の投稿で！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-06-22/2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;バンクーバーの美味しい点心を楽しんでいます！本格的な中華料理を食べるのは本当に久しぶりです（泣）&lt;/em&gt;&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="ランダム" /><summary type="html">(EN/JP/ZH) 私のブログへようこそ！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-06-22/1.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-06-22/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

@@ -1,0 +1,672 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ja" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-58T9BNP8XF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-58T9BNP8XF');
+</script>
+
+
+
+
+  <link href="/ja/feed.xml" type="application/atom+xml" rel="alternate" title="一匹のセキュリティアルパカの呟き Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@gmgchow">
+<meta name="twitter:creator" content="Gloria Chow">
+<meta name="twitter:title"   content="ワークライフバランスが良い会社の6つの共通点">
+
+
+<meta name="twitter:description" content="会社のワークライフバランスが良いのか悪いのか、どの様に判断するのでしょう？">
+
+
+
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="https://gmgchow.github.io/assets/images/2022-10-02/1.jpg">
+
+<!-- end of Twitter cards -->
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/ja/">
+          一匹のセキュリティアルパカの呟き
+          <span class="site-subtitle">(本サイトは準備中です)</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/ja/blog">ブログ</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ja/tags">タグ</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ja/reading-list">読書リスト</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ja/about">プロフィール</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="lang-switcher-toggle" type="button">
+          <span class="visually-hidden">Switch language</span>
+          <img src="/assets/images/lang-icon-white.png" width=24 height=24/>
+        </button>
+        <ul class="floating-menu lang-switcher hidden">
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/blog/2022/10/02/work-life-balance.html">
+            English
+        </a>
+    </li>
+        
+    <li class="lang-option-active masthead__menu-item">日本語</li>
+        
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/zh/blog/2022/10/02/work-life-balance.html">
+            繁體中文
+        </a>
+    </li>
+        </ul>
+
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://gmgchow.github.io/ja/">
+        <img src="/assets/images/bio-photo.jpg" alt="Gloria Chow" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://gmgchow.github.io/ja/" itemprop="url">Gloria Chow</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>シニア・セキュリティエンジニア @ 日本コンピュータビジョン（ソフトバンクグループ）</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">東京、日本</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://linkedin.com/in/gmgchow/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <meta itemprop="headline" content="ワークライフバランスが良い会社の6つの共通点">
+    <meta itemprop="description" content="(EN/JA) 最近、仕事で多忙な毎日を過ごし、自分の目標などが二の次になってしまいそうな気がして、ワークライフバランスについてよく考えるようになりました。個人の意見とワークライフバランスが良い会社の特徴を述べたいと思い、この記事を書きました。">
+    <meta itemprop="datePublished" content="2022-10-02T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">ワークライフバランスが良い会社の6つの共通点
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-02T00:00:00+09:00">October 2, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>(EN/JA) 最近、仕事で多忙な毎日を過ごし、自分の目標などが二の次になってしまいそうな気がして、ワークライフバランスについてよく考えるようになりました。個人の意見とワークライフバランスが良い会社の特徴を述べたいと思い、この記事を書きました。</p>
+
+<ul>
+  <li><a href="https://gmgchow.github.io/ja/blog/2022/10/02/work-life-balance.html">Read in English</a></li>
+</ul>
+
+<p><img src="/assets/images/2022-10-02/1.jpg" alt="" /></p>
+
+<h1 id="ワークライフバランスは何なぜ重要なの">ワークライフバランスは何？なぜ重要なの？</h1>
+
+<p>「ワーク・ライフ・バランス」というのは、文字通りに「ワーク」（仕事）と「ライフ」（プライベートの時間）の「バランス」（調和）を維持するという意味を指します。</p>
+
+<p>ワークライフバランスは意外と論争を招く話題の一つです。「真面目な社員は勤務時間外でも仕事のことを考えたり、こなしたりする」という考え方がよくあるので、オンコール手当や残業代がなくてもプライベートの時間にビジネスメールやSlackを見たり、残業や緊急タスクをしたりすることを求める会社は少なくないと思います。</p>
+
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s a topic that tends to get mixed opinions. Should employees be checking work email/Slack on weekends and days off? Why or why not?</p>&mdash; Gloria Chow (@gmgchow) <a href="https://twitter.com/gmgchow/status/1571373518675410947?ref_src=twsrc%5Etfw">September 18, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<p><em>↑ 先月、ツイッターで問った投票です。投票した人数が少ないですが、社員がプライベートの時間でも連絡が取れるべきかどうかに関して考え方は様々あることが分かりました</em></p>
+
+<p>ワークライフバランスの大切さは人それぞれに違うと思います。仕事が大好きで喜んで全ての時間を仕事に捧げる「ワーカホリック」の人がいれば、オンオフのメリハリをちゃんと付けたい人もいます。どれが正しいのか、どれが正しくないのか、正解がないと思います。結局、価値観によるので、自分の価値観に合う会社とチームを見つければ良いのではないでしょうか。</p>
+
+<p>個人的な意見ですが、転職先を考える時にワークライフバランスが一番大切じゃなくてもトップに近い優先順位です。人間は働くために生きていることではなく、生きるために働くものだと思っていますから。現代の人（特にIT業界の人）はほとんど終身雇用をしないので、仕事は人生の中のたった一章に過ぎないように思えば良いと思います。今の会社での一章の終わりにたどり着いたら、転職で今まで学んだこと、人脈、思い出などを持って「人生」という物語の次の一章に進むのです。</p>
+
+<p>つまり、あなたの物語の主人公は、会社ではなく、<strong>あなた</strong>です。会社の人が変わったり、会社の方針なども時間が経つに連れて変わるし、いつかあなたのした仕事は必ず無意味になるでしょう。しかし、あなたの人生は続きます。なので、仕事は自分のアイデンティティの一部だとしても、全てではないので、仕事以外の人生もとても大事だと思います。</p>
+
+<p><img src="/assets/images/2022-10-02/2.jpg" alt="" /></p>
+
+<h1 id="ワークライフバランスが良い会社の６つの共通点">ワークライフバランスが良い会社の６つの共通点</h1>
+
+<p>正直、会社に入ってみないとワークライフバランスが良いのか悪いのかを判断することは非常に難しいです。知合いに聞いたり、社員のSNSなどを見たり、ネットで口コミを調べたりすることもおすすめしますが、私の経験から言うと、ワークライフバランスの良い会社は大体以下６つの特徴があります。</p>
+
+<h2 id="１趣味">１）趣味</h2>
+
+<p>プライベートの時間でよく働くと、趣味を持つことは難しいので、社員は仕事以外の趣味があるかどうかは結構重要なポイントだと思います。</p>
+
+<p>面談、面接や採用イベントに行く際、軽く週末の過ごし方などを聞いてみると良いかもしれません。LinkedIn、ツイッターなどのSNSで社員を検索して趣味を把握できる場合もあります。</p>
+
+<p>無趣味（それとも「趣味は仕事」）の社員が多きれば、プライベートの時間が少なく、常にバーンアウトしている理由で中々趣味を楽しめない可能性があるので明らかな「red flag」（危険信号）です。</p>
+
+<p><img src="/assets/images/2022-10-02/3.jpg" alt="" /></p>
+
+<h2 id="２資格と自律的な学習">２）資格と自律的な学習</h2>
+
+<p>社員が資格の勉強などの自律的な学習をするかどうかは2つ目のポイントです。資格の勉強は結構時間がかかるので、資格を取る社員が多ければ良いサインだと思います。<a href="https://gmgchow.github.io/ja/blog/2022/07/14/mercari-retrospective.html">私もメルカリに在職した間に</a>、良いワークライフバランスのおかげ様で夕方や週末に勉強に集中して、色々な資格を取ることができました。</p>
+
+<p>いつもプライベートの時間でも働くざるを得ない場合、資格を勉強したり、カンファレンス、セミナー、勉強会などに参加したりする余裕があるはずがないので、これができる人の会社は間違いなくワークライフバランスが良い方です。</p>
+
+<h2 id="３コミュニティーへの貢献">３）コミュニティーへの貢献</h2>
+
+<p>社員がテック・コミュニティーへ貢献するかどうかは3つ目のポイントです。2つ目のポイントと同じく、イベントで講演したり、ブログ記事を書いたり、オープンソース・プロジェクトに貢献したりすることは非常にプライベートの時間がかかります。それでも積極的ににコミュニティーへ貢献ができれば、普段平日や週末に働いていない証拠になるでしょう。</p>
+
+<p><img src="/assets/images/2022-10-02/4.jpg" alt="" /></p>
+
+<h2 id="４個人プロジェクトや副業">４）個人プロジェクトや副業</h2>
+
+<p>社員が個人プロジェクト、起業や副業をしているかどうかは4つ目のポイントです。これも全て非常に時間を費やす活動なので、常に長時間または休日出勤している人には難しいです。個人プロジェクトや他の会社で同時に働ければ、オンとオフの時間にメリハリがある証拠だと言えるでしょう。</p>
+
+<h2 id="５オフタイムの連絡">５）オフタイムの連絡</h2>
+
+<p>社員のオフタイムにビジネスメールやSlackへの対応は結構重要なポイントです。これを確認することは最も難しいですが、面接の段階で勤務時間外に人事のメールを返信してみると良いかもしれません。もちろんこの方法で完全にワークライフバランスが分かるわけではありませんが、ただ、人事部がいつもオフタイムにも速やかに返信をしてくれれば、恐らくその会社はオフタイムにもビジネスメールやSlackを見ないといけない文化があるかもしれません。</p>
+
+<h2 id="６年齢や家族構成">６）年齢や家族構成</h2>
+
+<p>最後は一番論争を招きやすいポイントかもしれませんが、私の経験から言うと、ほとんどの社員が若い・独身・子供がいない会社はワークライフバランスが悪い傾向があります。なぜかというと、どちらかというと家族のケアは時間を使うので、家族を持っている人はワークライフバランスが取れない会社を選ばない傾向があります。若い・独身・子供がいない社員が家族の都合という理由で働けない心配が少ないからこそ、そういう社員ばかり雇って時間外労働を求める会社もあります。一見、若い人の多い会社は雰囲気が明るくて楽しそうに見えるかもしれませんが、このポイントは偏見っぽくても注意した方が良いと思います。</p>
+
+<p>逆に、家族を持っている人にとっては、看護休暇・育児休暇・出産休暇の制度が良くて、プライベートと仕事を両立させてもらえる会社は魅力的なのです。家族を持っている社員が多い場合、その会社は社員のプライベートも大事にしているからこそ、バランスが取れるように良い休暇制度などを提供しているかもしれません。</p>
+
+<p><img src="/assets/images/2022-10-02/5.jpg" alt="" /></p>
+
+<h1 id="最後に">最後に</h1>
+
+<p>人間は寿命末期によくある後悔は、「もっと大切な人といたかったな」とか「若い頃にもっと夢を追えれば良かったな」とからしいです。「もっと長時間働きたかったな」とか「もっと週末を犠牲にしてあのプロジェクトを早くリリースさせれば良かったな」とかを言う人は一切いません。</p>
+
+<p>仕事は人生の一部しかならないので、将来に後悔をしないように今の時間を有意味に使うべきです。時間は限られていて、ワークライフバランスが悪い会社にいると取り戻せない貴重な時間がなくなってしまうので、ワークライフバランスはどうしても重要だと思います。</p>
+
+<p>もちろん上記に載せた６つのポイントで確実に白か黒か判断できるわけではなく、詳しく色々な情報を調べる必要もありますが、ワークライフバランスが良い会社の見分け方について少しでもお役に立てれば嬉しいです。ご精読ありがとうございました！</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/ja/tags#%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2" class="page__taxonomy-item p-category" rel="tag">キャリア</a>
+    
+    </span>
+  </p>
+
+
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%95%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E3%81%8C%E8%89%AF%E3%81%84%E4%BC%9A%E7%A4%BE%E3%81%AE6%E3%81%A4%E3%81%AE%E5%85%B1%E9%80%9A%E7%82%B9%20https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F10%2F02%2Fwork-life-balance.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F10%2F02%2Fwork-life-balance.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F10%2F02%2Fwork-life-balance.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ja/blog/2022/07/14/mercari-retrospective.html" class="pagination--pager" title="メルカリを卒業しました！
+">Previous</a>
+    
+    
+      <a href="/ja/blog/2022/10/24/probation-period.html" class="pagination--pager" title="試用期間の本当の意味は？
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">関連記事</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ja/blog/2023/07/16/jcv.html" rel="permalink">日本コンピュータビジョン、お世話になりました！
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-07-16T00:00:00+09:00">July 16, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA/ZH) 先週はソフトバンクグループ傘下のAIスタートアップ、日本コンピュータビジョン株式会社での最終出社日でした。2022年7月に入社し、ちょうど1年間お世話になりました。
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ja/blog/2022/12/05/PNPT.html" rel="permalink">PNPTに受かりました！
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-05T00:00:00+09:00">December 5, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) 先週、PNPT (Practical Network Penetration Tester) に受かりました！この資格はまだセキュリティ分野であまり人気ではありませんが、今まで取った資格の中で、一番良かったと思っています！是非この資格の紹介も含めて、今回の経験と感想を共有したくてこの記事を書きまし...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ja/blog/2022/10/24/probation-period.html" rel="permalink">試用期間の本当の意味は？
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-24T00:00:00+09:00">October 24, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) 今月、日本コンピュータービジョンでの3ヵ月の試用期間が無事に終わりました。インターンシップを除いて三社目なので、試用期間の経験も三回目でした。しかし、今回は初めて雇い主である会社と雇われた社員である私、両方にとって「試用期間」の意味を真剣に考えました。
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ja/blog/2022/07/14/mercari-retrospective.html" rel="permalink">メルカリを卒業しました！
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-14T00:00:00+09:00">July 14, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA/ZH) 先月、5年近く勤めてきた株式会社メルカリを卒業しました！
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://linkedin.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+    
+
+    
+      <li><a href="/ja/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 gmgchow.github.io. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/main.js"></script>
+  
+
+
+
+  </body>
+</html>

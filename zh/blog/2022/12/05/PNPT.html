@@ -1,0 +1,813 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="zh" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-58T9BNP8XF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-58T9BNP8XF');
+</script>
+
+
+
+
+  <link href="/zh/feed.xml" type="application/atom+xml" rel="alternate" title="一隻Security羊駝的個人網站 Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@gmgchow">
+<meta name="twitter:creator" content="Gloria Chow">
+<meta name="twitter:title"   content="I passed my PNPT Exam!">
+
+
+<meta name="twitter:description" content="My experience taking the Practical Network Penetration Tester (PNPT) certification">
+
+
+
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="https://gmgchow.github.io/assets/images/2022-12-05/1.png">
+
+<!-- end of Twitter cards -->
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/zh/">
+          一隻Security羊駝的個人網站
+          <span class="site-subtitle">（本網站現在整理中）</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/zh/blog">博客</a>
+            </li><li class="masthead__menu-item">
+              <a href="/zh/tags">標簽</a>
+            </li><li class="masthead__menu-item">
+              <a href="/zh/reading-list">閲讀書目</a>
+            </li><li class="masthead__menu-item">
+              <a href="/zh/about">個人質料</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="lang-switcher-toggle" type="button">
+          <span class="visually-hidden">Switch language</span>
+          <img src="/assets/images/lang-icon-white.png" width=24 height=24/>
+        </button>
+        <ul class="floating-menu lang-switcher hidden">
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/blog/2022/12/05/PNPT.html">
+            English
+        </a>
+    </li>
+        
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/ja/blog/2022/12/05/PNPT.html">
+            日本語
+        </a>
+    </li>
+        
+    <li class="lang-option-active masthead__menu-item">繁體中文</li>
+        </ul>
+
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://gmgchow.github.io/zh/">
+        <img src="/assets/images/bio-photo.jpg" alt="Gloria Chow" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://gmgchow.github.io/zh/" itemprop="url">Gloria Chow</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Senior Security Engineer @ Japan Computer Vision (Softbank集團)</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">東京，日本</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://linkedin.com/in/gmgchow/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+<div class="notice--warning" id="no-translation-msg">
+    Sorry, this page is not available in English yet.
+</div>
+    <meta itemprop="headline" content="I passed my PNPT Exam!">
+    <meta itemprop="description" content="(EN/JA) Last week, I passed the PNPT (Practical Network Penetration Tester) exam! This certification is hands-down, the best that I have taken so far but it is still fairly unknown in the industry. I decided to write this article to share my experience and hopefully help spread word about this amazing certification!">
+    <meta itemprop="datePublished" content="2022-12-05T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">I passed my PNPT Exam!
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-05T00:00:00+09:00">December 5, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          13 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>(EN/JA) Last week, I passed the PNPT (Practical Network Penetration Tester) exam! This certification is hands-down, the best that I have taken so far but it is still fairly unknown in the industry. I decided to write this article to share my experience and hopefully help spread word about this amazing certification!</p>
+
+<ul>
+  <li><a href="https://gmgchow.github.io/ja/blog/2022/12/05/PNPT.html">日本語で読む</a></li>
+</ul>
+
+<p><img src="/assets/images/2022-12-05/1.png" alt="" />
+<em>My shiny new certificate!</em></p>
+
+<h1 id="what-is-pnpt">What is PNPT?</h1>
+
+<p>PNPT (Practical Network Penetration Tester) is a certification offered by <a href="https://tcm-sec.com/">TCM Security</a>. The company is a startup created by Heath Adams, who you probably better know as <a href="https://www.youtube.com/@TCMSecurityAcademy">“The Cyber Mentor”</a>. He is a famous Youtuber with over 424k subscribers, creating videos on a variety of cybersecurity topics like ethical hacking, penetration testing, OSINT, and more. His videos are high-quality and easy to understand- I’ve learned so much from watching them so if you aren’t following him yet, I’d highly recommend it! (No, I’m not being paid to advertise for him. I’m just a fan LOL)</p>
+
+<p><img src="/assets/images/2022-12-05/2.png" alt="" />
+<em>The Cyber Mentor’s Youtube channel</em></p>
+
+<p>The certification is commonly compared with OSCP because in terms of content, they are quite similar. Both test penetration testing skills involving web applications, Linux and Windows machines, and active directory (AD). There are some key differences though; I will do a detailed comparison in my next blog post so stay tuned!</p>
+
+<p>For now, you can think of PNPT as an easier version of OSCP, catered more towards beginners so if you are aiming for OSCP at some point in the future but don’t feel quite confident yet, PNPT would make a great stepping stone.</p>
+
+<h1 id="my-motivation-for-taking-pnpt">My motivation for taking PNPT</h1>
+
+<p>I first became interested in PNPT precisely for the reason stated above- I want to get OSCP at some point but after having attempted the exam once and failing miserably, I started thinking of ways to practice, especially in an exam-like environment.</p>
+
+<p>I don’t know if anyone else can relate with me on this but I took the <a href="https://www.offensive-security.com/pwk-oscp/">official OSCP training course</a> (also known as PEN-200 or PWK) and found it absolutely…<strong>terrible</strong>. The course costs a whopping USD $1499 and comes with video tutorials, a huge PDF textbook, 3 months of lab access for practicing hands-on skills and one exam attempt, but I have so many complaints about it that I can probably write a separate article on this topic later on. For now, let’s just say that the OSCP training course was very unhelpful for me so I looked for other places to supplement my studies.</p>
+
+<p>In late 2021, <a href="https://www.offensive-security.com/offsec/oscp-exam-structure/">OSCP changed their exam</a> to heavily focus on active directory. The course materials weren’t particularly good to begin with and since it’s difficult to find a place to practice hacking active directory (it requires setting up a mini network of machines), I felt even more unconfident about passing the exam. This is when I did some research online and discovered <a href="https://academy.tcm-sec.com/">TCM Security Academy</a>’s <a href="https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course">Practical Ethical Hacking</a> training course.</p>
+
+<p>It seems strange to buy one cert’s training course in order to study for another cert, but that is exactly what I did. I ended up buying TCM’s training course to supplement my OSCP studies because they explained the content <strong>far</strong> better than PWK did. However, I still ended up failing OSCP and it was then that I decided to pass PNPT first as a way to practice my skills and deepen my understanding of AD before attempting to try OSCP again.</p>
+
+<h1 id="the-exam">The exam</h1>
+
+<p>A common criticism about OSCP is that it lacks practicality- in the real world, you will (hopefully) never have only 24 hours for an engagement! OSCP’s time crunch makes the exam much harder than it should be because most likely you will have to operate on little to no sleep. The live proctoring (you will be watched through webcam the entire time) also adds to the stress so in the end, it feels more like the exam is testing your mental strength rather than your technical skill.</p>
+
+<p>PNPT takes an entirely different approach than OSCP- it gives you a generous <strong>five days</strong> for the exam and <strong>two days</strong> for report-writing, making the whole exam one week long. There is no exam proctoring so you can log on and off freely. This lets you take the exam at your own pace without sacrificing sleep or rest time. However, if you are a full-time student or employee, this can make it harder to schedule the exam since you need to ensure that you can take at least five days off in a row.</p>
+
+<p>The exam is quite a bit longer than OSCP because it has five parts:</p>
+
+<p><strong>Days 1-5</strong></p>
+<ol>
+  <li><strong>OSINT:</strong> You will start with a Letter of Engagement from a fictional client company. You must research the company and gather information that will help you in the actual penetration testing.</li>
+  <li><strong>External pentest:</strong> Using the information you gathered, you will discover external target(s) that can be compromised.</li>
+  <li><strong>Internal pentest:</strong> After gaining control of the external target(s), you will pivot into an internal network. Your goal is to navigate through the network to get to the domain controller (DC) and compromise the Domain Admin account. Once you are able to log into the DC as the Domain Admin, you have completed the exam’s hands-on portion.</li>
+</ol>
+
+<p>After the hands-on portion, there are two additional tasks for house-keeping.</p>
+
+<p><strong>Days 6-7</strong></p>
+<ol>
+  <li><strong>Report-writing:</strong> As with OSCP, you will need to submit a formal pentest report. TCM Security offers <a href="https://github.com/hmaverickadams/TCM-Security-Sample-Pentest-Report">this template</a> but you can use other templates or make your own, as long as it contains all of the expected information.</li>
+</ol>
+
+<p><strong>About one week later</strong></p>
+<ol>
+  <li><strong>Client debriefing:</strong> You will schedule a 15-minute video call with a TCM Security staff member to simulate a debriefing meeting with the client. You will go over your findings and suggest ways for the client to improve their company’s security. The meeting occurs over Google Meet so you can just share your report on screen, or you can create a simple Powerpoint presentation if you want.</li>
+</ol>
+
+<p>After the debriefing meeting, you will receive your shiny certificate through email on the same day!</p>
+
+<p><img src="/assets/images/2022-12-05/3.png" alt="" />
+<em>The exam timeline</em></p>
+
+<p>After reading the five steps above, you might have thought, “This sounds so much like an actual pentesting engagement!” and that is precisely why I especially recommend PNPT for junior-level pentesters with little to no industry experience. From the beginning of the exam to the end, it mimics a real-life pentesting engagement with a client. You will learn the process, mindset, and skills needed to be successful as a professional pentester- even down to the writing and presentation skills!</p>
+
+<p>I believe that PNPT is currently the only exam that carries you from the start to the end of an engagement like this so it is truly a unique experience.</p>
+
+<p>For more information, you can find the official exam syllabus <a href="https://certifications.tcm-sec.com/wp-content/uploads/2022/01/TCMS-PNPT-Training-Overview.pdf">here</a>.</p>
+
+<h1 id="my-journey">My journey</h1>
+
+<p>I officially starting aiming for PNPT after I failed OSCP in March 2022, so it took me about 8 months from start to pass.</p>
+
+<h2 id="study-materials">Study materials</h2>
+
+<h3 id="official-training-courses">Official training courses</h3>
+
+<p>The PNPT covers the following five courses from <a href="https://academy.tcm-sec.com/">TCM Academy</a>:</p>
+
+<p><img src="/assets/images/2022-12-05/4.png" alt="" />
+<em>Yes, each course is only USD $30! It’s a total steal!</em></p>
+
+<ul>
+  <li><a href="https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course">Practical Ethical Hacking</a></li>
+  <li><a href="https://academy.tcm-sec.com/p/windows-privilege-escalation-for-beginners">Windows Privilege Escalation for Beginners</a></li>
+  <li><a href="https://academy.tcm-sec.com/p/linux-privilege-escalation">Linux Privilege Escalation for Beginners</a></li>
+  <li><a href="https://academy.tcm-sec.com/p/osint-fundamentals">Open Source Intelligence (OSINT) Fundamentals</a></li>
+  <li><a href="https://academy.tcm-sec.com/p/external-pentest-playbook">External Pentest Playbook</a></li>
+</ul>
+
+<p>I completed them all and would easily rate them 100/10. The courses are affordable, the material is easy to understand, and the best thing- Heath delivers the content in an interesting way and even includes memes (personally, I think that’s a must!).</p>
+
+<h3 id="prior-oscp-prep">Prior OSCP prep</h3>
+
+<h4 id="hack-the-box--offsec-proving-grounds">Hack the Box &amp; Offsec Proving Grounds</h4>
+
+<p>In preparing for OSCP, like everyone else, I used <a href="https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159">TJNull’s famous list of OSCP-like boxes</a>.</p>
+
+<p>I bought the VIP plan for both <a href="https://www.hackthebox.com/">Hack the Box</a> and <a href="https://www.offensive-security.com/labs/">Offsec Proving Grounds</a>, and then I did a combination of the following:</p>
+
+<ul>
+  <li>When I had time, I picked boxes randomly from the list and tried to do them on my own</li>
+  <li>When I didn’t have time, I picked boxes randomly from the list, read their walkthroughs, and noted down common attack vectors and commands to use</li>
+</ul>
+
+<h4 id="tryhackme-wreath">TryHackMe “Wreath”</h4>
+
+<p>It’s hard to get practice for hacking AD environments because platforms like Hack the Box, Try Hack Me, and Offsec Proving Grounds mostly operate individual boxes.</p>
+
+<p>After doing some research, I found TryHackMe’s <a href="https://tryhackme.com/room/wreath">Wreath</a> room, which is basically a small AD network where your goal is to compromise the DC. I wrote about my experience previously in the Twitter post below. Overall, I think it is an expensive but good learning resource because you will come out as a pro in pivoting and double pivoting- skills that you normally don’t get much chance to practice!</p>
+
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I finished <a href="https://twitter.com/RealTryHackMe?ref_src=twsrc%5Etfw">@RealTryHackMe</a> &#39;s Throwback network! My thoughts in the thread 👇🧵 <a href="https://t.co/00XAbChB9R">pic.twitter.com/00XAbChB9R</a></p>&mdash; Gloria Chow (@gmgchow) <a href="https://twitter.com/gmgchow/status/1514063845723348992?ref_src=twsrc%5Etfw">April 13, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<p><em>A Twitter thread I wrote about the “Wreath” room</em></p>
+
+<h2 id="failed-attempts">Failed attempts</h2>
+
+<p>Health Adams has publicly stated before that some (the estimated number I saw on Reddit is around 30%) students pass on their first try, and almost all will pass on their second try.</p>
+
+<p>Me? I passed on my <strong>third</strong> try. I honestly thought that I would never pass.</p>
+
+<ul>
+  <li>1st attempt: May 1 - 5 (full five days but failed)</li>
+  <li>2nd attempt: May 14 - 19 (full five days again but still failed…)</li>
+  <li>3rd attempt: Nov 19 - 20 (two days and PASSED!!!)</li>
+</ul>
+
+<p>The exam for my 3rd attempt was slightly different, probably due to the gap in between my attempts but as you can see, my 3rd attempt went <strong>much more</strong> smoothly.</p>
+
+<p>I think there are two reasons for that. Every time you fail a PNPT exam, if you submit a report of what you did and what you wanted to try, you can receive a small hint. The things I learned from my failed attempts, along with the small hints and some additional studying, made the 3rd attempt much smoother so I don’t regret failing. If anything, it was all a good learning experience in the end!</p>
+
+<p><em>Edit: As of November 23, 2022, the hint system has been deprecated so you will no longer receive hints for submitting reports after failed attempts. Don’t be discouraged though; my failed attempts honestly taught me far more than the hints did so I’m sure you will pass on retakes even without hints!</em></p>
+
+<h1 id="overall-rating">Overall rating</h1>
+
+<p>My overall rating for PNPT is as follows:</p>
+
+<p><img src="/assets/images/2022-12-05/5.png" alt="" />
+<em>My rating for PNPT</em></p>
+
+<h2 id="cost-1010">Cost: 10/10</h2>
+
+<p>This one is easily a full score because PNPT is one of the cheapest certifications (if not the absolute cheapest) in this field. Below is a price comparison with its rival, OSCP.</p>
+
+<p><strong>OSCP</strong></p>
+<ul>
+  <li>Exam voucher + all training material: USD $1499</li>
+  <li>Exam retake (I believe it’s not possible to take the exam without taking the course first): USD $249</li>
+</ul>
+
+<p><strong>PNPT</strong></p>
+<ul>
+  <li>Exam voucher + all five training courses: USD $399</li>
+  <li>Exam voucher by itself (includes one free retake!): USD $299</li>
+  <li>Exam retake (from the third attempt onwards because the second attempt is free): USD $100</li>
+</ul>
+
+<p>It’s insane that you can achieve this certification with less than USD $400, while OSCP is in the thousands!</p>
+
+<h2 id="value-1010">Value: 10/10</h2>
+
+<p>This one is also easily a full score because the price of the training course + exam package is about 25% of the price of OSCP’s, but the quality of the course material is <strong>far greater</strong>. Heath’s videos are high quality and easy to understand, whilst OSCP’s were so monotone and dry that I actually gave up on watching them. The huge PDF textbook wasn’t particularly helpful either. PNPT easily wins in value. (No, I swear I’m not a paid sponsor LOL)</p>
+
+<h2 id="difficulty-6510">Difficulty: 6.5/10</h2>
+
+<p>If OSCP is 10/10 in difficulty, then I would say that PNPT is around 6 or 7 (significantly easier).</p>
+
+<p>PNPT also has a lot of rabbit holes but in general, the path you should take is much clearer. The exam is indeed a bit longer since there is the debriefing presentation you need to prepare for and the hands-on portion of the exam itself is longer than OSCP’s, but the generous five-day time-frame made it feel easy.</p>
+
+<h2 id="realism-710">Realism: 7/10</h2>
+
+<p>Although the boxes in this exam are much more real than OSCP’s, they’re still very obviously set up. For example, the contents and applications on the machines are not realistic for the situation and the fictional company. I guess this is unavoidable since it’s meant to simplify the exam.</p>
+
+<h2 id="reputation-410">Reputation: 4/10</h2>
+
+<p>Unfortunately, PNPT is still relatively unknown in the industry and will lose to certs like OSCP and eCPPT in terms of name value on the resume. It’s possible that you, my dear reader, have never even heard of it before you saw this blog post. PNPT has been gaining attention slowly so I hope that it will continue to grow in popularity over the next few years. It definitely is one of the best certs I’ve ever taken, and I think it deserves more recognition.</p>
+
+<h2 id="practicality-810">Practicality: 8/10</h2>
+
+<p>OSCP, Hack the Box, etc. tend to focus on rooting as many boxes as possible, but PNPT doesn’t have flags, scores, or any of those gamified elements so it feels a lot closer to the real world. You will discover boxes as you move through the AD network, but you don’t necessarily have to root every single one. Your goal is to get to the DC so you need to keep your goal in mind and decide whether you actually need root access as you investigate each machine. This mindset is much more applicable to the real work of pentesters- stay flexible and adapt to the environment while keeping your objective in mind. Live off the land.</p>
+
+<p>Also, while OSCP, Hack the Box, etc. tend to have very old and obscure vulnerabilities, all of the issues found in PNPT are very real-life scenarios so the skills you learn from taking this cert will definitely be helpful in the industry.</p>
+
+<p>That being said, the reason why I gave 8/10 instead of full score is because this exam was fairly easy, definitely easier than what I would expect a real-life engagement to be. I’m a bit skeptical about whether this exam has prepared me enough to move into a career of Red Teaming or penetration testing but we should remember that this is meant to be an entry-level exam.</p>
+
+<h2 id="enjoyment-1010">Enjoyment: 10/10</h2>
+
+<p>I have <a href="https://www.linkedin.com/in/gmgchow/details/certifications/">over ten certifications</a> and PNPT is hands-down, the funnest one I’ve taken so far! As I moved through the machines, there were jokes and memes which made it fun, and the generous amount of time given made this exam feel less stressful than any other exam I’ve taken so far. Overall, I enjoyed my journey and actually wish that I could take this exam again, just for the fun of it!</p>
+
+<h1 id="tips">Tips</h1>
+
+<p>I would like to share three tips for people intending to take the PNPT exam:</p>
+
+<ul>
+  <li>Take screenshots and write your report <strong>as you go along</strong>. As with OSCP, after your exam ends, you cannot go back to your exam environment. I would recommend writing your report (including inserting the screenshots into their appropriate places) as you go along so that you can avoid having to dig through all the screenshots later, and to avoid forgetting important details.</li>
+  <li>Write down <strong>everything</strong> that you try and track all of your progress. If you fail the exam, you can submit this as an appendix in your report. The exam grader will read what you did and give you a small hint to point you in the right direction for your retake. (<em>Edit: As of November 23, 2022, the hint system has been deprecated but taking detailed notes is a good habit to have and it will help you in retakes and report-writing, so you should do it anyway.</em>)</li>
+  <li>Relax and <strong>don’t give up</strong>. Looking back, five days is definitely enough time to take many breaks to refresh your mind, and it is definitely enough time for this exam. Sometimes, the solution was right in front of me but I couldn’t see it because I was too mentally exhausted. Stay calm, write down your ideas, make a strategy, and go through each point one by one methodically. As long as you don’t give up, you’ll definitely make it!</li>
+</ul>
+
+<p><img src="/assets/images/2022-12-05/6.png" alt="" /></p>
+
+<h1 id="final-thoughts">Final thoughts</h1>
+
+<p><img src="/assets/images/2022-12-05/7.png" alt="" /></p>
+
+<p>PNPT may be a lesser-known certification but in terms of quality, I believe it is <strong>far superior</strong> to OSCP. I learned so much from my journey and would highly recommend it to anyone who is interested in moving into pentesting, Red Teaming, or other branches of offensive security as a future career.</p>
+
+<p>To learn more about the PNPT exam, see the homepage <a href="https://certifications.tcm-sec.com/pnpt/">here</a>.</p>
+
+<p>In the future, I plan to write about my failed OSCP attempt, and I’ll also do a more detailed comparison between the two certs so stay tuned!</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/zh/tags#career" class="page__taxonomy-item p-category" rel="tag">career</a><span class="sep">, </span>
+    
+      <a href="/zh/tags#certifications" class="page__taxonomy-item p-category" rel="tag">certifications</a><span class="sep">, </span>
+    
+      <a href="/zh/tags#cybersecurity" class="page__taxonomy-item p-category" rel="tag">cybersecurity</a><span class="sep">, </span>
+    
+      <a href="/zh/tags#studying" class="page__taxonomy-item p-category" rel="tag">studying</a>
+    
+    </span>
+  </p>
+
+
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=I+passed+my+PNPT+Exam%21%20https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F12%2F05%2FPNPT.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F12%2F05%2FPNPT.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F12%2F05%2FPNPT.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/zh/blog/2022/10/24/probation-period.html" class="pagination--pager" title="What Does Probation Period Really Mean?
+">Previous</a>
+    
+    
+      <a href="/zh/blog/2023/07/16/jcv.html" class="pagination--pager" title="再見，Japan Computer Vision！
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">猜您还喜欢</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zh/blog/2023/07/16/jcv.html" rel="permalink">再見，Japan Computer Vision！
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-07-16T00:00:00+09:00">July 16, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA/ZH) 上週是我在 Japan Computer Vision (JCV) 的最後的一天。JCV是Softbank集團的AI startup，專門開發人臉識別人工智慧產品。我是去年的7月加入的，工作了正好一年。
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zh/blog/2022/10/24/probation-period.html" rel="permalink">What Does Probation Period Really Mean?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-24T00:00:00+09:00">October 24, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) This month, I officially finished my three-month probation period at Japan Computer Vision. This is my third company- therefore my third time going t...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zh/blog/2022/10/02/work-life-balance.html" rel="permalink">Six Signs A Company Has Good Work-Life Balance
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-02T00:00:00+09:00">October 2, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) Recently, work-life balance has been something that I’ve been thinking about a lot because things at work have been busy and sometimes it feels like ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zh/blog/2022/07/14/mercari-retrospective.html" rel="permalink">我從Mercari畢業了!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-14T00:00:00+09:00">July 14, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA/ZH) 上個月，剛剛從我工作差不多5年的Mercari畢業了！
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://linkedin.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+    
+
+    
+      <li><a href="/zh/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 gmgchow.github.io. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/main.js"></script>
+  
+
+
+
+  </body>
+</html>

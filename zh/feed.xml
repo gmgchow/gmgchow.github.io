@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://gmgchow.github.io/zh/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gmgchow.github.io/zh/" rel="alternate" type="text/html" /><updated>2023-07-16T22:59:42+09:00</updated><id>https://gmgchow.github.io/feed.xml</id><title type="html">gmgchow.github.io</title><author><name>Gloria Chow</name></author><entry xml:lang="zh"><title type="html">再見，Japan Computer Vision！</title><link href="https://gmgchow.github.io/zh/blog/2023/07/16/jcv.html" rel="alternate" type="text/html" title="再見，Japan Computer Vision！" /><published>2023-07-16T00:00:00+09:00</published><updated>2023-07-16T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2023/07/16/jcv</id><content type="html" xml:base="https://gmgchow.github.io/blog/2023/07/16/jcv.html">&lt;p&gt;(EN/JA/ZH) 上週是我在 Japan Computer Vision (JCV) 的最後的一天。JCV是Softbank集團的AI startup，專門開發人臉識別人工智慧產品。我是去年的7月加入的，工作了正好一年。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/blog/2023/07/16/jcv.html&quot;&gt;Read in English&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/ja/blog/2023/07/16/jcv.html&quot;&gt;日本語で読む&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;JCV是Softbank集團的子公司。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;在jcv的生活&quot;&gt;在JCV的生活&lt;/h1&gt;
+
+&lt;h2 id=&quot;工作内容&quot;&gt;工作内容&lt;/h2&gt;
+
+&lt;p&gt;作爲Product Team裏邊的第一位兼唯一的Security Engineer，我主要負責建立application security的過程，將SAST/DAST整合到開發流程中，還有做網站、mobile app、API、IoT產品的penetration test。&lt;/p&gt;
+
+&lt;h2 id=&quot;softbank總部&quot;&gt;Softbank總部&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Tokyo Portcity Takeshiba, Softbank集團的總部所在地&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;JCV的工程師大概是full-remote的，所以我很少去了辦公室，但辦公室在Softbank集團的HQ，Tokyo Portcity Takeshiba。這是一座很漂亮而相當新建的辦公大樓，外面種了很多植物，裏面有high-tech清潔機器人，從很多角度能看到海景，還有餐廳，便利店等等的設備！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/3.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;一個安保機器人在辦公樓裏巡。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/4.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;清潔機器人們在休息中。它們大概在營業時間外活動，以免打擾人。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;我個人非常喜歡Softbank的員工食堂（不知道爲什麽，但它被暱稱為“Cafeshiba”），差不多每次去辦公室都會去那裡吃飯。大部分的人好像會選擇咖哩飯、烏冬等等的日式餐，但我總是點cafe的芝士三明治！那裡還有各種甜點，比較適合我的口味。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/5.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;我在Softbank食堂最喜歡點的午餐！&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;當然，有時候我也會在那裡工作。除了午飯晚飯的rush以外，其實相當安靜，而且海景非常美麗。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/6.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;從食堂看到的東京灣美麗景色。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;食堂的食物不是免費的，但價格還算便宜（大約500日元可以得到一餐）。&lt;/p&gt;
+
+&lt;h1 id=&quot;回憶&quot;&gt;回憶&lt;/h1&gt;
+
+&lt;h2 id=&quot;在三語環境中工作&quot;&gt;在三語環境中工作&lt;/h2&gt;
+
+&lt;p&gt;對我來説，在JCV工作最有趣的是，工作環境使用三種語言：英文，中文（普通話）和日文！&lt;/p&gt;
+
+&lt;p&gt;將來我應該沒有機會去中國或台灣工作，所以這可能是我第一次而最後一次在工作中使用中文，成爲了一個非常有意義的經驗。當初我覺得很難跟上（老實説現在也還是…），但是日常參加中文的會議，閲讀完成用中文寫的Slack channel等等，的確讓我中文進步很多了。今年3月，我居然考上了漢語水平考試HSK6級，非常感謝有機會在這樣diverse的環境中工作！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/7.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;我HSK6級的點數是正好合格的。如果沒有JCV的同事們跟我練習中文，覺得肯定不能考上了。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;當然，不是公司每個人都會三種語言。有些人只會一種，有些人會一種半，而有些人是三種語言都完成流利的。我自己只是英文流利的，還在學習中文和日語，所以對三種語言都流利的同事們真的充滿敬意。&lt;/p&gt;
+
+&lt;h2 id=&quot;玩轉人臉識別設備&quot;&gt;玩轉人臉識別設備&lt;/h2&gt;
+
+&lt;p&gt;親愛的讀者，您在日本有見過這種設備嗎？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/8.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;JCV的SenseThunder溫度檢測相機在疫情期間，在日本各地的購物商場、電影院、餐廳等等經常能看到的。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;在JCV工作的一個有趣的方面是，有機會參與研發這個設備和其他可以在日本看到的人臉識別產品，所以覺得自己的工作在社會中是可見的，對社會有貢獻的。每次我在公共地方看見JCV產品的時候都忍不住想告訴人：“你看，這是我公司做的！是我負責做security的！”&lt;/p&gt;
+
+&lt;h2 id=&quot;享受wework生活&quot;&gt;享受WeWork生活&lt;/h2&gt;
+
+&lt;p&gt;對我個人來說，我在JCV最喜歡的福利是員工可以在任何WeWork辦公地點工作。一直在家裏工作的話，有時候覺得很無聊，也有時候下班後有東西要做，所以在東京的中心地區（新宿、澀谷等等）工作比較方便。那時候，我使用了其他WeWork辦公地點。&lt;/p&gt;
+
+&lt;p&gt;其實，在JCV的任職期間中，我去了東京和橫濱的不少WeWork辦公地點，甚至還去了大阪的一個地點啊！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/9.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;一些我去過的WeWork地點（非完整列表）。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;能在任何地方工作，同時享受免費的咖啡和茶，而能借安靜、乾淨、舒服的工作空間真是太棒了。這是一個我肯定會懷念的福利。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2023-07-16/10.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;除了免費的咖啡和茶，WeWork還提供免費的啤酒，自助零食店，休息室，漂亮乾淨的洗手間，甚至有化妝鏡的更衣室啊！&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;離職的理由&quot;&gt;離職的理由&lt;/h1&gt;
+
+&lt;p&gt;我告訴我team的兩個理由如下：&lt;/p&gt;
+
+&lt;p&gt;1）職業發展：作為JCV唯一的Security Engineer，這一年獲得了很多關於構建security process和penetration test的實際經驗。這讓我考慮了我career的下一步，覺得留在JCV無法實現我的職業目標。同時，一個很適合的機會突然出現了，所以我決定離開JCV追求這個機會。&lt;/p&gt;
+
+&lt;p&gt;2）公司的文化不適合自己：眾所周知，Mercari（我的上一個公司）有一種非常獨特的文化，工程師們不僅僅花時間在產品開發上。許多（可以説大部分）員工都積極得參與本地tech community、參與tech conference甚至自己演講、舉辦meetup活動，通過tech blog或open-source software跟社外分享知識。很多team甚至有規定，允許員工在工作時間的一部分進行研究或個人發展，例如參加training course或取得certification等等。可能是我對這種公司文化過於喜愛；我發現很難適應，日常只做下一次release的任務無法找到我工作的motivation。JCV仍然是一家年輕的startup公司，無法提供我所追求的那種文化。&lt;/p&gt;
+
+&lt;h1 id=&quot;下一步&quot;&gt;下一步&lt;/h1&gt;
+
+&lt;p&gt;餘下的夏天，我回加拿大，跟朋友和家人一起過暑假！假期中，我打算花時間學習security的知識和certification，還會爲我下一份工作做點準備。&lt;/p&gt;
+
+&lt;p&gt;現在，不打算透露下一份工作是什麽，但它與我到如今的工作&lt;em&gt;有些&lt;/em&gt;不同，所以要努力的學習，確保能夠立刻上手！請期待我下一篇blog，打算在那裏談談我的新角色。&lt;/p&gt;
+
+&lt;p&gt;在JCV的時間雖然短，但感覺絕超過了一年多！經歷了startup公司的生活、獲得了很多cybersecurity的實際經驗，還有理解了自己的要求和將來的夢想。這成爲了一段非常有意義的經歷，很感謝JCV的一切！&lt;/p&gt;
+
+&lt;p&gt;祝JCV的大家一切順利，很期待在日本和國外四處都看到他們做的人工智能產品！&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="softbank" /><category term="jcv" /><category term="事業" /><category term="轉工" /><summary type="html">(EN/JA/ZH) 上週是我在 Japan Computer Vision (JCV) 的最後的一天。JCV是Softbank集團的AI startup，專門開發人臉識別人工智慧產品。我是去年的7月加入的，工作了正好一年。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2023-07-14/1.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2023-07-14/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">I passed my PNPT Exam!</title><link href="https://gmgchow.github.io/zh/blog/2022/12/05/PNPT.html" rel="alternate" type="text/html" title="I passed my PNPT Exam!" /><published>2022-12-05T00:00:00+09:00</published><updated>2022-12-05T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/12/05/PNPT</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/12/05/PNPT.html">&lt;p&gt;(EN/JA) Last week, I passed the PNPT (Practical Network Penetration Tester) exam! This certification is hands-down, the best that I have taken so far but it is still fairly unknown in the industry. I decided to write this article to share my experience and hopefully help spread word about this amazing certification!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/ja/blog/2022/12/05/PNPT.html&quot;&gt;日本語で読む&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/1.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;My shiny new certificate!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-pnpt&quot;&gt;What is PNPT?&lt;/h1&gt;
+
+&lt;p&gt;PNPT (Practical Network Penetration Tester) is a certification offered by &lt;a href=&quot;https://tcm-sec.com/&quot;&gt;TCM Security&lt;/a&gt;. The company is a startup created by Heath Adams, who you probably better know as &lt;a href=&quot;https://www.youtube.com/@TCMSecurityAcademy&quot;&gt;“The Cyber Mentor”&lt;/a&gt;. He is a famous Youtuber with over 424k subscribers, creating videos on a variety of cybersecurity topics like ethical hacking, penetration testing, OSINT, and more. His videos are high-quality and easy to understand- I’ve learned so much from watching them so if you aren’t following him yet, I’d highly recommend it! (No, I’m not being paid to advertise for him. I’m just a fan LOL)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/2.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;The Cyber Mentor’s Youtube channel&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The certification is commonly compared with OSCP because in terms of content, they are quite similar. Both test penetration testing skills involving web applications, Linux and Windows machines, and active directory (AD). There are some key differences though; I will do a detailed comparison in my next blog post so stay tuned!&lt;/p&gt;
+
+&lt;p&gt;For now, you can think of PNPT as an easier version of OSCP, catered more towards beginners so if you are aiming for OSCP at some point in the future but don’t feel quite confident yet, PNPT would make a great stepping stone.&lt;/p&gt;
+
+&lt;h1 id=&quot;my-motivation-for-taking-pnpt&quot;&gt;My motivation for taking PNPT&lt;/h1&gt;
+
+&lt;p&gt;I first became interested in PNPT precisely for the reason stated above- I want to get OSCP at some point but after having attempted the exam once and failing miserably, I started thinking of ways to practice, especially in an exam-like environment.&lt;/p&gt;
+
+&lt;p&gt;I don’t know if anyone else can relate with me on this but I took the &lt;a href=&quot;https://www.offensive-security.com/pwk-oscp/&quot;&gt;official OSCP training course&lt;/a&gt; (also known as PEN-200 or PWK) and found it absolutely…&lt;strong&gt;terrible&lt;/strong&gt;. The course costs a whopping USD $1499 and comes with video tutorials, a huge PDF textbook, 3 months of lab access for practicing hands-on skills and one exam attempt, but I have so many complaints about it that I can probably write a separate article on this topic later on. For now, let’s just say that the OSCP training course was very unhelpful for me so I looked for other places to supplement my studies.&lt;/p&gt;
+
+&lt;p&gt;In late 2021, &lt;a href=&quot;https://www.offensive-security.com/offsec/oscp-exam-structure/&quot;&gt;OSCP changed their exam&lt;/a&gt; to heavily focus on active directory. The course materials weren’t particularly good to begin with and since it’s difficult to find a place to practice hacking active directory (it requires setting up a mini network of machines), I felt even more unconfident about passing the exam. This is when I did some research online and discovered &lt;a href=&quot;https://academy.tcm-sec.com/&quot;&gt;TCM Security Academy&lt;/a&gt;’s &lt;a href=&quot;https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course&quot;&gt;Practical Ethical Hacking&lt;/a&gt; training course.&lt;/p&gt;
+
+&lt;p&gt;It seems strange to buy one cert’s training course in order to study for another cert, but that is exactly what I did. I ended up buying TCM’s training course to supplement my OSCP studies because they explained the content &lt;strong&gt;far&lt;/strong&gt; better than PWK did. However, I still ended up failing OSCP and it was then that I decided to pass PNPT first as a way to practice my skills and deepen my understanding of AD before attempting to try OSCP again.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-exam&quot;&gt;The exam&lt;/h1&gt;
+
+&lt;p&gt;A common criticism about OSCP is that it lacks practicality- in the real world, you will (hopefully) never have only 24 hours for an engagement! OSCP’s time crunch makes the exam much harder than it should be because most likely you will have to operate on little to no sleep. The live proctoring (you will be watched through webcam the entire time) also adds to the stress so in the end, it feels more like the exam is testing your mental strength rather than your technical skill.&lt;/p&gt;
+
+&lt;p&gt;PNPT takes an entirely different approach than OSCP- it gives you a generous &lt;strong&gt;five days&lt;/strong&gt; for the exam and &lt;strong&gt;two days&lt;/strong&gt; for report-writing, making the whole exam one week long. There is no exam proctoring so you can log on and off freely. This lets you take the exam at your own pace without sacrificing sleep or rest time. However, if you are a full-time student or employee, this can make it harder to schedule the exam since you need to ensure that you can take at least five days off in a row.&lt;/p&gt;
+
+&lt;p&gt;The exam is quite a bit longer than OSCP because it has five parts:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Days 1-5&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;OSINT:&lt;/strong&gt; You will start with a Letter of Engagement from a fictional client company. You must research the company and gather information that will help you in the actual penetration testing.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;External pentest:&lt;/strong&gt; Using the information you gathered, you will discover external target(s) that can be compromised.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Internal pentest:&lt;/strong&gt; After gaining control of the external target(s), you will pivot into an internal network. Your goal is to navigate through the network to get to the domain controller (DC) and compromise the Domain Admin account. Once you are able to log into the DC as the Domain Admin, you have completed the exam’s hands-on portion.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After the hands-on portion, there are two additional tasks for house-keeping.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Days 6-7&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Report-writing:&lt;/strong&gt; As with OSCP, you will need to submit a formal pentest report. TCM Security offers &lt;a href=&quot;https://github.com/hmaverickadams/TCM-Security-Sample-Pentest-Report&quot;&gt;this template&lt;/a&gt; but you can use other templates or make your own, as long as it contains all of the expected information.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;About one week later&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Client debriefing:&lt;/strong&gt; You will schedule a 15-minute video call with a TCM Security staff member to simulate a debriefing meeting with the client. You will go over your findings and suggest ways for the client to improve their company’s security. The meeting occurs over Google Meet so you can just share your report on screen, or you can create a simple Powerpoint presentation if you want.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After the debriefing meeting, you will receive your shiny certificate through email on the same day!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/3.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;The exam timeline&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;After reading the five steps above, you might have thought, “This sounds so much like an actual pentesting engagement!” and that is precisely why I especially recommend PNPT for junior-level pentesters with little to no industry experience. From the beginning of the exam to the end, it mimics a real-life pentesting engagement with a client. You will learn the process, mindset, and skills needed to be successful as a professional pentester- even down to the writing and presentation skills!&lt;/p&gt;
+
+&lt;p&gt;I believe that PNPT is currently the only exam that carries you from the start to the end of an engagement like this so it is truly a unique experience.&lt;/p&gt;
+
+&lt;p&gt;For more information, you can find the official exam syllabus &lt;a href=&quot;https://certifications.tcm-sec.com/wp-content/uploads/2022/01/TCMS-PNPT-Training-Overview.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;my-journey&quot;&gt;My journey&lt;/h1&gt;
+
+&lt;p&gt;I officially starting aiming for PNPT after I failed OSCP in March 2022, so it took me about 8 months from start to pass.&lt;/p&gt;
+
+&lt;h2 id=&quot;study-materials&quot;&gt;Study materials&lt;/h2&gt;
+
+&lt;h3 id=&quot;official-training-courses&quot;&gt;Official training courses&lt;/h3&gt;
+
+&lt;p&gt;The PNPT covers the following five courses from &lt;a href=&quot;https://academy.tcm-sec.com/&quot;&gt;TCM Academy&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/4.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Yes, each course is only USD $30! It’s a total steal!&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course&quot;&gt;Practical Ethical Hacking&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://academy.tcm-sec.com/p/windows-privilege-escalation-for-beginners&quot;&gt;Windows Privilege Escalation for Beginners&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://academy.tcm-sec.com/p/linux-privilege-escalation&quot;&gt;Linux Privilege Escalation for Beginners&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://academy.tcm-sec.com/p/osint-fundamentals&quot;&gt;Open Source Intelligence (OSINT) Fundamentals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://academy.tcm-sec.com/p/external-pentest-playbook&quot;&gt;External Pentest Playbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I completed them all and would easily rate them 100/10. The courses are affordable, the material is easy to understand, and the best thing- Heath delivers the content in an interesting way and even includes memes (personally, I think that’s a must!).&lt;/p&gt;
+
+&lt;h3 id=&quot;prior-oscp-prep&quot;&gt;Prior OSCP prep&lt;/h3&gt;
+
+&lt;h4 id=&quot;hack-the-box--offsec-proving-grounds&quot;&gt;Hack the Box &amp;amp; Offsec Proving Grounds&lt;/h4&gt;
+
+&lt;p&gt;In preparing for OSCP, like everyone else, I used &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159&quot;&gt;TJNull’s famous list of OSCP-like boxes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I bought the VIP plan for both &lt;a href=&quot;https://www.hackthebox.com/&quot;&gt;Hack the Box&lt;/a&gt; and &lt;a href=&quot;https://www.offensive-security.com/labs/&quot;&gt;Offsec Proving Grounds&lt;/a&gt;, and then I did a combination of the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;When I had time, I picked boxes randomly from the list and tried to do them on my own&lt;/li&gt;
+  &lt;li&gt;When I didn’t have time, I picked boxes randomly from the list, read their walkthroughs, and noted down common attack vectors and commands to use&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tryhackme-wreath&quot;&gt;TryHackMe “Wreath”&lt;/h4&gt;
+
+&lt;p&gt;It’s hard to get practice for hacking AD environments because platforms like Hack the Box, Try Hack Me, and Offsec Proving Grounds mostly operate individual boxes.&lt;/p&gt;
+
+&lt;p&gt;After doing some research, I found TryHackMe’s &lt;a href=&quot;https://tryhackme.com/room/wreath&quot;&gt;Wreath&lt;/a&gt; room, which is basically a small AD network where your goal is to compromise the DC. I wrote about my experience previously in the Twitter post below. Overall, I think it is an expensive but good learning resource because you will come out as a pro in pivoting and double pivoting- skills that you normally don’t get much chance to practice!&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I finished &lt;a href=&quot;https://twitter.com/RealTryHackMe?ref_src=twsrc%5Etfw&quot;&gt;@RealTryHackMe&lt;/a&gt; &amp;#39;s Throwback network! My thoughts in the thread 👇🧵 &lt;a href=&quot;https://t.co/00XAbChB9R&quot;&gt;pic.twitter.com/00XAbChB9R&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gloria Chow (@gmgchow) &lt;a href=&quot;https://twitter.com/gmgchow/status/1514063845723348992?ref_src=twsrc%5Etfw&quot;&gt;April 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;A Twitter thread I wrote about the “Wreath” room&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;failed-attempts&quot;&gt;Failed attempts&lt;/h2&gt;
+
+&lt;p&gt;Health Adams has publicly stated before that some (the estimated number I saw on Reddit is around 30%) students pass on their first try, and almost all will pass on their second try.&lt;/p&gt;
+
+&lt;p&gt;Me? I passed on my &lt;strong&gt;third&lt;/strong&gt; try. I honestly thought that I would never pass.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1st attempt: May 1 - 5 (full five days but failed)&lt;/li&gt;
+  &lt;li&gt;2nd attempt: May 14 - 19 (full five days again but still failed…)&lt;/li&gt;
+  &lt;li&gt;3rd attempt: Nov 19 - 20 (two days and PASSED!!!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The exam for my 3rd attempt was slightly different, probably due to the gap in between my attempts but as you can see, my 3rd attempt went &lt;strong&gt;much more&lt;/strong&gt; smoothly.&lt;/p&gt;
+
+&lt;p&gt;I think there are two reasons for that. Every time you fail a PNPT exam, if you submit a report of what you did and what you wanted to try, you can receive a small hint. The things I learned from my failed attempts, along with the small hints and some additional studying, made the 3rd attempt much smoother so I don’t regret failing. If anything, it was all a good learning experience in the end!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Edit: As of November 23, 2022, the hint system has been deprecated so you will no longer receive hints for submitting reports after failed attempts. Don’t be discouraged though; my failed attempts honestly taught me far more than the hints did so I’m sure you will pass on retakes even without hints!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;overall-rating&quot;&gt;Overall rating&lt;/h1&gt;
+
+&lt;p&gt;My overall rating for PNPT is as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/5.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;My rating for PNPT&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;cost-1010&quot;&gt;Cost: 10/10&lt;/h2&gt;
+
+&lt;p&gt;This one is easily a full score because PNPT is one of the cheapest certifications (if not the absolute cheapest) in this field. Below is a price comparison with its rival, OSCP.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OSCP&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Exam voucher + all training material: USD $1499&lt;/li&gt;
+  &lt;li&gt;Exam retake (I believe it’s not possible to take the exam without taking the course first): USD $249&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;PNPT&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Exam voucher + all five training courses: USD $399&lt;/li&gt;
+  &lt;li&gt;Exam voucher by itself (includes one free retake!): USD $299&lt;/li&gt;
+  &lt;li&gt;Exam retake (from the third attempt onwards because the second attempt is free): USD $100&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s insane that you can achieve this certification with less than USD $400, while OSCP is in the thousands!&lt;/p&gt;
+
+&lt;h2 id=&quot;value-1010&quot;&gt;Value: 10/10&lt;/h2&gt;
+
+&lt;p&gt;This one is also easily a full score because the price of the training course + exam package is about 25% of the price of OSCP’s, but the quality of the course material is &lt;strong&gt;far greater&lt;/strong&gt;. Heath’s videos are high quality and easy to understand, whilst OSCP’s were so monotone and dry that I actually gave up on watching them. The huge PDF textbook wasn’t particularly helpful either. PNPT easily wins in value. (No, I swear I’m not a paid sponsor LOL)&lt;/p&gt;
+
+&lt;h2 id=&quot;difficulty-6510&quot;&gt;Difficulty: 6.5/10&lt;/h2&gt;
+
+&lt;p&gt;If OSCP is 10/10 in difficulty, then I would say that PNPT is around 6 or 7 (significantly easier).&lt;/p&gt;
+
+&lt;p&gt;PNPT also has a lot of rabbit holes but in general, the path you should take is much clearer. The exam is indeed a bit longer since there is the debriefing presentation you need to prepare for and the hands-on portion of the exam itself is longer than OSCP’s, but the generous five-day time-frame made it feel easy.&lt;/p&gt;
+
+&lt;h2 id=&quot;realism-710&quot;&gt;Realism: 7/10&lt;/h2&gt;
+
+&lt;p&gt;Although the boxes in this exam are much more real than OSCP’s, they’re still very obviously set up. For example, the contents and applications on the machines are not realistic for the situation and the fictional company. I guess this is unavoidable since it’s meant to simplify the exam.&lt;/p&gt;
+
+&lt;h2 id=&quot;reputation-410&quot;&gt;Reputation: 4/10&lt;/h2&gt;
+
+&lt;p&gt;Unfortunately, PNPT is still relatively unknown in the industry and will lose to certs like OSCP and eCPPT in terms of name value on the resume. It’s possible that you, my dear reader, have never even heard of it before you saw this blog post. PNPT has been gaining attention slowly so I hope that it will continue to grow in popularity over the next few years. It definitely is one of the best certs I’ve ever taken, and I think it deserves more recognition.&lt;/p&gt;
+
+&lt;h2 id=&quot;practicality-810&quot;&gt;Practicality: 8/10&lt;/h2&gt;
+
+&lt;p&gt;OSCP, Hack the Box, etc. tend to focus on rooting as many boxes as possible, but PNPT doesn’t have flags, scores, or any of those gamified elements so it feels a lot closer to the real world. You will discover boxes as you move through the AD network, but you don’t necessarily have to root every single one. Your goal is to get to the DC so you need to keep your goal in mind and decide whether you actually need root access as you investigate each machine. This mindset is much more applicable to the real work of pentesters- stay flexible and adapt to the environment while keeping your objective in mind. Live off the land.&lt;/p&gt;
+
+&lt;p&gt;Also, while OSCP, Hack the Box, etc. tend to have very old and obscure vulnerabilities, all of the issues found in PNPT are very real-life scenarios so the skills you learn from taking this cert will definitely be helpful in the industry.&lt;/p&gt;
+
+&lt;p&gt;That being said, the reason why I gave 8/10 instead of full score is because this exam was fairly easy, definitely easier than what I would expect a real-life engagement to be. I’m a bit skeptical about whether this exam has prepared me enough to move into a career of Red Teaming or penetration testing but we should remember that this is meant to be an entry-level exam.&lt;/p&gt;
+
+&lt;h2 id=&quot;enjoyment-1010&quot;&gt;Enjoyment: 10/10&lt;/h2&gt;
+
+&lt;p&gt;I have &lt;a href=&quot;https://www.linkedin.com/in/gmgchow/details/certifications/&quot;&gt;over ten certifications&lt;/a&gt; and PNPT is hands-down, the funnest one I’ve taken so far! As I moved through the machines, there were jokes and memes which made it fun, and the generous amount of time given made this exam feel less stressful than any other exam I’ve taken so far. Overall, I enjoyed my journey and actually wish that I could take this exam again, just for the fun of it!&lt;/p&gt;
+
+&lt;h1 id=&quot;tips&quot;&gt;Tips&lt;/h1&gt;
+
+&lt;p&gt;I would like to share three tips for people intending to take the PNPT exam:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Take screenshots and write your report &lt;strong&gt;as you go along&lt;/strong&gt;. As with OSCP, after your exam ends, you cannot go back to your exam environment. I would recommend writing your report (including inserting the screenshots into their appropriate places) as you go along so that you can avoid having to dig through all the screenshots later, and to avoid forgetting important details.&lt;/li&gt;
+  &lt;li&gt;Write down &lt;strong&gt;everything&lt;/strong&gt; that you try and track all of your progress. If you fail the exam, you can submit this as an appendix in your report. The exam grader will read what you did and give you a small hint to point you in the right direction for your retake. (&lt;em&gt;Edit: As of November 23, 2022, the hint system has been deprecated but taking detailed notes is a good habit to have and it will help you in retakes and report-writing, so you should do it anyway.&lt;/em&gt;)&lt;/li&gt;
+  &lt;li&gt;Relax and &lt;strong&gt;don’t give up&lt;/strong&gt;. Looking back, five days is definitely enough time to take many breaks to refresh your mind, and it is definitely enough time for this exam. Sometimes, the solution was right in front of me but I couldn’t see it because I was too mentally exhausted. Stay calm, write down your ideas, make a strategy, and go through each point one by one methodically. As long as you don’t give up, you’ll definitely make it!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;final-thoughts&quot;&gt;Final thoughts&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-12-05/7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PNPT may be a lesser-known certification but in terms of quality, I believe it is &lt;strong&gt;far superior&lt;/strong&gt; to OSCP. I learned so much from my journey and would highly recommend it to anyone who is interested in moving into pentesting, Red Teaming, or other branches of offensive security as a future career.&lt;/p&gt;
+
+&lt;p&gt;To learn more about the PNPT exam, see the homepage &lt;a href=&quot;https://certifications.tcm-sec.com/pnpt/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the future, I plan to write about my failed OSCP attempt, and I’ll also do a more detailed comparison between the two certs so stay tuned!&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="cybersecurity" /><category term="career" /><category term="certifications" /><category term="studying" /><summary type="html">(EN/JA) Last week, I passed the PNPT (Practical Network Penetration Tester) exam! This certification is hands-down, the best that I have taken so far but it is still fairly unknown in the industry. I decided to write this article to share my experience and hopefully help spread word about this amazing certification!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-12-05/1.png" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-12-05/1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">What Does Probation Period Really Mean?</title><link href="https://gmgchow.github.io/zh/blog/2022/10/24/probation-period.html" rel="alternate" type="text/html" title="What Does Probation Period Really Mean?" /><published>2022-10-24T00:00:00+09:00</published><updated>2022-10-24T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/10/24/probation-period</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/10/24/probation-period.html">&lt;p&gt;(EN/JA) This month, I officially finished my three-month probation period at Japan Computer Vision. This is my third company- therefore my third time going through probation- but it was the first time that I actually stopped to think about what probation period really means, for both me and the company.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/ja/blog/2022/10/24/probation-period.html&quot;&gt;日本語で読む&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-24/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I guess there is some truth in the saying that as you get older, you tend to become more picky about your work environment because you know what worked for you in the past and what didn’t. I decided to write this article to share my recent experience and opinions about how you can make the best out of your probation period.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-probation-period&quot;&gt;What is Probation Period?&lt;/h1&gt;
+
+&lt;p&gt;Most companies have a probation period for new employees where they are considered as being “on trial” while fully-employed. During probation period, the employer will evaluate the employee on whether they fulfill expectations and whether they are suitable for long-term employment at the company. Probation period length depends on the company but usually it goes from 1-6 months, with around 3 months being the most common.&lt;/p&gt;
+
+&lt;p&gt;While most people think of probation period as the time where the company evaluates you, I believe that it is also &lt;strong&gt;a time for you to evaluate the company&lt;/strong&gt; for long-term potential. Just as the company has the right to terminate you during probation, you also have the right to quit if you feel that the company does not match your expectations.&lt;/p&gt;
+
+&lt;p&gt;So in addition to getting up to speed and trying to get used to your new role, as a new employee, you should also pay attention to the points below in deciding whether you want to continue working at the company after probation period.&lt;/p&gt;
+
+&lt;h1 id=&quot;7-things-you-should-pay-attention-to-during-probation&quot;&gt;7 Things You Should Pay Attention To During Probation&lt;/h1&gt;
+
+&lt;h2 id=&quot;company-and-team-culture&quot;&gt;Company and Team Culture&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-24/2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Although you can learn a lot about the company and team culture during the interview stage, this is something that you cannot fully grasp until after you join. As you spend more time with your team through meetings, chatting online, collaborating on tasks, or attending social events, you will start to deeply understand the company’s culture. Things like work-life balance (which is very important as I wrote about in my &lt;a href=&quot;https://gmgchow.github.io/blog/2022/10/02/work-life-balance.html&quot;&gt;previous blog article&lt;/a&gt;), shared personal values, sense of team or company direction, etc. will become more clear as time passes and these are all factors that will impact your long-term satisfaction at any company.&lt;/p&gt;
+
+&lt;h2 id=&quot;management-compatibility&quot;&gt;Management Compatibility&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-24/3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While there are definitely good managers and bad managers, sometimes, whether a manager is perceived as good or bad very much depends on your compatibility with them. For example, if you are very junior and require lots of direction and attention from your manager, you may be more tolerant of a manager who constantly checks up on you than someone who is very senior and prefers to be trusted to work on their tasks independently.&lt;/p&gt;
+
+&lt;p&gt;I have had many managers over the course of my career (during &lt;a href=&quot;https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective.html&quot;&gt;my time at Mercari&lt;/a&gt; alone, I actually changed managers five times!), and they varied from being close like a friend or teacher, to being completely useless in providing any sort of work or career guidance. With some managers, I was able to perform my very best while with others, my performance was halted because we were not on the same page so I strongly believe that for you to stay at a company for a long time, compatibility with your manager (and their managers as well) is extremely important.&lt;/p&gt;
+
+&lt;p&gt;During your probation period, it will become clear whether you are compatible with your direct manager since you will likely be in frequent contact with them, but you should also observe the behavior of upper management (manager of managers, directors, and executives) to find out whether you agree with the direction that they want to take the company and the way that they treat their employees.&lt;/p&gt;
+
+&lt;h2 id=&quot;communication-style&quot;&gt;Communication Style&lt;/h2&gt;
+
+&lt;p&gt;As with management style, there are also many different styles of communication. Some people prefer to mostly work alone and collaborate only when needed, while others prefer to work collaboratively even on small daily tasks through pair-programming, etc. Some people are ok with communicating exclusively through asynchronous means (methods of communication that don’t require real-time connection like Slack or email), while others need synchronous communication to feel connected (real-time discussions through in-person or online meetings).&lt;/p&gt;
+
+&lt;p&gt;It is important to have compatible communication styles with your team because, for example, if you prefer working asynchronously but your team prefers talking through meetings, you may feel like you are wasting time by sitting in meetings while the rest of your team is perfectly happy. Small incompatibilities like this add up to create stress and resentment in the long run so it is important to notice and address them early on.&lt;/p&gt;
+
+&lt;h2 id=&quot;processes&quot;&gt;Processes&lt;/h2&gt;
+
+&lt;p&gt;As tech workers, the development process is something that directly affects our satisfaction at a company. For example, a company that releases in a very Waterfall style may dump large amounts of work on you sporadically, causing stressful periods. A deadline-driven company may give engineers very little say in deciding deadlines, causing lots of overtime and scrambling to meet deadlines.&lt;/p&gt;
+
+&lt;p&gt;Incompatibility with a company’s processes is something that tends to be difficult to change so you will need to either force yourself to adjust to the environment, or consider going somewhere else that’s a better fit for you.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-to-day-work-and-expectations&quot;&gt;Day-to-Day Work and Expectations&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-24/4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Although this is something that you generally ask about during the interview stage, sometimes hearing about the tasks can be completely different than actually doing them.&lt;/p&gt;
+
+&lt;p&gt;During your probation period, you will get a clear idea of what kinds of tasks you will do everyday. You will also learn what is expected of you on a daily basis- small rules such as clocking in and out, working hours, regular meetings that you must attend, etc.&lt;/p&gt;
+
+&lt;p&gt;Discussion about how your day-to-day will look like at the interview stage tends to remain very abstract and high-level so sometimes the job ends up being quite different from what you had expected. This is something that will become clear during your probation period.&lt;/p&gt;
+
+&lt;h2 id=&quot;growth-opportunities&quot;&gt;Growth Opportunities&lt;/h2&gt;
+
+&lt;p&gt;HR is usually reluctant to provide full details about the employee evaluation and promotion system during the interview stage so this is something that you can only fully grasp after joining. Even so, you still may not understand it until you have stayed for at least one or two evaluation cycles.&lt;/p&gt;
+
+&lt;p&gt;An important question to ask yourself is whether you are &lt;strong&gt;gaining&lt;/strong&gt; anything by being at your new company. Are you gaining new skills that will increase your value in the job market when you decide to make your next move? Will you have the opportunity to grow upwards into leadership roles? If you are on probation but are already feeling stagnant, then perhaps it’s a sign that the company is not providing the growth opportunity that you were looking for.&lt;/p&gt;
+
+&lt;h2 id=&quot;gut-feeling&quot;&gt;Gut Feeling&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-24/5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lastly, a big factor that many people may ignore is the immediate gut feeling after joining a company. Personally, I found that at companies where I was unhappy, I knew so within the first two weeks of being there because there is a certain gut feeling you get when some part of you deep down knows that the company is not a good fit for you. If you get this feeling shortly after starting your new job, it may be worth analyzing the above points to identify what exactly is causing those feelings and whether this job is right for you in the long-term.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Probation period is a time for both you and your employer to evaluate each other. Just like how the employer can terminate your contract if they find you unsuitable for the role, you may also quit if you find that the role is different from what you had expected. The seven points mentioned above are aspects of a new environment that tend to be difficult to change, which is why if you feel an incompatibility, you need to consider whether it is something that you can adapt to over time, or if it is a deal-breaker for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-24/6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Remember that it takes two to tango- the employee and employer relationship needs to be two-way for things to work smoothly so don’t be afraid to express your opinion or make the decision to leave if necessary.&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="career" /><category term="job change" /><summary type="html">(EN/JA) This month, I officially finished my three-month probation period at Japan Computer Vision. This is my third company- therefore my third time going through probation- but it was the first time that I actually stopped to think about what probation period really means, for both me and the company.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-10-24/1.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-10-24/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Six Signs A Company Has Good Work-Life Balance</title><link href="https://gmgchow.github.io/zh/blog/2022/10/02/work-life-balance.html" rel="alternate" type="text/html" title="Six Signs A Company Has Good Work-Life Balance" /><published>2022-10-02T00:00:00+09:00</published><updated>2022-10-02T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/10/02/work-life-balance</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/10/02/work-life-balance.html">&lt;p&gt;(EN/JA) Recently, work-life balance has been something that I’ve been thinking about a lot because things at work have been busy and sometimes it feels like my personal goals have taken a backseat. I wrote this article to share my thoughts on why work-life balance is important and how to recognize a company that has good work-life balance.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/ja/blog/2022/10/02/work-life-balance.html&quot;&gt;日本語で読む&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-02/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-work-life-balance-and-why-is-it-important&quot;&gt;What is work-life balance and why is it important?&lt;/h1&gt;
+
+&lt;p&gt;Work-life balance is exactly as the word looks like: the act of balancing work and life outside of work, including private life (family and friends), hobbies, personal goals, education, other jobs, basically anything outside of the job itself.&lt;/p&gt;
+
+&lt;p&gt;The topic of work-life balance is sometimes a controversial one because some people believe that a good employee is one who goes above and beyond- fully dedicating themselves to their work even if it requires working outside of business hours. This includes monitoring work email or Slack, and being available for overtime work or sudden “emergency” tasks even for positions that don’t have on-call or overtime pay.&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Here&amp;#39;s a topic that tends to get mixed opinions. Should employees be checking work email/Slack on weekends and days off? Why or why not?&lt;/p&gt;&amp;mdash; Gloria Chow (@gmgchow) &lt;a href=&quot;https://twitter.com/gmgchow/status/1571373518675410947?ref_src=twsrc%5Etfw&quot;&gt;September 18, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;A poll I took last month on Twitter. The sample size may be small, but I believe it shows that there will always be mixed opinions about whether employees should be reachable during off-hours.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The importance of work-life balance wildly varies from person to person. Some people are naturally “workaholic” and dedicate all of their time to work or work-related things because it is their way of life. Others prefer a clear boundary between on and off time. There is no right or wrong answer; I think it is a matter of personal values and the goal is to find a company and team that shares the same values as you.&lt;/p&gt;
+
+&lt;p&gt;Personally, work-life balance is one of the top priorities for me- if not the highest priority- because I believe that humans are not meant to just work. We should work to live, not live to work. Since most people won’t stay at the same company for their whole life, you should consider your job as just one chapter of your life. When the time comes for this chapter to end, you will move onto your next role and you will take with you the things you learned and the connections that you built. You will move onto the next chapter of the story called “Life”, but (hopefully) you will look back on this chapter with fond memories.&lt;/p&gt;
+
+&lt;p&gt;In other words, &lt;strong&gt;you&lt;/strong&gt; are the main character of your life story, not your company. The things you do at your job will one day be forgotten as people leave and company direction changes, but your life will go on. Your job is one part of your identity but it is not everything, so you need to have a life outside of work. That is my opinion on this topic and that is why I wanted to write this article to help people recognize the signs of good and bad work-life balance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-02/2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;six-signs-of-good-work-life-balance&quot;&gt;Six Signs of Good Work-life Balance&lt;/h1&gt;
+
+&lt;p&gt;Before joining a company, it can be difficult to find out whether there is good work-life balance. You may need to do some digging around online (aka online stalking of employees) to find clues but in my experience, below are some signs that you should look for.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-hobbies&quot;&gt;1) Hobbies&lt;/h2&gt;
+
+&lt;p&gt;Do employees at the company have hobbies outside of work? This can be a big clue on work-life balance because when employees are expected to dedicate their off-time to work, it is difficult to maintain hobbies.&lt;/p&gt;
+
+&lt;p&gt;So when you are interviewing at a company or attending hiring events, try making small talk and casually asking employees what they do on weekends. You can also try looking them up on LinkedIn, Twitter, etc. to see if you can get some hints on what kinds of activities they spend time on outside of work.&lt;/p&gt;
+
+&lt;p&gt;A company where employees have no hobbies (or even worse, if they say that work is their hobby…) can mean that they have so little time outside of work that they cannot pursue personal interests, or they are too chronically-burnt out to do so.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-02/3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-certifications-and-continuous-learning&quot;&gt;2) Certifications and Continuous Learning&lt;/h2&gt;
+
+&lt;p&gt;Do employees at the company engage in continuous learning through pursuing certifications? I realized only recently that this is a big green flag because studying for certifications takes up a lot of time outside of work. &lt;a href=&quot;https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective.html&quot;&gt;During my time at Mercari&lt;/a&gt;, I achieved many certifications precisely because the good work-life balance allowed me to fully dedicate my evenings and weekends to studying.&lt;/p&gt;
+
+&lt;p&gt;If employees are frequently having to work off-hours, they will not have time for studying so a company where many employees have certifications or actively attend local conferences, seminars, tech meetups, etc. shows that a healthy work-life balance is allowing them to pursue learning outside of work.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-contributions-to-the-community&quot;&gt;3) Contributions to the Community&lt;/h2&gt;
+
+&lt;p&gt;Do employees at the company regularly contribute back to the tech community? As with the point above, speaking and presenting at community events, writing tech blog articles, contributing to open-source software, etc. take up a lot of time so if employees are regularly contributing to the community, it is a good sign that they are not working around the clock.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-02/4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-side-projects-or-jobs&quot;&gt;4) Side Projects or Jobs&lt;/h2&gt;
+
+&lt;p&gt;Do employees at the company have side projects, side businesses, or side jobs? All of these require significant commitment outside of work hours and are definitely impossible to maintain when employees are often working long hours or weekends. A company where employees are able to work on their own projects or for another company at the same time shows that there is a clear boundary between on and off hours.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-contact-during-off-hours&quot;&gt;5) Contact During Off-hours&lt;/h2&gt;
+
+&lt;p&gt;Do employees at the company check and reply to work email or Slack messages during off-hours? For obvious reasons, this one is difficult to find out before joining a company but during the interview process, try returning emails during off-hours to see if they will reply quickly. Although this may not be a sure way, a company where HR consistently replies to emails after hours could be a potential red flag for a workplace culture that expects employees to be readily available after business hours.&lt;/p&gt;
+
+&lt;h2 id=&quot;6-age-and-family&quot;&gt;6) Age and Family&lt;/h2&gt;
+
+&lt;p&gt;Lastly, this may be a controversial point but in my experience, companies where most employees are young, single and childless tend to have poorer work-life balance. This is because caring for a family inevitably takes up employees’ time outside of work so good parents and spouses will not choose companies where they cannot balance family obligations and work. At some companies there may also be the culture that because most employees are young, single and childless, they are expected to be readily available during off-hours precisely because they cannot use family obligations as an excuse. This is why a company where everyone is young, single and childless may seem fun, but can actually be a red flag in disguise.&lt;/p&gt;
+
+&lt;p&gt;Finally, people with families will prefer companies that have good policies for childcare/paternity/maternity leave so a company where many employees have families can mean that the company shows its respect for employees’ private life through providing such benefits.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-10-02/5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;People at the end of life often say things like “I wish I had spent more time with loved ones”, or “I wish I had been braver in pursuing my goals”. No one on their deathbed has ever said “I wish I had clocked in more hours at work” or “I wish I had sacrificed more weekends in order to get that project released sooner”.&lt;/p&gt;
+
+&lt;p&gt;As life goes on, your job will become only one chapter of your life, so it is important to handle your time in a way that you won’t regret. Time is a scarce resource so a company with poor work-life balance will only eat up precious time that you won’t get back.&lt;/p&gt;
+
+&lt;p&gt;Although the six signs I listed aren’t a complete list and further research into the company will certainly be necessary, I hope that it will help you in identifying companies that have good and bad work-life balance. Thanks for reading!&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="career" /><summary type="html">(EN/JA) Recently, work-life balance has been something that I’ve been thinking about a lot because things at work have been busy and sometimes it feels like my personal goals have taken a backseat. I wrote this article to share my thoughts on why work-life balance is important and how to recognize a company that has good work-life balance.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-10-02/1.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-10-02/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="zh"><title type="html">我從Mercari畢業了!</title><link href="https://gmgchow.github.io/zh/blog/2022/07/14/mercari-retrospective.html" rel="alternate" type="text/html" title="我從Mercari畢業了!" /><published>2022-07-14T00:00:00+09:00</published><updated>2022-07-14T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/07/14/mercari-retrospective.html">&lt;p&gt;(EN/JA/ZH) 上個月，剛剛從我工作差不多5年的Mercari畢業了！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/blog/2022/06/22/hello-world.html&quot;&gt;Read in English&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/ja/blog/2022/06/22/hello-world.html&quot;&gt;日本語で読む&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Mercari是一個像Craigslist或者Ebay的網購app.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;我2017年11月1日加入了Mercari。是我在日本的第一份工，當時不知道會留在日本多長時間所以打算暫時留一年半兩年左右。完全沒想過會留在差不多5年啊！在公司經歷了4年9個月，6月14日，終於去了辦公室最後的一次。&lt;/p&gt;
+
+&lt;p&gt;感覺上好像走了很長的路，成長了很多。能説加入Mercari時候的我跟現在的我已經是兩個不同的人！作爲這幾年的retrospective，我寫了這篇文章。&lt;/p&gt;
+
+&lt;h1 id=&quot;時間綫&quot;&gt;時間綫&lt;/h1&gt;
+
+&lt;h2 id=&quot;2017年11月---2018年10月-set和自動化測試時代&quot;&gt;2017年11月 - 2018年10月: SET和自動化測試時代&lt;/h2&gt;
+
+&lt;p&gt;當初我是作爲負責做自動化測試的Software in Test (SET)加入Mercari的。&lt;/p&gt;
+
+&lt;p&gt;當時用的技術棧：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;iOS: XCUITest, Swift, Earl Grey&lt;/li&gt;
+  &lt;li&gt;Android: Ruby, Appium&lt;/li&gt;
+  &lt;li&gt;API: JMeter, Postman&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;主要的成果：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;把iOS自動化測試加入了development repository和CI build pipeline&lt;/li&gt;
+  &lt;li&gt;建立了iOS nightly build&lt;/li&gt;
+  &lt;li&gt;改善了自動化測試後果報告的format&lt;/li&gt;
+  &lt;li&gt;作了一個 &lt;a href=&quot;https://github.com/gmgchow/fastlane-plugin-retry&quot;&gt;fastlane plu gin&lt;/a&gt;，把它open-source&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2018年10月---2019年7月-testdeck時代&quot;&gt;2018年10月 - 2019年7月: Testdeck時代&lt;/h2&gt;
+
+&lt;p&gt;Mercari開始轉去microservice architecture的時候，我就加入了爲了作一個microservice自動化測試的社内tool的新project。我們作的叫 &lt;a href=&quot;https://github.com/mercari/testdeck&quot;&gt;Testdeck&lt;/a&gt;，後期把它open-source了。我以前在 &lt;a href=&quot;https://engineering.mercari.com/en/blog/entry/20200930-testdeck/&quot;&gt;這篇文章&lt;/a&gt;介紹了一下。&lt;/p&gt;
+
+&lt;p&gt;主要的成果：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;爲了參加這個project和後期做Testdeck的lead，獨立學習了microservices，Kubernetes，GCP，Golang等等&lt;/li&gt;
+  &lt;li&gt;跟microservice工程師們一起工作。幫助他們導入自動化測試和troubleshoot，還有收集了關於Testdeck的feature request和改善了Testdeck&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2019年7月---2019年9月-web自動化測試和改變職業時代&quot;&gt;2019年7月 - 2019年9月: Web自動化測試和改變職業時代&lt;/h2&gt;
+
+&lt;p&gt;這幾個月，我一邊做Mercari web app的自動化測試，一邊考慮事業的將來。認真的開始學習security和正式收到轉去security team的offer都是這個時段。&lt;/p&gt;
+
+&lt;p&gt;主要的成果：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;幫助維持了web自動化測試 (Typescript與Mocha)&lt;/li&gt;
+  &lt;li&gt;作了一個社内tool，每晚自動尋找Mercari web application的錯誤鏈接&lt;/li&gt;
+  &lt;li&gt;考上了CompTIA Security+資格&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2019年10月---2022年6月-security-team時代&quot;&gt;2019年10月 - 2022年6月: Security Team時代&lt;/h2&gt;
+
+&lt;p&gt;雖然我當初作爲SET加入Mercari，結果我在Security Team的時間比我在SET的時間長。&lt;/p&gt;
+
+&lt;p&gt;因爲我是沒有經驗，除了CompTIA Security+以外沒有其他security的知識加入Security Team的，其實，當初覺得很辛苦。初半年，我把工作外的時間全部都用來學習security，因爲我想快一點catch up。關於改變職業，我以前寫了 &lt;a href=&quot;https://engineering.mercari.com/blog/entry/2020-05-14-121008&quot;&gt;這篇文章&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;我永遠會感謝我的team因爲他們一直都沒有放棄我，給我一個能成長到堂堂正正一位Security Engineer的溫暖環境。大家應該知道吧，security這個行業是非常難入的。每個公司都要求有很多經驗的Security Engineer，但是如果沒有地方願意訓練junior的話，那怎麽會有經驗呢?是因爲我能在一個鼓勵我的team内，能跟一些非常優秀的前輩們一起工作，才能成長到現在的我。&lt;/p&gt;
+
+&lt;p&gt;主要的成果：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;改善Testdeck成爲一個security和QA test的tool，那後把它open-source了&lt;/li&gt;
+  &lt;li&gt;把威脅模型分析導入了development process&lt;/li&gt;
+  &lt;li&gt;Co-lead了Security Champions，給社内工程師提供的security知識訓練班&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;這幾年看見的變化&quot;&gt;這幾年看見的變化&lt;/h1&gt;
+
+&lt;p&gt;我在Mercari變了很多，但是同時Mercari也有變了很多。我加入的時候是IPO和國際化之前。那時候，Mercari還是一個很典型的日本startup。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/2.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;大概88%的員工是我加入公司以後加入的。因爲我比其他同事在公司比較長，有時候被叫古株！&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;國際化&quot;&gt;國際化&lt;/h2&gt;
+
+&lt;p&gt;當初加入公司的時候，Slack上的通告，email，對話，文章，會議的幻燈片等等，&lt;strong&gt;全部&lt;/strong&gt;都是日文的。那時候只有20幾位外國人吧，所以大家都是互相認識的。&lt;/p&gt;
+
+&lt;p&gt;現在，Mercari是日本公司之中比較國際化的。工程部門大概一半是外國人，其實很多team工作上只會用英文。我加入的時候工作上只用日文，但是後期變了差不多只用英文。現在的社内通告等等全部都有英文和日文，而且一些All-Hands會議是全英文舉行的。對不會講日文的外國人來説，工作環境變了舒服很多。在日本找到優秀的工程師已經是非常難的，如果需要日文的話，一定找不到好人所以對公司來説，這是一個很好的變化。&lt;/p&gt;
+
+&lt;h2 id=&quot;多元化與包容性-di&quot;&gt;多元化與包容性 (D&amp;amp;I)&lt;/h2&gt;
+
+&lt;p&gt;我加入的時候，當時完全沒有外國人的manager(Engineering Manager和以上)。女性的manager也沒有。這幾年，非常高興能看到management和leadership層越來越多外國人和女性。雖然現在高層還是沒有那麽多minority的人（大部分還是日本人的男性），但是我很期待Mercari會繼續强化D&amp;amp;I。&lt;/p&gt;
+
+&lt;h2 id=&quot;your-choice&quot;&gt;YOUR CHOICE&lt;/h2&gt;
+
+&lt;p&gt;雖然以前一直都有WFH這個選擇（要得了manager的認可），因爲COVID-19疫情，Mercari宣佈了一個全remote，全flex-time的制度叫 &lt;a href=&quot;https://about.mercari.com/en/press/news/articles/20210901_yourchoice/&quot;&gt;YOUR CHOICE&lt;/a&gt;. 很多同事們都離開東京，搬去物價比較便宜而且好住的城市了。但是，當我尋找工作的時候，發現原來還有很多日本公司强求hybrid制度，要求員工定期去辦公室（每個禮拜一兩次）。現在世界是慢慢的回復正常的生活，但是我還是希望越來越多公司會宣佈好像Mercari YOUR CHOICE的制度。&lt;/p&gt;
+
+&lt;h1 id=&quot;成果和美麗的回憶&quot;&gt;成果和美麗的回憶&lt;/h1&gt;
+
+&lt;h2 id=&quot;第一次寫博客&quot;&gt;第一次寫博客&lt;/h2&gt;
+
+&lt;p&gt;加入Mercari之前我完全沒有寫過博客，還是沒有興趣試寫。當我給Mercari的&lt;a href=&quot;https://engineering.mercari.com/en/blog/&quot;&gt;Engineering Blog&lt;/a&gt;寫了幾片文章之後，發現原來很好玩，成爲了我開始這個個人網站的一個原因。&lt;/p&gt;
+
+&lt;p&gt;我寫的文章：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/en/blog/entry/20220426-threat-modeling-at-mercari/&quot;&gt;Threat Modeling at Mercari&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/en/blog/entry/20211210-how-is-security-testing-different-from-typical-software-testing/&quot;&gt;How is Security Testing Different from Typical Software Testing?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/en/blog/entry/20201214-devsecops-what-is-it-and-why-is-it-gaining-momentum-in-the-industry/&quot;&gt;DevSecOps: What Is It and Why Is It Gaining Momentum in the Industry?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/en/blog/entry/20200930-testdeck/&quot;&gt;Introducing Testdeck, an Open Source Tool for Microservices QA &amp;amp; Security Testing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2020-05-14-121008/&quot;&gt;The Road to Becoming a Security Engineer: My Story of Career Change&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-12-21-123830/&quot;&gt;Mercari AQA Pop Talk #4: The Future of QA &amp;amp; Test Automation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-11-01-124027/&quot;&gt;Three Things I Learned at STARWEST, One of the Largest Conferences for Software Testing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-08-23-184237/&quot;&gt;I Got Certified in ISTQB Advanced Level - Test Automation Engineering!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;第一次給open-source貢獻&quot;&gt;第一次給Open-Source貢獻&lt;/h2&gt;
+
+&lt;p&gt;加入Mercari以前，沒有給Open-Source貢獻過，還是沒有想過會想貢獻。結果，我在Mercari做的project之中有兩個open-source了！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/gmgchow/fastlane-plugin-retry&quot;&gt;gmgchow/fastlane-plugin-retry&lt;/a&gt;：把XCUITest的自動化測試自動retry的fastlane plugin。現在已經停止維持了。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mercari/testdeck&quot;&gt;mercari/testdeck&lt;/a&gt;：用Golang做gRPC microservice的自動化測試的tool（細節在上邊的Testdeck項目寫了）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;第一次在event演講&quot;&gt;第一次在event演講&lt;/h2&gt;
+
+&lt;p&gt;從小時候我一直很不喜歡給大觀衆説話。如果沒有加入Mercari的話，我應該一世都不會想象在tech event演講。Mercari在tech community内相當活法的，常常舉行meetup（疫情以前在辦公室舉行，但是現在大概是online的）。很多員工會參加event，演講自己特別有知識的話題，分享最近做的project，等等。結果，我在兩個event演講了。那時候覺得很不舒服在那麽多人前説話，但是現在覺得成爲了一個好經驗。唯一的後悔是，我沒有機會用日文演講了。我覺得用日文演講一定會是一個好挑戰，而且可以試一試自己的日文能力。希望裝來會有這個機會。&lt;/p&gt;
+
+&lt;p&gt;我演講的event：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2018年12月：&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-12-21-123830/&quot;&gt;Mercari AQA Pop Talk #4: The Future of QA &amp;amp; Test Automation&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/secret/wmEiwlBUtlXSH9&quot;&gt;From Agile to DevOps: The Rise of ‘Continuous Testing’&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2022年4月：&lt;a href=&quot;https://mercari.connpass.com/event/244594/&quot;&gt;Mercari’s Approach to Modern Day Threats #2&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://speakerdeck.com/gmgchow/diving-into-threat-modeling-at-mercari&quot;&gt;Diving Into Threat Modeling at Mercari&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;第一次出差&quot;&gt;第一次出差&lt;/h2&gt;
+
+&lt;p&gt;疫情以前，我運氣很好，能去了兩次海外出差！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-08-23-184237/&quot;&gt;倫敦，英國（2018年7月）&lt;/a&gt;：我爲了上ISTQB Advanced Level - Test Automation Engineering的訓練班和考試去了倫敦。這是我第一次出差，第一次去歐洲，第一次一個人來到外國就掉了錢包（這個事件可以下一次再解釋哈哈），所以成爲了一個很難忘的經驗！&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.mercari.com/blog/entry/2018-11-01-124027/&quot;&gt;加州，美國（2018年10月）&lt;/a&gt;：我跟同事們一起去加州參加了STARWEST自動化測試的大會。這是我第一次去tech conference，覺得好新鮮和得了一些新知識。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;事業外的活動&quot;&gt;事業外的活動&lt;/h2&gt;
+
+&lt;h3 id=&quot;社内俱樂部&quot;&gt;社内俱樂部&lt;/h3&gt;
+
+&lt;p&gt;在Mercari工作很喜歡的一方面是社内俱樂部。覺得什麽都有俱樂部！因爲我很積極的參加了很多不同的俱樂部，能跟平時不能遇到的同事們交流了。&lt;/p&gt;
+
+&lt;p&gt;我參加的俱樂部的例：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;料理部，福岡茶部，香港部，比薩部，多語言聊天部，Costco部，Ghibli部，麥當勞部，新加波部，台灣部，美國部，加拿大部，水果部，中文部&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/3.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;2018年的冬季，我在水果部吃了很多種類的日本草莓！&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;資格&quot;&gt;資格&lt;/h3&gt;
+
+&lt;p&gt;在Mercari工作發現的一個好處是continuous learning這個想法。很多同事們都常常挑戰自己，去考資格和積極的學習新東西。我加入之前差不多沒有資格，還是沒有什麽特別興趣努力去學習新東西。但是，當我跟好有上進心的人一起工作，開始自己也想再努力一點。結果，我也考上了很多資格，愛上了學習tech和其他的課目。Mercari有時候會提供資格學習的支持，但是有些是我用自己的錢和時間去考的。&lt;/p&gt;
+
+&lt;p&gt;我在Mercari的時候考上的資格：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ISTQB: Advanced Level - Test Automation Engineering, Advanced Level - Security Tester&lt;/li&gt;
+  &lt;li&gt;CompTIA: Security+&lt;/li&gt;
+  &lt;li&gt;(ISC)2: SSCP, CSSLP, CISSP&lt;/li&gt;
+  &lt;li&gt;日文: JLPT N1, BJT J2&lt;/li&gt;
+  &lt;li&gt;中文: HSK 5, HSKK Intermediate&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;語言學習&quot;&gt;語言學習&lt;/h3&gt;
+
+&lt;p&gt;在Mercari工作另一個好處是因爲公司是比較有多元化的，所以能跟好多不同背景的人交友。這是對我語言學習有很大的影響，領導我更加想練好我的日文和中文。因爲工作環境慢慢得變成需要英文的，幾位朋友們都感興趣練英文。結果，爲了互相提高語言能力，我們常常做了語言交換的1on1會議。&lt;/p&gt;
+
+&lt;h1 id=&quot;辭職的理由&quot;&gt;辭職的理由&lt;/h1&gt;
+
+&lt;p&gt;以下是我宣佈離職時候跟我team説的話：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s not that I hate it here or anything. This is the best team that I have worked with in my whole career so far. It’s just that I’ve been here for way too long. I think it’ll be good for me to see more of the world outside. （不是因爲我討厭了這理。這條team是到現在工作過之中，最棒的。只是，我覺得我已經留在這理太長了。去經歷一下外邊的世界會對我好。）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mercari是我第二家公司（除了internship的公司），還是我作爲Security Engineer的第一家。對我事業將來來説，去外邊逛逛一下，收一下新刺激，看看其他公司怎麽樣子才能繼續學習新東西和成長。&lt;/p&gt;
+
+&lt;p&gt;所以我選擇進入人生下一個階段。我在Mercari的時間經歷了好的和壞的，當然有時候覺得一切都不順利。但是，大概是拿著好的回憶離開的。&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Today was my last day at Mercari! It has been a looong 4 years and 9 months, I have so much to say that I don&amp;#39;t even know where to begin! I&amp;#39;ll write a blog post about it later after I set up my personal blog. For now, my next stop: back to Vancouver for a month! 🇨🇦✈️ &lt;a href=&quot;https://t.co/SmLA7BK0Z2&quot;&gt;pic.twitter.com/SmLA7BK0Z2&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gloria Chow (@gmgchow) &lt;a href=&quot;https://twitter.com/gmgchow/status/1536729941358055424?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;最後再看一次Mori Tower。我不知道爲什麽，但是Mercari員工辭職的時候總會拍一拍這樣的照片。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;下一步&quot;&gt;下一步&lt;/h1&gt;
+
+&lt;p&gt;這個月，我會作爲Senior Security Engineer加入 &lt;a href=&quot;https://www.japancv.co.jp/en/&quot;&gt;Japan Computer Vision&lt;/a&gt;，Softbank集團的AI startup。我完全沒有關於AI的知識，還沒有Mercari以外的security經驗，而且不太會講普通話（工作上是需要的），所以應該是一個好機會當爲事業和個人的成長。很期待。&lt;/p&gt;
+
+&lt;p&gt;雖然我會進入人生下一個階段，我不會忘記我在Mercari過的時間。在這理我認識了最優秀的工程師，交了能談心事的好朋友，比我想象中成長了多。如果我沒有加入Mercari的話，可能已經不在日本了。公司和工作上認識的大家在我心目中是那麽重要的。&lt;/p&gt;
+
+&lt;p&gt;謝謝Mercari給我最棒的（差不多）5年！希望我們在未來能再見。:)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/4.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;這是我同事給我手作的禮物，一隻MerPaca!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-07-14/5.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;拜拜，Mercari!&lt;/em&gt;&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="mercari" /><category term="事業" /><summary type="html">(EN/JA/ZH) 上個月，剛剛從我工作差不多5年的Mercari畢業了！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-07-14/4.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-07-14/4.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="zh"><title type="html">Hello World</title><link href="https://gmgchow.github.io/zh/blog/2022/06/22/hello-world.html" rel="alternate" type="text/html" title="Hello World" /><published>2022-06-22T00:00:00+09:00</published><updated>2022-06-22T00:00:00+09:00</updated><id>https://gmgchow.github.io/blog/2022/06/22/hello-world</id><content type="html" xml:base="https://gmgchow.github.io/blog/2022/06/22/hello-world.html">&lt;p&gt;(EN/JP/ZH) 歡迎來到我的新博客！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/blog/2022/06/22/hello-world.html&quot;&gt;Read in English&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gmgchow.github.io/ja/blog/2022/06/22/hello-world.html&quot;&gt;日本語で読む&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;其實我一直都想做一個個人網站和博客，但是找不到時間做。現在我在溫哥華放假所以終於有點多餘時間做了！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-06-22/1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;在溫哥華公共圖書館天臺看到的風景（溫哥華Downtown，加拿大）&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;我打算寫關於我有興趣的話題的作文（tech行業，cybersecurity，心理學，事業和自我完善，日本的生活，等等）。&lt;/p&gt;
+
+&lt;p&gt;後日就快開放的作文：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;我在最近辭職的公司Mercari的時間的retrospective&lt;/li&gt;
+  &lt;li&gt;人生第一次從兩家公司拿offer，談判工資的經驗&lt;/li&gt;
+  &lt;li&gt;最近看完，想推薦的書&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;現在，這個網站在用premade的設計所以相當不好看。我打算就快做點進步：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;吧UI設計改善一下&lt;/li&gt;
+  &lt;li&gt;加日文和中文的翻譯（警告：因爲我想練習一下這兩個語言，我打算自己翻譯。有可能會翻譯得很奇怪，抱歉。。。）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;在profile理留了我的Twitter和LinkedIn，如果有comment，特別想我寫的話題，意見，提案等等，可以隨便聯絡我。&lt;/p&gt;
+
+&lt;p&gt;謝謝你的閲讀，希望能在下一個post再見！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-06-22/2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;我在享受溫哥華的美味點心！很久不吃正宗的中式菜了！&lt;/em&gt;&lt;/p&gt;</content><author><name>Gloria Chow</name></author><category term="隨意" /><summary type="html">(EN/JP/ZH) 歡迎來到我的新博客！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gmgchow.github.io/assets/images/2022-06-22/1.jpg" /><media:content medium="image" url="https://gmgchow.github.io/assets/images/2022-06-22/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

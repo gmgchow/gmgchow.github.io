@@ -1,0 +1,808 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ja" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-58T9BNP8XF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-58T9BNP8XF');
+</script>
+
+
+
+
+  <link href="/ja/feed.xml" type="application/atom+xml" rel="alternate" title="一匹のセキュリティアルパカの呟き Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@gmgchow">
+<meta name="twitter:creator" content="Gloria Chow">
+<meta name="twitter:title"   content="メルカリを卒業しました！">
+
+
+<meta name="twitter:description" content="先月、5年近く勤めてきた株式会社メルカリを卒業しました！">
+
+
+
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="https://gmgchow.github.io/assets/images/2022-07-14/4.jpg">
+
+<!-- end of Twitter cards -->
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/ja/">
+          一匹のセキュリティアルパカの呟き
+          <span class="site-subtitle">(本サイトは準備中です)</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/ja/blog">ブログ</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ja/tags">タグ</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ja/reading-list">読書リスト</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ja/about">プロフィール</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="lang-switcher-toggle" type="button">
+          <span class="visually-hidden">Switch language</span>
+          <img src="/assets/images/lang-icon-white.png" width=24 height=24/>
+        </button>
+        <ul class="floating-menu lang-switcher hidden">
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/blog/2022/07/14/mercari-retrospective.html">
+            English
+        </a>
+    </li>
+        
+    <li class="lang-option-active masthead__menu-item">日本語</li>
+        
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/zh/blog/2022/07/14/mercari-retrospective.html">
+            繁體中文
+        </a>
+    </li>
+        </ul>
+
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://gmgchow.github.io/ja/">
+        <img src="/assets/images/bio-photo.jpg" alt="Gloria Chow" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://gmgchow.github.io/ja/" itemprop="url">Gloria Chow</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>シニア・セキュリティエンジニア @ 日本コンピュータビジョン（ソフトバンクグループ）</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">東京、日本</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://linkedin.com/in/gmgchow/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <meta itemprop="headline" content="メルカリを卒業しました！">
+    <meta itemprop="description" content="(EN/JA/ZH) 先月、5年近く勤めてきた株式会社メルカリを卒業しました！">
+    <meta itemprop="datePublished" content="2022-07-14T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">メルカリを卒業しました！
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-14T00:00:00+09:00">July 14, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>(EN/JA/ZH) 先月、5年近く勤めてきた株式会社メルカリを卒業しました！</p>
+
+<ul>
+  <li><a href="https://gmgchow.github.io/ja/blog/2022/07/14/mercari-retrospective.html">Read in English</a></li>
+  <li><a href="https://gmgchow.github.io/zh/blog/2022/07/14/mercari-retrospective.html">看中文版</a></li>
+</ul>
+
+<p><img src="/assets/images/2022-07-14/1.jpg" alt="" />
+<em>メルカリはCraigslistやEbayのようなフリマアプリです。</em></p>
+
+<p>私は2017年11月1日にメルカリに入社しました。日本での初めての会社で、将来の事が分からなくて、とりあえず一年半や二年間ぐらいいようと思ってジョインしましたが、結局5年近くいるなんて想像もしなかったです！入社してから4年9ヵ月間が経って、ようやく6月14日に最終出社日を迎えました。</p>
+
+<p>入社した当時の私と今の私を比べると、もはや別人だと言えるぐらい成長してきた気がします。この数年間の振り返りとしてこの記事を書きました。</p>
+
+<h1 id="タイムライン">タイムライン</h1>
+
+<h2 id="2017年11月2018年10月setと自動化テスト時代">2017年11月～2018年10月：SETと自動化テスト時代</h2>
+
+<p>最初は、自動化テストを担当する「Software in Test (SET)」として入社しました。</p>
+
+<p>当時に使った技術スタック：</p>
+<ul>
+  <li>iOS: XCUITest, Swift, Earl Grey</li>
+  <li>Android: Ruby, Appium</li>
+  <li>API: JMeter, Postman</li>
+</ul>
+
+<p>主な達成：</p>
+<ul>
+  <li>iOSの自動化テストを開発リポジトリとCIパイプラインに導入しました</li>
+  <li>iOS自動化テストのnightly buildを設定しました</li>
+  <li>テスト結果のリポートを改善しました</li>
+  <li><a href="https://github.com/gmgchow/fastlane-plugin-retry">fastlane plugin</a> を開発して、オープンソースしました</li>
+  <li>「ISTQB Advanced - Test Automation Engineer」が受かりました</li>
+</ul>
+
+<h2 id="2018年10月2019年7月testdeck時代">2018年10月～2019年7月：Testdeck時代</h2>
+
+<p>メルカリはマイクロサービス・アーキテクチャへの移行が始まった頃、マイクロサービスのテストができる社内ツールを作る必要になって、私はそのプロジェクトに入りました。結果として、<a href="https://github.com/mercari/testdeck">Testdeck</a> というツールを開発して、<a href="https://engineering.mercari.com/blog/entry/20200930-testdeck/">こちらの記事</a> で説明したようにオープンソースしました。</p>
+
+<p>主な達成：</p>
+<ul>
+  <li>プロジェクトに貢献するためにマイクロサービス・アーキテクチャ、Kubernetes、GCP、Go などを学んで、最終にTestdeckのリードになりました</li>
+  <li>マイクロサービスの開発チームと親しく働いて、自動化テストの導入、トラブルシュート、Testdeckのフィーチャーリクエストや改善などで、開発チームをサポートしました</li>
+</ul>
+
+<h2 id="2019年7月2019年9月ウェブ自動化テストとキャリアチェンジ時代">2019年7月～2019年9月：ウェブ自動化テストとキャリアチェンジ時代</h2>
+
+<p>この数か月間、メルカリのウェブアプリの自動化テストをサポートしながら、キャリアについて次のステップを考えました。セキュリティを真剣に勉強し始めたことも、セキュリティチームに異動する内定をもらったことも、この時期でした。</p>
+
+<p>主な達成：</p>
+<ul>
+  <li>ウェブの自動化テストのメインテナンスをサポートしました（TypescriptとMocha）</li>
+  <li>ウェブアプリのリンク切れを毎晩に検出する社内ツールを開発しました</li>
+  <li>「CompTIA Security+」が受かりました</li>
+</ul>
+
+<h2 id="2019年10月2022年6月セキュリティチーム時代">2019年10月～2022年6月：セキュリティチーム時代</h2>
+
+<p>最初はSETとして入社しましたが、結局セキュリティチームに配属した時間の方が長くなりました。</p>
+
+<p>CompTIA Security+の資格以外にセキュリティの知識や経験が全くなくてセキュリティチームに異動したので、正直に言えば、最初はとても辛かったです。早くキャッチアップして貢献したかったので、最初の半年間ぐらいに、仕事以外の時間はほとんど全て勉強で使いました。以前にキャリアチェンジに関して <a href="https://engineering.mercari.com/blog/entry/2020-05-14-121008">こちらの記事</a> を書きました。</p>
+
+<p>セキュリティチームの皆さんが諦めずに、セキュリティエンジニアの卵で未熟な私を育ててくれたことに永遠に感謝します。皆さんはもうご存じだと思うのですが、セキュリティ業界は非常に入りにくいのです。たくさんの経験がないと雇ってもらえません。しかし、雇ってもらえなければ経験を積むことができるわけがないので、悪循環です。いつも暖かく応援してくれたチームの中で、今まで見たことのない優秀さを持っている先輩たちのもとで働けたおかげで、成長ができて貢献できるようになりました。</p>
+
+<p>主な達成：</p>
+<ul>
+  <li>TestdeckをセキュリティテストとQAのテスト両方で使えるツールに改善して、オープンソースしました</li>
+  <li>開発プロセスに脅威モデリングを導入しました</li>
+  <li>エンジニア向けの社内セキュリティ研修プログラム「Security Champions」をco-leadしました</li>
+</ul>
+
+<h1 id="長年にわたって見た会社の変化">長年にわたって見た会社の変化</h1>
+
+<p>私は人間としてもエンジニアとしても成長した一方で、メルカリは会社としても色々な変化がありました。入社した時はIPOと会社のグローバル化の前だったので、あの時のメルカリはまだ日本のベンチャー企業らしい会社だったと思います。</p>
+
+<p><img src="/assets/images/2022-07-14/2.png" alt="" />
+<em>やく88%の社員が私の入社した後にジョインしたので、私はたまに古株と呼ばれました（笑）。</em></p>
+
+<h2 id="グローバル化">グローバル化</h2>
+
+<p>入社した時に、Slackのアナウンスメント、メール、会議、ドキュメントなど、<strong>全て</strong> は日本語のみでした。当時に、外国人が多分20人ぐらいしかいなくて、みんな知合っていました。</p>
+
+<p>メルカリはこの数年間でグローバル化を強化して、今はエンジニア部の半分ぐらいは外国籍の人で、英語しか使わないチームも実は結構多いのです。私も、日本語しか使わない働き環境からほぼ仕事で日本語を使わないようになりました。今は、全てのアナウンスメントは英語と日本語両方があって、英語メインで開催される全体定例などもあります。日本語のできない人にとって、間違いなくとても働きやすい環境になりました。日本国内で優秀な人材を見つけることはもう随分難しいのですが、日本語力も要求すればさらに見つけにくくなるので、会社にとってとても良い方向だと思います。</p>
+
+<h2 id="ダイバーシティインクルージョン">ダイバーシティ＆インクルージョン</h2>
+
+<p>日本語力がどうしても必要だったので、入社した時に外国籍のマネージャー（エンジニアリング・マネージャーとそれ以上の役割）がいないことに全然驚きませんでした。女性のマネージャーもいなかったです。しかし、この数年間で、マネージャーとリーダーシップ層に少しずつ外国籍の人と女性が増えてきて、とても嬉しいことに思っています。もちろんまだマイノリティーの人が少なくて日本人の男性が圧倒的に多いのですが、少しずつ改善が見えて、これからもD&amp;Iが強化することに期待しています。</p>
+
+<h2 id="your-choice">YOUR CHOICE</h2>
+
+<p>ずっとある程度（マネージャーの許可が必要）在宅勤務ができましたが、コロナのきっかけでメルカリは<a href="https://about.mercari.com/press/news/articles/20210901_yourchoice/">「YOUR CHOICE」</a>というフルーリモートかつフルーフレックスタイムのポリシーを設立しました。あれから、東京を出て、もっと物価が安くて住みやすい場所に引っ越した同僚が実は少なくはありません。しかし、調べてみたら、メルカリのように在宅勤務を推薦している日本企業は極端に少ないことが明らかになりました。ハイブリッド勤務として定期的に（週1～2回ぐらい）出社を求めている会社が驚くほど多いのです。コロナ前の生活に戻りつつであっても、メルカリの「YOUR CHOICE」のような柔軟性のある働き方が増えてほしいですね。</p>
+
+<h1 id="達成と愛しい思い出">達成と愛しい思い出</h1>
+
+<h2 id="初めてブログ記事を書いたこと">初めてブログ記事を書いたこと</h2>
+
+<p>入社の前に、ブログを書いたことがなくて、書きたいとも一切思わなかったです。しかし、実際に <a href="https://engineering.mercari.com/blog/">メルカリのエンジニアリングブログ</a> の記事を書いてみたら、楽しすぎて次々書いてしまって、この個人ブログを始めるきっかけにもなりました。</p>
+
+<p>私の書いた記事：</p>
+<ul>
+  <li><a href="https://engineering.mercari.com/blog/entry/20220426-threat-modeling-at-mercari/">メルカリの脅威モデリングプロセス</a></li>
+  <li><a href="https://engineering.mercari.com/blog/entry/20211210-how-is-security-testing-different-from-typical-software-testing/">セキュリティ・テストは一般的なソフトウェア・テストとどう違うのか？</a></li>
+  <li><a href="https://engineering.mercari.com/blog/entry/20201214-bea4717e9a/">DevSecOpsとは何か — 導入する組織が増加している理由</a></li>
+  <li><a href="https://engineering.mercari.com/blog/entry/20200930-testdeck/">マイクロサービスのQA・セキュリティ自動化テスト社内ツール「Testdeck」をOSS化しました！</a></li>
+  <li><a href="https://engineering.mercari.com/blog/entry/2020-05-14-121008/">セキュリティエンジニアへの道：私のキャリアチェンジ物語</a></li>
+  <li><a href="https://engineering.mercari.com/blog/entry/2018-12-21-123830/">Mercari AQA Pop Talk #4: The Future of QA &amp; Test Automation</a></li>
+  <li><a href="https://engineering.mercari.com/blog/entry/2018-11-01-124027/">ソフトウェアテストの大規模カンファレンス「STARWEST」で学んだ3つのこと</a></li>
+  <li><a href="https://engineering.mercari.com/blog/entry/2018-08-23-184237/">世界基準の認定資格「ISTQB テスト自動化エンジニア認定資格」をゲットしました！</a></li>
+</ul>
+
+<h2 id="初めてオープンソースへの貢献">初めてオープンソースへの貢献</h2>
+
+<p>同様に、入社前にオープンソースに貢献したことがなくて、してみたいとも思わなかったです。結局、メルカリの作業のきっかけで開発した2つのプロジェクトをオープンソースしました！</p>
+
+<ul>
+  <li><a href="https://github.com/gmgchow/fastlane-plugin-retry">gmgchow/fastlane-plugin-retry</a>: XCUITestの自動化テストケースを自動的にリトライするためのプラグインです。現在はもうメインテナンスを行われていません。</li>
+  <li><a href="https://github.com/mercari/testdeck">mercari/testdeck</a>: Goで書かれたgRPCマイクロサービスの自動化テストフレームワークです。（もっと詳しい情報は上記のTestdeckセクションにて）</li>
+</ul>
+
+<h2 id="初めてスピーカーとしてイベントに参加したこと">初めてスピーカーとしてイベントに参加したこと</h2>
+
+<p>ずっとプレゼンテーションをすることが苦手で、メルカリで働かなったらtechイベントにスピーカーとして参加するなんて考えもしなかったはずです。メルカリはtechコミュニティーで結構アクティブで、よく勉強会などのイベントを開催します（コロナの前はオフィスで開催したのですが、今はほとんどオンラインです）。社員がイベントに登場して、自分の得意な分野や最近担当しているプロジェクトについて共有したりします。私は2つのイベントに登場して、非常に良い経験で挑戦ができて良かったと思っています。イベントに関して唯一の未練は、日本語で発表する機械がなかったことです。とても良いチャレンジになるし、自分の日本語力を試すチャンスにもなるし、またいつか機械があればなと思っています。</p>
+
+<p>私の登場したイベント：</p>
+<ul>
+  <li>2018年12月: <a href="https://engineering.mercari.com/blog/entry/2018-12-21-123830/">Mercari AQA Pop Talk #4: The Future of QA &amp; Test Automation</a>
+    <ul>
+      <li><a href="https://www.slideshare.net/secret/wmEiwlBUtlXSH9">From Agile to DevOps: The Rise of ‘Continuous Testing’</a></li>
+    </ul>
+  </li>
+  <li>2022年4月: <a href="https://mercari.connpass.com/event/244594/">Mercari’s Approach to Modern Day Threats #2</a>
+    <ul>
+      <li><a href="https://speakerdeck.com/gmgchow/diving-into-threat-modeling-at-mercari">Diving Into Threat Modeling at Mercari</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="初めての出張">初めての出張</h2>
+
+<p>コロナの前に、運が良くて海外出張二回も行けました！</p>
+
+<ul>
+  <li><a href="https://engineering.mercari.com/blog/entry/2018-08-23-184237/">ロンドン、イギリス（2018年7月）</a>: ISTQB Advanced Level - Test Automation Engineering のトレーニングコースと試験を受けるためにイギリスに行かせてもらいました。初めての出張で、初めてヨーロッパに行って、初めて到着後にすぐにお財布をなくしてしまった酷い目にも会ったのですが（その話は別の日にしましょう笑）、とても忘れられない経験でした！</li>
+  <li><a href="https://engineering.mercari.com/blog/entry/2018-11-01-124027/">カリフォルニア、アメリカ（2018年10月）</a>: STARWESTという自動化テストのtechカンファレンスに行きました。初めてtechカンファレンスに参加したので、色々なことが学べて良い経験でした。</li>
+</ul>
+
+<h2 id="仕事以外のこと">仕事以外のこと</h2>
+
+<h3 id="部活">部活</h3>
+
+<p>メルカリのいい所の一つは、部活を楽しめることです！どんな部活もある気がします。部活を積極的に参加することで普段仕事で話せない人との交流ができました。</p>
+
+<p>参加した部活の例：</p>
+<ul>
+  <li>料理部、福岡お茶部、香港部、ピザ部、バイリンガルチャット部、コストコ部、ジブリ部、マクドナルド部、シンガポール部、台湾部、アメリカ部、カナダ部、フルーツ部、中国語チャット部</li>
+</ul>
+
+<p><img src="/assets/images/2022-07-14/3.jpg" alt="" />
+<em>2018年の冬、フルーツ部で色々な種類のいちごを食べました！</em></p>
+
+<h3 id="資格の取得">資格の取得</h3>
+
+<p>もう一つのいい所は、continuous learningを大切にする文化です。入社の前に、ずっと資格なんかに興味がなくて、ほとんど持っていませんでした。しかし、メルカリに資格を持っていて向上心の高い人が非常に多くて、彼らのもとで働くだけで自分もモチベーションが湧きました。結局、次々で資格を取るようになりました。会社が資格の取得に少し支援を出してくれましたが、自分のお金と時間で取った資格も多いです。</p>
+
+<p>メルカリにいる間に取った資格：</p>
+<ul>
+  <li>ISTQB: Advanced Level - Test Automation Engineering, Advanced Level - Security Tester</li>
+  <li>CompTIA: Security+</li>
+  <li>(ISC)2: SSCP, CSSLP, CISSP</li>
+  <li>日本語: JLPT N1, BJT J2</li>
+  <li>中国語: HSK 5, HSKK Intermediate</li>
+</ul>
+
+<h3 id="語学の勉強">語学の勉強</h3>
+
+<p>メルカリの働き環境は多様性があるので、様々なバックグラウンドの人と仲良くなることができました。日本語と中国語の勉強に対してモチベーションもとても上がりました。英語化が進んでいる中で、英語を練習したいと言う友達もいて、お互いの語学力を上達させるために定期的な言語交換の1on1会議もしていました。</p>
+
+<h1 id="退職の理由">退職の理由</h1>
+
+<p>下記はチームに伝えた言葉です。</p>
+
+<blockquote>
+  <p>It’s not that I hate it here or anything. This is the best team that I have worked with in my whole career so far. It’s just that I’ve been here for way too long. I think it’ll be good for me to see more of the world outside.（ここが嫌いになったわけじゃないです。このチームは今まで働いたチームの中で、一番良かったと思っています。ただ、ここにいるのがあまりにも長すぎて、将来とキャリアを考えると、外の世界をもっと知るべきだと思いました。）</p>
+</blockquote>
+
+<p>メルカリは私の2社目で（インターンシップの会社を除いて）、セキュリティエンジニアとしての1社目です。まだまだキャリアの始点に立っている状態です。成長したり、スキルアップしたりするために、もっと外の世界を見て、新しい刺激を受けて、他の会社で経験を積んだ方がいいのではないかと思い始めました。</p>
+
+<p>その理由で、キャリアの次のステップに進むことに決めました。メルカリで確かに良いことと辛いことも色々ありましたが、全体的には良い経験に思っていて、愛しい思い出を持って退職しました。</p>
+
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today was my last day at Mercari! It has been a looong 4 years and 9 months, I have so much to say that I don&#39;t even know where to begin! I&#39;ll write a blog post about it later after I set up my personal blog. For now, my next stop: back to Vancouver for a month! 🇨🇦✈️ <a href="https://t.co/SmLA7BK0Z2">pic.twitter.com/SmLA7BK0Z2</a></p>&mdash; Gloria Chow (@gmgchow) <a href="https://twitter.com/gmgchow/status/1536729941358055424?ref_src=twsrc%5Etfw">June 14, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<p><em>森タワーを最後に眺めました。なぜか分からないのですが、退職する際にこのような森タワー写真を撮ることはメルカリ社員の伝統らしいです。</em></p>
+
+<h1 id="次のステップ">次のステップ</h1>
+
+<p>今月、<a href="https://www.japancv.co.jp/">日本コンピュータビジョン</a> という、ソフトバンクグループ所属のAIスタートアップに、シニア・セキュリティエンジニアとして入社します。AI業界の経験がなくて、メルカリ以外のセキュリティの経験もなくて、しかも中国語も苦手（仕事では必要）ですが、だからこそキャリアにも人生にも良い経験になると思って、楽しみにしています。</p>
+
+<p>人生の次の段階に進みますが、メルカリで過ごした時間を決して忘れません。今まで見たことのない優秀さを持っている仲間たち、これからもずっと大切にしたい繋がり、非常に成長させてくれた働き環境。正直、メルカリに入らなかったら、まだ日本にいるかどうかは微妙です。メルカリで過ごした時間とそこで作った繋がりは、私にとってはそれほど大切な物なのです。</p>
+
+<p>素敵な5年（近く）をありがとうございました、お世話になりました！またいつか、どこかで皆さんにお会いできればなと思っています～＾＾</p>
+
+<p><img src="/assets/images/2022-07-14/4.jpg" alt="" />
+<em>同僚にもらった手作りのメルパカです！</em></p>
+
+<p><img src="/assets/images/2022-07-14/5.jpg" alt="" />
+<em>またね、メルカリ！</em></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/ja/tags#%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2" class="page__taxonomy-item p-category" rel="tag">キャリア</a><span class="sep">, </span>
+    
+      <a href="/ja/tags#%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA" class="page__taxonomy-item p-category" rel="tag">メルカリ</a><span class="sep">, </span>
+    
+      <a href="/ja/tags#%E8%BB%A2%E8%81%B7" class="page__taxonomy-item p-category" rel="tag">転職</a>
+    
+    </span>
+  </p>
+
+
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA%E3%82%92%E5%8D%92%E6%A5%AD%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81%20https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F07%2F14%2Fmercari-retrospective.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F07%2F14%2Fmercari-retrospective.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F07%2F14%2Fmercari-retrospective.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ja/blog/2022/06/22/hello-world.html" class="pagination--pager" title="Hello World
+">Previous</a>
+    
+    
+      <a href="/ja/blog/2022/10/02/work-life-balance.html" class="pagination--pager" title="ワークライフバランスが良い会社の6つの共通点
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">関連記事</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ja/blog/2023/07/16/jcv.html" rel="permalink">日本コンピュータビジョン、お世話になりました！
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-07-16T00:00:00+09:00">July 16, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA/ZH) 先週はソフトバンクグループ傘下のAIスタートアップ、日本コンピュータビジョン株式会社での最終出社日でした。2022年7月に入社し、ちょうど1年間お世話になりました。
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ja/blog/2022/12/05/PNPT.html" rel="permalink">PNPTに受かりました！
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-05T00:00:00+09:00">December 5, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) 先週、PNPT (Practical Network Penetration Tester) に受かりました！この資格はまだセキュリティ分野であまり人気ではありませんが、今まで取った資格の中で、一番良かったと思っています！是非この資格の紹介も含めて、今回の経験と感想を共有したくてこの記事を書きまし...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ja/blog/2022/10/24/probation-period.html" rel="permalink">試用期間の本当の意味は？
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-24T00:00:00+09:00">October 24, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) 今月、日本コンピュータービジョンでの3ヵ月の試用期間が無事に終わりました。インターンシップを除いて三社目なので、試用期間の経験も三回目でした。しかし、今回は初めて雇い主である会社と雇われた社員である私、両方にとって「試用期間」の意味を真剣に考えました。
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ja/blog/2022/10/02/work-life-balance.html" rel="permalink">ワークライフバランスが良い会社の6つの共通点
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-02T00:00:00+09:00">October 2, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) 最近、仕事で多忙な毎日を過ごし、自分の目標などが二の次になってしまいそうな気がして、ワークライフバランスについてよく考えるようになりました。個人の意見とワークライフバランスが良い会社の特徴を述べたいと思い、この記事を書きました。
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://linkedin.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+    
+
+    
+      <li><a href="/ja/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 gmgchow.github.io. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/main.js"></script>
+  
+
+
+
+  </body>
+</html>

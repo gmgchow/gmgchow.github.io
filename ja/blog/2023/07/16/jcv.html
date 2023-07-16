@@ -1,0 +1,695 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ja" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-58T9BNP8XF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-58T9BNP8XF');
+</script>
+
+
+
+
+  <link href="/ja/feed.xml" type="application/atom+xml" rel="alternate" title="一匹のセキュリティアルパカの呟き Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@gmgchow">
+<meta name="twitter:creator" content="Gloria Chow">
+<meta name="twitter:title"   content="日本コンピュータビジョン、お世話になりました！">
+
+
+<meta name="twitter:description" content="先週は丁度一年間お世話になった日本コンピュータビジョン（ソフトバンクグループ）での最終出社日でした。">
+
+
+
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="https://gmgchow.github.io/assets/images/2023-07-16/1.jpg">
+
+<!-- end of Twitter cards -->
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/ja/">
+          一匹のセキュリティアルパカの呟き
+          <span class="site-subtitle">(本サイトは準備中です)</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/ja/blog">ブログ</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ja/tags">タグ</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ja/reading-list">読書リスト</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ja/about">プロフィール</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="lang-switcher-toggle" type="button">
+          <span class="visually-hidden">Switch language</span>
+          <img src="/assets/images/lang-icon-white.png" width=24 height=24/>
+        </button>
+        <ul class="floating-menu lang-switcher hidden">
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/blog/2023/07/16/jcv.html">
+            English
+        </a>
+    </li>
+        
+    <li class="lang-option-active masthead__menu-item">日本語</li>
+        
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/zh/blog/2023/07/16/jcv.html">
+            繁體中文
+        </a>
+    </li>
+        </ul>
+
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://gmgchow.github.io/ja/">
+        <img src="/assets/images/bio-photo.jpg" alt="Gloria Chow" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://gmgchow.github.io/ja/" itemprop="url">Gloria Chow</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>シニア・セキュリティエンジニア @ 日本コンピュータビジョン（ソフトバンクグループ）</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">東京、日本</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://linkedin.com/in/gmgchow/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <meta itemprop="headline" content="日本コンピュータビジョン、お世話になりました！">
+    <meta itemprop="description" content="(EN/JA/ZH) 先週はソフトバンクグループ傘下のAIスタートアップ、日本コンピュータビジョン株式会社での最終出社日でした。2022年7月に入社し、ちょうど1年間お世話になりました。">
+    <meta itemprop="datePublished" content="2023-07-16T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">日本コンピュータビジョン、お世話になりました！
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-07-16T00:00:00+09:00">July 16, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>(EN/JA/ZH) 先週はソフトバンクグループ傘下のAIスタートアップ、日本コンピュータビジョン株式会社での最終出社日でした。2022年7月に入社し、ちょうど1年間お世話になりました。</p>
+
+<ul>
+  <li><a href="https://gmgchow.github.io/ja/blog/2023/07/16/jcv.html">Read in English</a></li>
+  <li><a href="https://gmgchow.github.io/zh/blog/2023/07/16/jcv.html">看中文版</a></li>
+</ul>
+
+<p><img src="/assets/images/2023-07-16/1.jpg" alt="" />
+<em>日本コンピュータビジョンはソフトバンクの子会社です。</em></p>
+
+<h1 id="日本コンピュータビジョンでの日常">日本コンピュータビジョンでの日常</h1>
+
+<h2 id="勤務内容">勤務内容</h2>
+
+<p>会社の最初で唯一のセキュリティエンジニアとして、プロダクトチームに入り、アプリケーションセキュリティを担当させていただきました。主なタスクはリリース向けのセキュリティプロセスの改善、開発フローにSAST・DASTの導入、ウェブ・モバイルアプリ・API・IoTプロダクトのペネトレーションテストなどでした。</p>
+
+<h2 id="ソフトバンク本社">ソフトバンク本社</h2>
+
+<p><img src="/assets/images/2023-07-16/2.jpg" alt="" />
+<em>ソフトバンク本社である「東京ポートシティ竹芝」。</em></p>
+
+<p>エンジニアリング部は基本的にフルリモートなので、私もほとんど出社しませんでした。日本コンピュータビジョンのオフィスはソフトバンク本社である「東京ポートシティ竹芝」にあります。とても新しくて、綺麗なオフィスビルです。外壁は緑が多くて、ビル内は何とハイテックでお掃除のロボットもあります。海の絶景、レストラン、コンビニなども整っている素敵なビルです！</p>
+
+<p><img src="/assets/images/2023-07-16/3.jpg" alt="" />
+<em>セキュリティロボットが監視するためにビル内のあちらこちらを回ります。</em></p>
+
+<p><img src="/assets/images/2023-07-16/4.jpg" alt="" />
+<em>休憩中のお掃除ロボット。邪魔にならないように、基本的に営業時間外にしか動きません。</em></p>
+
+<p>個人的に、ソフトバンクの社員食堂（なぜか「カフェシバ」という名前で呼ばれています）が結構好きで、出社する際はよく行きました。カレー、うどんなどの和食は人気のようですが、私はいつもカフェのホットサンドにしました！美味しいスイーツも色々な種類があるので、お気に入りのカフェでした。</p>
+
+<p><img src="/assets/images/2023-07-16/5.jpg" alt="" />
+<em>社員食堂でよく食べたカフェランチ！</em></p>
+
+<p>食堂はランチとディナーラッシュの時間帯以外は意外と静かなので、たまに海の風景を眺めながら作業をしました。</p>
+
+<p><img src="/assets/images/2023-07-16/6.jpg" alt="" />
+<em>社員食堂からの眺めは何と、東京湾の絶景です！</em></p>
+
+<p>食堂の食べ物は無料ではありませんが、大体安くてワンコインで済めるような値段です。</p>
+
+<h1 id="思い出">思い出</h1>
+
+<h2 id="初めてのトライリンガルな働き環境">初めてのトライリンガルな働き環境</h2>
+
+<p>日本コンピュータビジョンの一番面白い所は、完全にトライリンガルな働き環境でした！英語・中国語（マンダリン）・日本語も日常で使いました。</p>
+
+<p>将来に中国や台湾で働くことはないと思うので、今回は恐らく最初で最後に中国語で仕事をする機会かもしれません。最初（正直、今だに…）はすごく言葉の壁を感じて大変でしたが、中国語での会議に参加したり、完全に中国語で書いたSlackチャンネルを読んだりすることで、少しずつ上達ができた気がします。今年の3月に、中国語能力試験の一番上の「HSK6級」も受かることができました！こんなダイバーシティのある働き環境を経験できて本当に感謝しています。</p>
+
+<p><img src="/assets/images/2023-07-16/7.jpg" alt="" />
+<em>HSK6級はギリギリで合格できましたが、同僚の皆さんがいなければ絶対に受からなかったと思います。</em></p>
+
+<p>もちろん、社員全員が完全にトライリンガルな訳ではありません。1つの言語しかできない人もいれば、1.5ヵ国語ができる人もいて、3ヵ国語が完全にペラペラな人もいます。私は英語しかペラペラではなく、中国語も日本語もまだ勉強中なので、完全トライリンガルな同僚には心から尊敬しています。</p>
+
+<h2 id="顔認証のおもちゃをいじる">顔認証のおもちゃをいじる</h2>
+
+<p>さて、読者の皆さん、日本国内でこの端末を見たことはありませんか？</p>
+
+<p><img src="/assets/images/2023-07-16/8.jpg" alt="" />
+<em>JCV製品のSenseThunder検温器はコロナ禍の間に、ショッピングセンター、映画館やレストランなどでよく見かけたAI製品です。</em></p>
+
+<p>日本コンピュータビジョンで働いて楽しいと思った一つのことは、この端末だけではなく、会社の顔認証製品を日本国内のあちらこちらで見かけ、社会へ貢献していると実感できたことです。ショッピングセンターなどでこの端末を見るたびに、「ほら、うちの会社の製品なの！私はセキュリティの担当をしたの！」と、いつも自慢げに言いたくなりました！</p>
+
+<h2 id="weworkの設備を楽しむ">WeWorkの設備を楽しむ</h2>
+
+<p>個人的に、日本コンピュータビジョンの福利厚生の中で、一番良かったのは世界中のWeWorkのロケーションも使えることです！ずっと在宅勤務だと飽きてしまうし、たまに仕事が終わった後に予定が入っていて、新宿や渋谷などの都心に近い所で働いた方が便利な場合もありました。そういう時に、WeWorkの色々なロケーションを利用しました。</p>
+
+<p>実は在職の間に、東京と横浜にあるWeWorkの何軒も利用して、大阪ロケーションの一軒にも行ったのですよ！</p>
+
+<p><img src="/assets/images/2023-07-16/9.jpg" alt="" />
+<em>行ったことのあるWeWorkの例（一部しか掲載していません）。</em></p>
+
+<p>都内のどこでも働けて、無料でコーヒーやお茶を飲みながら、静かで綺麗で、さらに居心地の良いワークスペースを借りれるなんて、本当に最高でした。。</p>
+
+<p><img src="/assets/images/2023-07-16/10.jpg" alt="" />
+<em>無料なコーヒーやお茶だけではなく、ビール、セルフレジのお菓子コーナー、休憩室、綺麗で清潔なトイレ、化粧鏡まである着替え室もあります！</em></p>
+
+<h1 id="退職の理由">退職の理由</h1>
+
+<p>チームに告げた退職の理由は以下の2つです：</p>
+
+<p>1) キャリアの成長：会社の唯一のセキュリティエンジニアとして、この一年間でセキュリティプロセスを作ったり、色々なプロダクトの脆弱性診断をしたりして、たくさんの経験を積むことができました。そして、キャリアの次のステップを考え始めて、残念ながら会社に居続けてもキャリアの目標が達成できないことが分かりました。その時、良いキャリアアップのチャンスに巡り合ったので、転職することにしました。</p>
+
+<p>2) 会社のカルチャーが自分に合わない：ご存知かもしれませんが、前職の株式会社メルカリは割と独特なカルチャーがあります。エンジニアたちは単純にプロダクトの開発だけではなく、他のこともできます。例えば、テックカンファレンスで講演したり、勉強会を開催したり、テックブログやOSSで情報共有したりすることで、日本と海外のテックコミュニティに積極的に貢献しているメルカリ社員がとても多いです。研究、トレーニングコースや資格などのスキルアップのために、勤務時間の一部を割いているチームもいます。私はそんなカルチャーが大好きで、プロダクトの開発やリリース向けの仕事しかできないような働き環境に中々慣れられなくて、もっと自分に合う会社を探し始めました。</p>
+
+<h1 id="次のステップ">次のステップ</h1>
+
+<p>夏の残りはカナダに帰って、友達と家族と過ごす予定です！帰省中に、セキュリティや資格の勉強と、次の仕事の準備をしようと思います。</p>
+
+<p>今の所は、次の仕事について公開しませんが、今までの仕事とは<em>若干</em>違うので、ちゃんとこなせるようにしばらく勉強しようと思います！次のブログで公開しますので、是非楽しみにしてください。</p>
+
+<p>日本コンピュータビジョンに短い間にお世話になりましたが、もう一年以上経ったように感じます。若いスタートアップの現場で、たくさんのセキュリティ知識を身に付けられて、自分のことと将来のキャリアも考えさせられて、色々学べて良い経験でした。今までありがとうございました！</p>
+
+<p>これからも日本コンピュータビジョンの皆さんを応援していて、町中に会社のAI製品を見ることを楽しみにしています！</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/ja/tags#jcv" class="page__taxonomy-item p-category" rel="tag">jcv</a><span class="sep">, </span>
+    
+      <a href="/ja/tags#%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2" class="page__taxonomy-item p-category" rel="tag">キャリア</a><span class="sep">, </span>
+    
+      <a href="/ja/tags#%E3%82%BD%E3%83%95%E3%83%88%E3%83%90%E3%83%B3%E3%82%AF" class="page__taxonomy-item p-category" rel="tag">ソフトバンク</a><span class="sep">, </span>
+    
+      <a href="/ja/tags#%E8%BB%A2%E8%81%B7" class="page__taxonomy-item p-category" rel="tag">転職</a>
+    
+    </span>
+  </p>
+
+
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%E6%97%A5%E6%9C%AC%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%80%81%E3%81%8A%E4%B8%96%E8%A9%B1%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81%20https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2023%2F07%2F16%2Fjcv.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2023%2F07%2F16%2Fjcv.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2023%2F07%2F16%2Fjcv.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ja/blog/2022/12/05/PNPT.html" class="pagination--pager" title="PNPTに受かりました！
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">関連記事</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ja/blog/2022/12/05/PNPT.html" rel="permalink">PNPTに受かりました！
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-05T00:00:00+09:00">December 5, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) 先週、PNPT (Practical Network Penetration Tester) に受かりました！この資格はまだセキュリティ分野であまり人気ではありませんが、今まで取った資格の中で、一番良かったと思っています！是非この資格の紹介も含めて、今回の経験と感想を共有したくてこの記事を書きまし...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ja/blog/2022/10/24/probation-period.html" rel="permalink">試用期間の本当の意味は？
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-24T00:00:00+09:00">October 24, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) 今月、日本コンピュータービジョンでの3ヵ月の試用期間が無事に終わりました。インターンシップを除いて三社目なので、試用期間の経験も三回目でした。しかし、今回は初めて雇い主である会社と雇われた社員である私、両方にとって「試用期間」の意味を真剣に考えました。
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ja/blog/2022/10/02/work-life-balance.html" rel="permalink">ワークライフバランスが良い会社の6つの共通点
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-02T00:00:00+09:00">October 2, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) 最近、仕事で多忙な毎日を過ごし、自分の目標などが二の次になってしまいそうな気がして、ワークライフバランスについてよく考えるようになりました。個人の意見とワークライフバランスが良い会社の特徴を述べたいと思い、この記事を書きました。
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ja/blog/2022/07/14/mercari-retrospective.html" rel="permalink">メルカリを卒業しました！
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-14T00:00:00+09:00">July 14, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA/ZH) 先月、5年近く勤めてきた株式会社メルカリを卒業しました！
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://linkedin.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+    
+
+    
+      <li><a href="/ja/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 gmgchow.github.io. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/main.js"></script>
+  
+
+
+
+  </body>
+</html>

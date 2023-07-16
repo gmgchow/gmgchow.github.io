@@ -1,0 +1,691 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="zh" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-58T9BNP8XF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-58T9BNP8XF');
+</script>
+
+
+
+
+  <link href="/zh/feed.xml" type="application/atom+xml" rel="alternate" title="一隻Security羊駝的個人網站 Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@gmgchow">
+<meta name="twitter:creator" content="Gloria Chow">
+<meta name="twitter:title"   content="再見，Japan Computer Vision！">
+
+
+<meta name="twitter:description" content="上個禮拜是我在JCV Softbank的最後的一天。在這裏工作了正好一年。">
+
+
+
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="https://gmgchow.github.io/assets/images/2023-07-14/1.jpg">
+
+<!-- end of Twitter cards -->
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/zh/">
+          一隻Security羊駝的個人網站
+          <span class="site-subtitle">（本網站現在整理中）</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/zh/blog">博客</a>
+            </li><li class="masthead__menu-item">
+              <a href="/zh/tags">標簽</a>
+            </li><li class="masthead__menu-item">
+              <a href="/zh/reading-list">閲讀書目</a>
+            </li><li class="masthead__menu-item">
+              <a href="/zh/about">個人質料</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="lang-switcher-toggle" type="button">
+          <span class="visually-hidden">Switch language</span>
+          <img src="/assets/images/lang-icon-white.png" width=24 height=24/>
+        </button>
+        <ul class="floating-menu lang-switcher hidden">
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/blog/2023/07/16/jcv.html">
+            English
+        </a>
+    </li>
+        
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/ja/blog/2023/07/16/jcv.html">
+            日本語
+        </a>
+    </li>
+        
+    <li class="lang-option-active masthead__menu-item">繁體中文</li>
+        </ul>
+
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://gmgchow.github.io/zh/">
+        <img src="/assets/images/bio-photo.jpg" alt="Gloria Chow" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://gmgchow.github.io/zh/" itemprop="url">Gloria Chow</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Senior Security Engineer @ Japan Computer Vision (Softbank集團)</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">東京，日本</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://linkedin.com/in/gmgchow/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <meta itemprop="headline" content="再見，Japan Computer Vision！">
+    <meta itemprop="description" content="(EN/JA/ZH) 上週是我在 Japan Computer Vision (JCV) 的最後的一天。JCV是Softbank集團的AI startup，專門開發人臉識別人工智慧產品。我是去年的7月加入的，工作了正好一年。">
+    <meta itemprop="datePublished" content="2023-07-16T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">再見，Japan Computer Vision！
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-07-16T00:00:00+09:00">July 16, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>(EN/JA/ZH) 上週是我在 Japan Computer Vision (JCV) 的最後的一天。JCV是Softbank集團的AI startup，專門開發人臉識別人工智慧產品。我是去年的7月加入的，工作了正好一年。</p>
+
+<ul>
+  <li><a href="https://gmgchow.github.io/zh/blog/2023/07/16/jcv.html">Read in English</a></li>
+  <li><a href="https://gmgchow.github.io/ja/blog/2023/07/16/jcv.html">日本語で読む</a></li>
+</ul>
+
+<p><img src="/assets/images/2023-07-16/1.jpg" alt="" />
+<em>JCV是Softbank集團的子公司。</em></p>
+
+<h1 id="在jcv的生活">在JCV的生活</h1>
+
+<h2 id="工作内容">工作内容</h2>
+
+<p>作爲Product Team裏邊的第一位兼唯一的Security Engineer，我主要負責建立application security的過程，將SAST/DAST整合到開發流程中，還有做網站、mobile app、API、IoT產品的penetration test。</p>
+
+<h2 id="softbank總部">Softbank總部</h2>
+
+<p><img src="/assets/images/2023-07-16/2.jpg" alt="" />
+<em>Tokyo Portcity Takeshiba, Softbank集團的總部所在地</em></p>
+
+<p>JCV的工程師大概是full-remote的，所以我很少去了辦公室，但辦公室在Softbank集團的HQ，Tokyo Portcity Takeshiba。這是一座很漂亮而相當新建的辦公大樓，外面種了很多植物，裏面有high-tech清潔機器人，從很多角度能看到海景，還有餐廳，便利店等等的設備！</p>
+
+<p><img src="/assets/images/2023-07-16/3.jpg" alt="" />
+<em>一個安保機器人在辦公樓裏巡。</em></p>
+
+<p><img src="/assets/images/2023-07-16/4.jpg" alt="" />
+<em>清潔機器人們在休息中。它們大概在營業時間外活動，以免打擾人。</em></p>
+
+<p>我個人非常喜歡Softbank的員工食堂（不知道爲什麽，但它被暱稱為“Cafeshiba”），差不多每次去辦公室都會去那裡吃飯。大部分的人好像會選擇咖哩飯、烏冬等等的日式餐，但我總是點cafe的芝士三明治！那裡還有各種甜點，比較適合我的口味。</p>
+
+<p><img src="/assets/images/2023-07-16/5.jpg" alt="" />
+<em>我在Softbank食堂最喜歡點的午餐！</em></p>
+
+<p>當然，有時候我也會在那裡工作。除了午飯晚飯的rush以外，其實相當安靜，而且海景非常美麗。</p>
+
+<p><img src="/assets/images/2023-07-16/6.jpg" alt="" />
+<em>從食堂看到的東京灣美麗景色。</em></p>
+
+<p>食堂的食物不是免費的，但價格還算便宜（大約500日元可以得到一餐）。</p>
+
+<h1 id="回憶">回憶</h1>
+
+<h2 id="在三語環境中工作">在三語環境中工作</h2>
+
+<p>對我來説，在JCV工作最有趣的是，工作環境使用三種語言：英文，中文（普通話）和日文！</p>
+
+<p>將來我應該沒有機會去中國或台灣工作，所以這可能是我第一次而最後一次在工作中使用中文，成爲了一個非常有意義的經驗。當初我覺得很難跟上（老實説現在也還是…），但是日常參加中文的會議，閲讀完成用中文寫的Slack channel等等，的確讓我中文進步很多了。今年3月，我居然考上了漢語水平考試HSK6級，非常感謝有機會在這樣diverse的環境中工作！</p>
+
+<p><img src="/assets/images/2023-07-16/7.jpg" alt="" />
+<em>我HSK6級的點數是正好合格的。如果沒有JCV的同事們跟我練習中文，覺得肯定不能考上了。</em></p>
+
+<p>當然，不是公司每個人都會三種語言。有些人只會一種，有些人會一種半，而有些人是三種語言都完成流利的。我自己只是英文流利的，還在學習中文和日語，所以對三種語言都流利的同事們真的充滿敬意。</p>
+
+<h2 id="玩轉人臉識別設備">玩轉人臉識別設備</h2>
+
+<p>親愛的讀者，您在日本有見過這種設備嗎？</p>
+
+<p><img src="/assets/images/2023-07-16/8.jpg" alt="" />
+<em>JCV的SenseThunder溫度檢測相機在疫情期間，在日本各地的購物商場、電影院、餐廳等等經常能看到的。</em></p>
+
+<p>在JCV工作的一個有趣的方面是，有機會參與研發這個設備和其他可以在日本看到的人臉識別產品，所以覺得自己的工作在社會中是可見的，對社會有貢獻的。每次我在公共地方看見JCV產品的時候都忍不住想告訴人：“你看，這是我公司做的！是我負責做security的！”</p>
+
+<h2 id="享受wework生活">享受WeWork生活</h2>
+
+<p>對我個人來說，我在JCV最喜歡的福利是員工可以在任何WeWork辦公地點工作。一直在家裏工作的話，有時候覺得很無聊，也有時候下班後有東西要做，所以在東京的中心地區（新宿、澀谷等等）工作比較方便。那時候，我使用了其他WeWork辦公地點。</p>
+
+<p>其實，在JCV的任職期間中，我去了東京和橫濱的不少WeWork辦公地點，甚至還去了大阪的一個地點啊！</p>
+
+<p><img src="/assets/images/2023-07-16/9.jpg" alt="" />
+<em>一些我去過的WeWork地點（非完整列表）。</em></p>
+
+<p>能在任何地方工作，同時享受免費的咖啡和茶，而能借安靜、乾淨、舒服的工作空間真是太棒了。這是一個我肯定會懷念的福利。</p>
+
+<p><img src="/assets/images/2023-07-16/10.jpg" alt="" />
+<em>除了免費的咖啡和茶，WeWork還提供免費的啤酒，自助零食店，休息室，漂亮乾淨的洗手間，甚至有化妝鏡的更衣室啊！</em></p>
+
+<h1 id="離職的理由">離職的理由</h1>
+
+<p>我告訴我team的兩個理由如下：</p>
+
+<p>1）職業發展：作為JCV唯一的Security Engineer，這一年獲得了很多關於構建security process和penetration test的實際經驗。這讓我考慮了我career的下一步，覺得留在JCV無法實現我的職業目標。同時，一個很適合的機會突然出現了，所以我決定離開JCV追求這個機會。</p>
+
+<p>2）公司的文化不適合自己：眾所周知，Mercari（我的上一個公司）有一種非常獨特的文化，工程師們不僅僅花時間在產品開發上。許多（可以説大部分）員工都積極得參與本地tech community、參與tech conference甚至自己演講、舉辦meetup活動，通過tech blog或open-source software跟社外分享知識。很多team甚至有規定，允許員工在工作時間的一部分進行研究或個人發展，例如參加training course或取得certification等等。可能是我對這種公司文化過於喜愛；我發現很難適應，日常只做下一次release的任務無法找到我工作的motivation。JCV仍然是一家年輕的startup公司，無法提供我所追求的那種文化。</p>
+
+<h1 id="下一步">下一步</h1>
+
+<p>餘下的夏天，我回加拿大，跟朋友和家人一起過暑假！假期中，我打算花時間學習security的知識和certification，還會爲我下一份工作做點準備。</p>
+
+<p>現在，不打算透露下一份工作是什麽，但它與我到如今的工作<em>有些</em>不同，所以要努力的學習，確保能夠立刻上手！請期待我下一篇blog，打算在那裏談談我的新角色。</p>
+
+<p>在JCV的時間雖然短，但感覺絕超過了一年多！經歷了startup公司的生活、獲得了很多cybersecurity的實際經驗，還有理解了自己的要求和將來的夢想。這成爲了一段非常有意義的經歷，很感謝JCV的一切！</p>
+
+<p>祝JCV的大家一切順利，很期待在日本和國外四處都看到他們做的人工智能產品！</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/zh/tags#jcv" class="page__taxonomy-item p-category" rel="tag">jcv</a><span class="sep">, </span>
+    
+      <a href="/zh/tags#softbank" class="page__taxonomy-item p-category" rel="tag">softbank</a><span class="sep">, </span>
+    
+      <a href="/zh/tags#%E4%BA%8B%E6%A5%AD" class="page__taxonomy-item p-category" rel="tag">事業</a><span class="sep">, </span>
+    
+      <a href="/zh/tags#%E8%BD%89%E5%B7%A5" class="page__taxonomy-item p-category" rel="tag">轉工</a>
+    
+    </span>
+  </p>
+
+
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%E5%86%8D%E8%A6%8B%EF%BC%8CJapan+Computer+Vision%EF%BC%81%20https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2023%2F07%2F16%2Fjcv.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2023%2F07%2F16%2Fjcv.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2023%2F07%2F16%2Fjcv.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/zh/blog/2022/12/05/PNPT.html" class="pagination--pager" title="I passed my PNPT Exam!
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">猜您还喜欢</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zh/blog/2022/12/05/PNPT.html" rel="permalink">I passed my PNPT Exam!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-05T00:00:00+09:00">December 5, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          13 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) Last week, I passed the PNPT (Practical Network Penetration Tester) exam! This certification is hands-down, the best that I have taken so far but it ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zh/blog/2022/10/24/probation-period.html" rel="permalink">What Does Probation Period Really Mean?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-24T00:00:00+09:00">October 24, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) This month, I officially finished my three-month probation period at Japan Computer Vision. This is my third company- therefore my third time going t...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zh/blog/2022/10/02/work-life-balance.html" rel="permalink">Six Signs A Company Has Good Work-Life Balance
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-02T00:00:00+09:00">October 2, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) Recently, work-life balance has been something that I’ve been thinking about a lot because things at work have been busy and sometimes it feels like ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zh/blog/2022/07/14/mercari-retrospective.html" rel="permalink">我從Mercari畢業了!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-14T00:00:00+09:00">July 14, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA/ZH) 上個月，剛剛從我工作差不多5年的Mercari畢業了！
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://linkedin.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+    
+
+    
+      <li><a href="/zh/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 gmgchow.github.io. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/main.js"></script>
+  
+
+
+
+  </body>
+</html>

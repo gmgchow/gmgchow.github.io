@@ -1,0 +1,676 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="zh" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-58T9BNP8XF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-58T9BNP8XF');
+</script>
+
+
+
+
+  <link href="/zh/feed.xml" type="application/atom+xml" rel="alternate" title="一隻Security羊駝的個人網站 Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@gmgchow">
+<meta name="twitter:creator" content="Gloria Chow">
+<meta name="twitter:title"   content="What Does Probation Period Really Mean?">
+
+
+<meta name="twitter:description" content="Things that you should consider while you are on probation at a new company">
+
+
+
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="https://gmgchow.github.io/assets/images/2022-10-24/1.jpg">
+
+<!-- end of Twitter cards -->
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/zh/">
+          一隻Security羊駝的個人網站
+          <span class="site-subtitle">（本網站現在整理中）</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/zh/blog">博客</a>
+            </li><li class="masthead__menu-item">
+              <a href="/zh/tags">標簽</a>
+            </li><li class="masthead__menu-item">
+              <a href="/zh/reading-list">閲讀書目</a>
+            </li><li class="masthead__menu-item">
+              <a href="/zh/about">個人質料</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="lang-switcher-toggle" type="button">
+          <span class="visually-hidden">Switch language</span>
+          <img src="/assets/images/lang-icon-white.png" width=24 height=24/>
+        </button>
+        <ul class="floating-menu lang-switcher hidden">
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/blog/2022/10/24/probation-period.html">
+            English
+        </a>
+    </li>
+        
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/ja/blog/2022/10/24/probation-period.html">
+            日本語
+        </a>
+    </li>
+        
+    <li class="lang-option-active masthead__menu-item">繁體中文</li>
+        </ul>
+
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://gmgchow.github.io/zh/">
+        <img src="/assets/images/bio-photo.jpg" alt="Gloria Chow" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://gmgchow.github.io/zh/" itemprop="url">Gloria Chow</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Senior Security Engineer @ Japan Computer Vision (Softbank集團)</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">東京，日本</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://linkedin.com/in/gmgchow/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+<div class="notice--warning" id="no-translation-msg">
+    Sorry, this page is not available in English yet.
+</div>
+    <meta itemprop="headline" content="What Does Probation Period Really Mean?">
+    <meta itemprop="description" content="(EN/JA) This month, I officially finished my three-month probation period at Japan Computer Vision. This is my third company- therefore my third time going through probation- but it was the first time that I actually stopped to think about what probation period really means, for both me and the company.">
+    <meta itemprop="datePublished" content="2022-10-24T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">What Does Probation Period Really Mean?
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-24T00:00:00+09:00">October 24, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>(EN/JA) This month, I officially finished my three-month probation period at Japan Computer Vision. This is my third company- therefore my third time going through probation- but it was the first time that I actually stopped to think about what probation period really means, for both me and the company.</p>
+
+<ul>
+  <li><a href="https://gmgchow.github.io/ja/blog/2022/10/24/probation-period.html">日本語で読む</a></li>
+</ul>
+
+<p><img src="/assets/images/2022-10-24/1.jpg" alt="" /></p>
+
+<p>I guess there is some truth in the saying that as you get older, you tend to become more picky about your work environment because you know what worked for you in the past and what didn’t. I decided to write this article to share my recent experience and opinions about how you can make the best out of your probation period.</p>
+
+<h1 id="what-is-probation-period">What is Probation Period?</h1>
+
+<p>Most companies have a probation period for new employees where they are considered as being “on trial” while fully-employed. During probation period, the employer will evaluate the employee on whether they fulfill expectations and whether they are suitable for long-term employment at the company. Probation period length depends on the company but usually it goes from 1-6 months, with around 3 months being the most common.</p>
+
+<p>While most people think of probation period as the time where the company evaluates you, I believe that it is also <strong>a time for you to evaluate the company</strong> for long-term potential. Just as the company has the right to terminate you during probation, you also have the right to quit if you feel that the company does not match your expectations.</p>
+
+<p>So in addition to getting up to speed and trying to get used to your new role, as a new employee, you should also pay attention to the points below in deciding whether you want to continue working at the company after probation period.</p>
+
+<h1 id="7-things-you-should-pay-attention-to-during-probation">7 Things You Should Pay Attention To During Probation</h1>
+
+<h2 id="company-and-team-culture">Company and Team Culture</h2>
+
+<p><img src="/assets/images/2022-10-24/2.jpg" alt="" /></p>
+
+<p>Although you can learn a lot about the company and team culture during the interview stage, this is something that you cannot fully grasp until after you join. As you spend more time with your team through meetings, chatting online, collaborating on tasks, or attending social events, you will start to deeply understand the company’s culture. Things like work-life balance (which is very important as I wrote about in my <a href="https://gmgchow.github.io/zh/blog/2022/10/02/work-life-balance.html">previous blog article</a>), shared personal values, sense of team or company direction, etc. will become more clear as time passes and these are all factors that will impact your long-term satisfaction at any company.</p>
+
+<h2 id="management-compatibility">Management Compatibility</h2>
+
+<p><img src="/assets/images/2022-10-24/3.jpg" alt="" /></p>
+
+<p>While there are definitely good managers and bad managers, sometimes, whether a manager is perceived as good or bad very much depends on your compatibility with them. For example, if you are very junior and require lots of direction and attention from your manager, you may be more tolerant of a manager who constantly checks up on you than someone who is very senior and prefers to be trusted to work on their tasks independently.</p>
+
+<p>I have had many managers over the course of my career (during <a href="https://gmgchow.github.io/zh/blog/2022/07/14/mercari-retrospective.html">my time at Mercari</a> alone, I actually changed managers five times!), and they varied from being close like a friend or teacher, to being completely useless in providing any sort of work or career guidance. With some managers, I was able to perform my very best while with others, my performance was halted because we were not on the same page so I strongly believe that for you to stay at a company for a long time, compatibility with your manager (and their managers as well) is extremely important.</p>
+
+<p>During your probation period, it will become clear whether you are compatible with your direct manager since you will likely be in frequent contact with them, but you should also observe the behavior of upper management (manager of managers, directors, and executives) to find out whether you agree with the direction that they want to take the company and the way that they treat their employees.</p>
+
+<h2 id="communication-style">Communication Style</h2>
+
+<p>As with management style, there are also many different styles of communication. Some people prefer to mostly work alone and collaborate only when needed, while others prefer to work collaboratively even on small daily tasks through pair-programming, etc. Some people are ok with communicating exclusively through asynchronous means (methods of communication that don’t require real-time connection like Slack or email), while others need synchronous communication to feel connected (real-time discussions through in-person or online meetings).</p>
+
+<p>It is important to have compatible communication styles with your team because, for example, if you prefer working asynchronously but your team prefers talking through meetings, you may feel like you are wasting time by sitting in meetings while the rest of your team is perfectly happy. Small incompatibilities like this add up to create stress and resentment in the long run so it is important to notice and address them early on.</p>
+
+<h2 id="processes">Processes</h2>
+
+<p>As tech workers, the development process is something that directly affects our satisfaction at a company. For example, a company that releases in a very Waterfall style may dump large amounts of work on you sporadically, causing stressful periods. A deadline-driven company may give engineers very little say in deciding deadlines, causing lots of overtime and scrambling to meet deadlines.</p>
+
+<p>Incompatibility with a company’s processes is something that tends to be difficult to change so you will need to either force yourself to adjust to the environment, or consider going somewhere else that’s a better fit for you.</p>
+
+<h2 id="day-to-day-work-and-expectations">Day-to-Day Work and Expectations</h2>
+
+<p><img src="/assets/images/2022-10-24/4.jpg" alt="" /></p>
+
+<p>Although this is something that you generally ask about during the interview stage, sometimes hearing about the tasks can be completely different than actually doing them.</p>
+
+<p>During your probation period, you will get a clear idea of what kinds of tasks you will do everyday. You will also learn what is expected of you on a daily basis- small rules such as clocking in and out, working hours, regular meetings that you must attend, etc.</p>
+
+<p>Discussion about how your day-to-day will look like at the interview stage tends to remain very abstract and high-level so sometimes the job ends up being quite different from what you had expected. This is something that will become clear during your probation period.</p>
+
+<h2 id="growth-opportunities">Growth Opportunities</h2>
+
+<p>HR is usually reluctant to provide full details about the employee evaluation and promotion system during the interview stage so this is something that you can only fully grasp after joining. Even so, you still may not understand it until you have stayed for at least one or two evaluation cycles.</p>
+
+<p>An important question to ask yourself is whether you are <strong>gaining</strong> anything by being at your new company. Are you gaining new skills that will increase your value in the job market when you decide to make your next move? Will you have the opportunity to grow upwards into leadership roles? If you are on probation but are already feeling stagnant, then perhaps it’s a sign that the company is not providing the growth opportunity that you were looking for.</p>
+
+<h2 id="gut-feeling">Gut Feeling</h2>
+
+<p><img src="/assets/images/2022-10-24/5.jpg" alt="" /></p>
+
+<p>Lastly, a big factor that many people may ignore is the immediate gut feeling after joining a company. Personally, I found that at companies where I was unhappy, I knew so within the first two weeks of being there because there is a certain gut feeling you get when some part of you deep down knows that the company is not a good fit for you. If you get this feeling shortly after starting your new job, it may be worth analyzing the above points to identify what exactly is causing those feelings and whether this job is right for you in the long-term.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Probation period is a time for both you and your employer to evaluate each other. Just like how the employer can terminate your contract if they find you unsuitable for the role, you may also quit if you find that the role is different from what you had expected. The seven points mentioned above are aspects of a new environment that tend to be difficult to change, which is why if you feel an incompatibility, you need to consider whether it is something that you can adapt to over time, or if it is a deal-breaker for you.</p>
+
+<p><img src="/assets/images/2022-10-24/6.jpg" alt="" /></p>
+
+<p>Remember that it takes two to tango- the employee and employer relationship needs to be two-way for things to work smoothly so don’t be afraid to express your opinion or make the decision to leave if necessary.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/zh/tags#career" class="page__taxonomy-item p-category" rel="tag">career</a><span class="sep">, </span>
+    
+      <a href="/zh/tags#job-change" class="page__taxonomy-item p-category" rel="tag">job change</a>
+    
+    </span>
+  </p>
+
+
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=What+Does+Probation+Period+Really+Mean%3F%20https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F10%2F24%2Fprobation-period.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F10%2F24%2Fprobation-period.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F10%2F24%2Fprobation-period.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/zh/blog/2022/10/02/work-life-balance.html" class="pagination--pager" title="Six Signs A Company Has Good Work-Life Balance
+">Previous</a>
+    
+    
+      <a href="/zh/blog/2022/12/05/PNPT.html" class="pagination--pager" title="I passed my PNPT Exam!
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">猜您还喜欢</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zh/blog/2023/07/16/jcv.html" rel="permalink">再見，Japan Computer Vision！
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-07-16T00:00:00+09:00">July 16, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA/ZH) 上週是我在 Japan Computer Vision (JCV) 的最後的一天。JCV是Softbank集團的AI startup，專門開發人臉識別人工智慧產品。我是去年的7月加入的，工作了正好一年。
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zh/blog/2022/12/05/PNPT.html" rel="permalink">I passed my PNPT Exam!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-05T00:00:00+09:00">December 5, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          14 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) Last week, I passed the PNPT (Practical Network Penetration Tester) exam! This certification is hands-down, the best that I have taken so far but it ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zh/blog/2022/10/02/work-life-balance.html" rel="permalink">Six Signs A Company Has Good Work-Life Balance
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-02T00:00:00+09:00">October 2, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) Recently, work-life balance has been something that I’ve been thinking about a lot because things at work have been busy and sometimes it feels like ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/zh/blog/2022/07/14/mercari-retrospective.html" rel="permalink">我從Mercari畢業了!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-14T00:00:00+09:00">July 14, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA/ZH) 上個月，剛剛從我工作差不多5年的Mercari畢業了！
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://linkedin.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+    
+
+    
+      <li><a href="/zh/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 gmgchow.github.io. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/main.js"></script>
+  
+
+
+
+  </body>
+</html>

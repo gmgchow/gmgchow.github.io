@@ -1,0 +1,802 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-58T9BNP8XF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-58T9BNP8XF');
+</script>
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Random Ramblings of a Security Alpaca Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@gmgchow">
+<meta name="twitter:creator" content="Gloria Chow">
+<meta name="twitter:title"   content="I graduated from Mercari!">
+
+
+<meta name="twitter:description" content="Last month, I resigned from Mercari where I worked for almost five years!">
+
+
+
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="https://gmgchow.github.io/assets/images/2022-07-14/4.jpg">
+
+<!-- end of Twitter cards -->
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">
+          Random Ramblings of a Security Alpaca
+          <span class="site-subtitle">(Site currently under construction)</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/blog">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/reading-list">Reading List</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about">About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="lang-switcher-toggle" type="button">
+          <span class="visually-hidden">Switch language</span>
+          <img src="/assets/images/lang-icon-white.png" width=24 height=24/>
+        </button>
+        <ul class="floating-menu lang-switcher hidden">
+    <li class="lang-option-active masthead__menu-item">English</li>
+        
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/ja/blog/2022/07/14/mercari-retrospective.html">
+            日本語
+        </a>
+    </li>
+        
+          <li class="lang-option-inactive masthead__menu-item">
+        <a href="/zh/blog/2022/07/14/mercari-retrospective.html">
+            繁體中文
+        </a>
+    </li>
+        </ul>
+
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://gmgchow.github.io/">
+        <img src="/assets/images/bio-photo.jpg" alt="Gloria Chow" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://gmgchow.github.io/" itemprop="url">Gloria Chow</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Senior Security Engineer @ Japan Computer Vision (Softbank Group)</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Tokyo, Japan</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://linkedin.com/in/gmgchow/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <meta itemprop="headline" content="I graduated from Mercari!">
+    <meta itemprop="description" content="(EN/JA/ZH) Last month, I resigned from Mercari where I worked for almost five years!">
+    <meta itemprop="datePublished" content="2022-07-14T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">I graduated from Mercari!
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-14T00:00:00+09:00">July 14, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          11 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>(EN/JA/ZH) Last month, I resigned from Mercari where I worked for almost five years!</p>
+
+<ul>
+  <li><a href="https://gmgchow.github.io/ja/blog/2022/07/14/mercari-retrospective.html">日本語で読む</a></li>
+  <li><a href="https://gmgchow.github.io/zh/blog/2022/07/14/mercari-retrospective.html">看中文版</a></li>
+</ul>
+
+<p><img src="/assets/images/2022-07-14/1.jpg" alt="" />
+<em>Mercari is a marketplace app similar to Craigslist or Ebay.</em></p>
+
+<p>I joined Mercari on November 1st, 2017. It was my first job in Japan and since I was uncertain about my future, I joined with the intention of staying maybe 1.5 to two years. I certainly did not expect to end up staying for almost FIVE years! On June 14th, after 4 years and 9 months, I stepped into the office one last time.</p>
+
+<p>It’s been a long journey and I grew and changed so much, I can say that I went into Mercari as one person and came out as a completely different one! I wrote this article as a retrospective to look back on what I did these past few years.</p>
+
+<h1 id="timeline">Timeline</h1>
+
+<h2 id="nov-2017---oct-2018-set--automation-era">Nov 2017 - Oct 2018: SET &amp; Automation Era</h2>
+
+<p>I initially joined Mercari as a Software in Test (SET) to work on test automation.</p>
+
+<p>The technology stack that I used:</p>
+<ul>
+  <li>iOS: XCUITest, Swift, Earl Grey</li>
+  <li>Android: Ruby, Appium</li>
+  <li>API: JMeter, Postman</li>
+</ul>
+
+<p>Notable achievements:</p>
+<ul>
+  <li>Integrated iOS automation tests into the development repository and CI build pipeline</li>
+  <li>Set up iOS nightly builds</li>
+  <li>Improved the format of reports</li>
+  <li>Developed a <a href="https://github.com/gmgchow/fastlane-plugin-retry">fastlane plugin</a> that was open-sourced</li>
+</ul>
+
+<h2 id="oct-2018---july-2019-testdeck-era">Oct 2018 - July 2019: Testdeck Era</h2>
+
+<p>After Mercari began moving towards the microservice architecture, I became involved in developing an in-house solution for automating tests for the backend microservices. The solution that we came up with was <a href="https://github.com/mercari/testdeck">Testdeck</a>, which was later open-sourced as described in this <a href="https://engineering.mercari.com/en/blog/entry/20200930-testdeck/">article</a>.</p>
+
+<p>Notable achievements:</p>
+<ul>
+  <li>Learned microservices architecture, Kubernetes, GCP, and Golang in order to get up to speed and eventually become the lead of the Testdeck project</li>
+  <li>Work closely with microservice development teams to help introduce test automation into their work, troubleshoot, and gather requirements for feature requests and improvements on Testdeck</li>
+</ul>
+
+<h2 id="july-2019---sept-2019-web-automation--career-change-era">July 2019 - Sept 2019: Web Automation &amp; Career Change Era</h2>
+
+<p>For a few months, I worked briefly on test automation for the Mercari web application while thinking about the next step in my career. It is during this time period that I seriously started studying security, and I officially received an offer to transfer to the Security Team.</p>
+
+<p>Notable achievements:</p>
+<ul>
+  <li>Helped maintain web automated tests (Typescript and Mocha)</li>
+  <li>Developed an in-house tool for detecting broken links on the Mercari web application that ran nightly</li>
+  <li>Passed CompTIA Security+</li>
+</ul>
+
+<h2 id="oct-2019---june-2022-security-team-era">Oct 2019 - June 2022: Security Team Era</h2>
+
+<p>Although I initially joined Mercari as a SET, my time on the Security Team surprisingly ended up being longer than the time I spent as a SET.</p>
+
+<p>Since I had joined the Security Team with no knowledge or experience in security apart from having passed CompTIA Security+, at the beginning I honestly struggled to keep up. For the first six months or so, I spent almost all of my time outside of work studying security because I wanted to catch up as soon as possible. You can read more about my career change story <a href="https://engineering.mercari.com/blog/entry/2020-05-14-121008">here</a>.</p>
+
+<p>I will forever be grateful that my team never gave up on me and provided me a place where I could grow into a full-fledged Security Engineer because as we all know, it is extremely difficult to break into the security field. Everyone wants to hire experienced Security Engineers, but one cannot gain experience if no one is willing to hire and train juniors. Being a part of a supportive team and working alongside some of the most talented security engineers, I was able to grow and become productive.</p>
+
+<p>Notable achievements:</p>
+<ul>
+  <li>Redeveloped and open-sourced Testdeck as a tool for both security and QA testing</li>
+  <li>Introduced threat modeling into development processes</li>
+  <li>Co-led the in-house Security Champions security awareness training program for engineers</li>
+</ul>
+
+<h1 id="changes-i-saw-over-the-years">Changes I Saw Over the Years</h1>
+
+<p>While I changed a lot over the past few years, Mercari as a company also greatly changed. I joined before IPO and globalization of the workplace culture, at a time when Mercari was very much still a Japanese startup.</p>
+
+<p><img src="/assets/images/2022-07-14/2.png" alt="" />
+<em>About 88% of employees joined after me, making me one of the oldest employees so sometimes people called me 古株 (old stocks)!</em></p>
+
+<h2 id="globalization">Globalization</h2>
+
+<p>When I first joined Mercari, all announcements on Slack, emails, meetings, documents and meeting slides…<strong>everything</strong> was in Japanese. I believe that at the time, there were probably only about 20 foreigners so everyone pretty much knew each other.</p>
+
+<p>Now, Mercari is one of the most diverse Japanese companies. Probably around half of the engineering team is of foreign nationality and many teams exclusively use English. I myself went from initially working fully in Japanese to working almost fully in English. Since all announcements are written in both English and Japanese and some All-Hands meetings are even held fully in English now, the work environment has definitely become a lot more comfortable for employees who cannot speak Japanese. This is a great advantage for Mercari as a company because it is already quite difficult to find talented engineers, requiring fluency in Japanese will reduce the talent pool even further.</p>
+
+<h2 id="diversity--inclusion">Diversity &amp; Inclusion</h2>
+
+<p>Since everything was in Japanese when I initially joined, I was not surprised to see that there were no foreigners in management roles (Engineering Manager and above). There were also no women in these roles. Over the years, it made me happy to see more and more foreigners and women in management and leadership roles. Although the ratio of minority employees is still very low and most people in management and leadership roles continue to be Japanese men, it is still an improvement and I hope that the company will continue to move towards Diversity &amp; Inclusion.</p>
+
+<h2 id="your-choice">YOUR CHOICE</h2>
+
+<p>Although occasional WFH was always allowed to some extent (with the approval of your manager), the COVID-19 pandemic led Mercari to declare a full-remote, full-flexibility work policy called <a href="https://about.mercari.com/en/press/news/articles/20210901_yourchoice/">YOUR CHOICE</a>. Many of my colleagues moved out of Tokyo to areas with better affordability and more comfortable lifestyle. During my job search, I found that Mercari’s take on WFH is actually quite rare- many companies in Japan still require employees to go to the office regularly (at least once or twice per week) as a part of hybrid working style. Even as life is slowly returning back to normal, I hope that more and more companies will adopt flexible work policies like Mercari’s YOUR CHOICE.</p>
+
+<h1 id="achievements-and-fond-memories">Achievements and Fond Memories</h1>
+
+<h2 id="my-first-time-blogging">My First Time Blogging</h2>
+
+<p>Prior to joining Mercari, I had never blogged before and didn’t think that I would enjoy it, but I found it so fun that I ended up writing several articles for <a href="https://engineering.mercari.com/en/blog/">Mercari’s Engineering Blog</a>! It actually inspired me to start this personal blog.</p>
+
+<p>Articles written by me:</p>
+<ul>
+  <li><a href="https://engineering.mercari.com/en/blog/entry/20220426-threat-modeling-at-mercari/">Threat Modeling at Mercari</a></li>
+  <li><a href="https://engineering.mercari.com/en/blog/entry/20211210-how-is-security-testing-different-from-typical-software-testing/">How is Security Testing Different from Typical Software Testing?</a></li>
+  <li><a href="https://engineering.mercari.com/en/blog/entry/20201214-devsecops-what-is-it-and-why-is-it-gaining-momentum-in-the-industry/">DevSecOps: What Is It and Why Is It Gaining Momentum in the Industry?</a></li>
+  <li><a href="https://engineering.mercari.com/en/blog/entry/20200930-testdeck/">Introducing Testdeck, an Open Source Tool for Microservices QA &amp; Security Testing</a></li>
+  <li><a href="https://engineering.mercari.com/blog/entry/2020-05-14-121008/">The Road to Becoming a Security Engineer: My Story of Career Change</a></li>
+  <li><a href="https://engineering.mercari.com/blog/entry/2018-12-21-123830/">Mercari AQA Pop Talk #4: The Future of QA &amp; Test Automation</a></li>
+  <li><a href="https://engineering.mercari.com/blog/entry/2018-11-01-124027/">Three Things I Learned at STARWEST, One of the Largest Conferences for Software Testing</a></li>
+  <li><a href="https://engineering.mercari.com/blog/entry/2018-08-23-184237/">I Got Certified in ISTQB Advanced Level - Test Automation Engineering!</a></li>
+</ul>
+
+<h2 id="my-first-time-contributing-to-open-source">My First Time Contributing to Open-Source</h2>
+
+<p>Prior to Mercari, I had never been involved in open-source projects before, nor did I ever think I would become involved but I ended up working on two projects that were open-sourced!</p>
+
+<ul>
+  <li><a href="https://github.com/gmgchow/fastlane-plugin-retry">gmgchow/fastlane-plugin-retry</a>: A plugin for automatically retrying XCUITest test cases. Unfortunately, I am no longer maintaining this.</li>
+  <li><a href="https://github.com/mercari/testdeck">mercari/testdeck</a>: Testdeck framework for testing gRPC microservices written in Go (see the above sections about Testdeck for more information).</li>
+</ul>
+
+<h2 id="my-first-time-speaking-at-events">My First Time Speaking at Events</h2>
+
+<p>I always hated public speaking and if I hadn’t joined Mercari, I probably would never even think about presenting at a tech event. Mercari is very active in the tech community and often holds meetups (in-person before the pandemic but mostly online now) where employees speak about areas they’re knowledgeable about or share things that they are working on. I ended up speaking at two events and looking back, it was a big step out of my comfort zone and I’m glad that I was given the opportunity. The only small regret I have is that I never had the chance to present in Japanese at an event- I think it would have been a good challenge for me and a good test to my Japanese ability! I hope I’ll have the chance to try this sometime in the future.</p>
+
+<p>Events that I presented at:</p>
+<ul>
+  <li>December 2018: <a href="https://engineering.mercari.com/blog/entry/2018-12-21-123830/">Mercari AQA Pop Talk #4: The Future of QA &amp; Test Automation</a>
+    <ul>
+      <li><a href="https://www.slideshare.net/secret/wmEiwlBUtlXSH9">From Agile to DevOps: The Rise of ‘Continuous Testing’</a></li>
+    </ul>
+  </li>
+  <li>April 2022: <a href="https://mercari.connpass.com/event/244594/">Mercari’s Approach to Modern Day Threats #2</a>
+    <ul>
+      <li><a href="https://speakerdeck.com/gmgchow/diving-into-threat-modeling-at-mercari">Diving Into Threat Modeling at Mercari</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="my-first-time-going-on-a-business-trip">My First Time Going on a Business Trip</h2>
+
+<p>During the pre-COVID times at Mercari, I was fortunate enough to go on two business trips!</p>
+
+<ul>
+  <li><a href="https://engineering.mercari.com/blog/entry/2018-08-23-184237/">London, UK (July 2018)</a>: I traveled to London to take a training course and certification exam for the ISTQB Advanced Level - Test Automation Engineering certification. It was my first business trip, my first time going to Europe, and my first time being stranded and alone in a foreign country after losing my wallet immediately upon arrival (that story can wait for another day lol) so it was a memorable experience for me!</li>
+  <li><a href="https://engineering.mercari.com/
+blog/entry/2018-11-01-124027/">California, USA (October 2018)</a>: A group of us traveled to California to attend STARWEST automation conference. It was my first time attending a tech conference and I really enjoyed it.</li>
+</ul>
+
+<h2 id="extracurricular-activities">Extracurricular Activities</h2>
+
+<h3 id="club-activities">Club Activities</h3>
+
+<p>One thing that I really liked about Mercari is the club activities- there is a club for almost anything that you can think of! Through joining club activities, I made friends and connections across the entire company that normally I would not have had the chance to meet.</p>
+
+<p>Some of the clubs that I attended:</p>
+<ul>
+  <li>Cooking, Fukuoka Tea, Hong Kong, Pizza, Byelingual Chat, Costco, Ghibli, McDonalds, Singapore, Taiwan, America, Canada, Fruits, Chinese Chat</li>
+</ul>
+
+<p><img src="/assets/images/2022-07-14/3.jpg" alt="" />
+<em>Different types of strawberries we ordered for a Fruits Club activity in Winter 2018!</em></p>
+
+<h3 id="certifications">Certifications</h3>
+
+<p>Another thing that I really liked about Mercari is that there is a strong culture of continuous learning- many of my colleagues had certifications. Before joining the company, I hardly had any certifications and had never really been interested in acquiring any. However, being surrounded by highly-motivated people, I myself also became motivated to try harder so I ended up taking one certification after another. While Mercari does offer some support for taking certifications, many were taken on my own money and time.</p>
+
+<p>Certifications I achieved during my time at Mercari:</p>
+<ul>
+  <li>ISTQB: Advanced Level - Test Automation Engineering, Advanced Level - Security Tester</li>
+  <li>CompTIA: Security+</li>
+  <li>(ISC)2: SSCP, CSSLP, CISSP</li>
+  <li>Japanese: JLPT N1, BJT J2</li>
+  <li>Chinese: HSK 5, HSKK Intermediate</li>
+</ul>
+
+<h3 id="language-learning">Language learning</h3>
+
+<p>One of the best things about working at Mercari is that because it is a diverse environment, I made friends with people from different backgrounds than me and I became inspired to work harder in studying Japanese and Chinese. Since English has slowly become more commonly-used in the workplace, friends also wanted to practice English so we often did language exchange 1on1 meetings as a way to mutually improve our language skills.</p>
+
+<h1 id="why-i-left">Why I Left</h1>
+
+<p>Let me share the exact words that I said to my team:</p>
+
+<blockquote>
+  <p>It’s not that I hate it here or anything. This is the best team that I have worked with in my whole career so far. It’s just that I’ve been here for way too long. I think it’ll be good for me to see more of the world outside.</p>
+</blockquote>
+
+<p>Mercari is only my second company (excluding internships), my first one as a Security Engineer. I’m at the point in my career where it is healthy to explore the outside world and see how other companies do things so that I can continue growing and acquiring new skills and experience.</p>
+
+<p>Therefore, I chose to move onto the next step of my career. A lot of good and bad things happened during my time at Mercari and things didn’t always go smoothly, but overall, I am leaving on a positive note.</p>
+
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today was my last day at Mercari! It has been a looong 4 years and 9 months, I have so much to say that I don&#39;t even know where to begin! I&#39;ll write a blog post about it later after I set up my personal blog. For now, my next stop: back to Vancouver for a month! 🇨🇦✈️ <a href="https://t.co/SmLA7BK0Z2">pic.twitter.com/SmLA7BK0Z2</a></p>&mdash; Gloria Chow (@gmgchow) <a href="https://twitter.com/gmgchow/status/1536729941358055424?ref_src=twsrc%5Etfw">June 14, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<p><em>One last look up at Mori Tower. I’m not sure why but it is apparently a tradition for Mercarians to tweet a photo like this on their last day.</em></p>
+
+<h1 id="moving-forward">Moving Forward</h1>
+
+<p>This month, I will join <a href="https://www.japancv.co.jp/en/">Japan Computer Vision</a>, an AI startup by Softbank Group, as a Senior Security Engineer. Knowing absolutely nothing about AI, not having any security experience outside of Mercari, and being pretty bad with Mandarin Chinese (kind of required for the job), I believe that this will be a massive growth opportunity for me both career-wise and as a person so I am very much looking forward to it.</p>
+
+<p>Although I’m moving onto the next chapter of life, I will never forget my time at Mercari. It is the place where I met some of the most talented engineers I have ever worked with, the place where I made strong friendships, the place where I grew more than I could have ever imagined. If it weren’t for Mercari, honestly I’m not sure if I would still even be in Japan; that’s how much the company and the connections that I made there have done for me.</p>
+
+<p>Thank you again for an unforgettable (almost) five years! Perhaps we will cross paths again in the future. :)</p>
+
+<p><img src="/assets/images/2022-07-14/4.jpg" alt="" />
+<em>A handmade MerPaca I received from a teammate as a farewell gift!</em></p>
+
+<p><img src="/assets/images/2022-07-14/5.jpg" alt="" />
+<em>See you, Mercari!</em></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags#career" class="page__taxonomy-item p-category" rel="tag">career</a><span class="sep">, </span>
+    
+      <a href="/tags#job-change" class="page__taxonomy-item p-category" rel="tag">job change</a><span class="sep">, </span>
+    
+      <a href="/tags#mercari" class="page__taxonomy-item p-category" rel="tag">mercari</a>
+    
+    </span>
+  </p>
+
+
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=I+graduated+from+Mercari%21%20https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F07%2F14%2Fmercari-retrospective.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F07%2F14%2Fmercari-retrospective.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgmgchow.github.io%2Fblog%2F2022%2F07%2F14%2Fmercari-retrospective.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/2022/06/22/hello-world.html" class="pagination--pager" title="Hello World
+">Previous</a>
+    
+    
+      <a href="/blog/2022/10/02/work-life-balance.html" class="pagination--pager" title="Six Signs A Company Has Good Work-Life Balance
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2023/07/16/jcv.html" rel="permalink">Farewell, Japan Computer Vision!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-07-16T00:00:00+09:00">July 16, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA/ZH) Last week was my last working day at Japan Computer Vision (JCV), a Softbank subsidiary that develops facial recognition AI products. I joined in ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2022/12/05/PNPT.html" rel="permalink">I passed my PNPT Exam!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-05T00:00:00+09:00">December 5, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          14 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) Last week, I passed the PNPT (Practical Network Penetration Tester) exam! This certification is hands-down, the best that I have taken so far but it ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2022/10/24/probation-period.html" rel="permalink">What Does Probation Period Really Mean?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-24T00:00:00+09:00">October 24, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          7 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) This month, I officially finished my three-month probation period at Japan Computer Vision. This is my third company- therefore my third time going t...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2022/10/02/work-life-balance.html" rel="permalink">Six Signs A Company Has Good Work-Life Balance
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-02T00:00:00+09:00">October 2, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">(EN/JA) Recently, work-life balance has been something that I’ve been thinking about a lot because things at work have been busy and sometimes it feels like ...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://linkedin.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/gmgchow" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 gmgchow.github.io. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/main.js"></script>
+  
+
+
+
+  </body>
+</html>
